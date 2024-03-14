@@ -76,7 +76,7 @@
 }
 
 .home-intro p {
-  @apply text-3xl md:text-5xl font-thin md:leading-tight;
+  @apply text-xl md:text-3xl font-thin md:leading-tight;
 
   a {
     @apply before:-z-10 relative before:bg-secondary font-normal no-underline transition-all inline-block before:content-normal before:absolute before:w-0 before:transition-all before:duration-300 before:h-full before:-left-1 before:top-1;

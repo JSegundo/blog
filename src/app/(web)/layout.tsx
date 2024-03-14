@@ -7,7 +7,8 @@ import "@/styles/index.css"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://segu.work"),
+  metadataBase: new URL("http://localhost:3000"),
+  // metadataBase: new URL("https://segu.work"),
   title: {
     default: "Segundo Juan - Blog.",
     template: "%s | Segundo Juan",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     description:
       "Front-end developer from Argentina. I write about web, cloud and more.",
     url: absoluteUrl("/"),
-    siteName: "segu.work",
+    siteName: "localhost",
     images: [
       {
         url: ogUrl("Segundo Juan - Blog"),
@@ -54,7 +55,7 @@ export default function RootLayout({
           <div className="relative max-w-6xl mx-auto px-5 h-full pt-8 md:py-24">
             {children}
           </div>
-          <BuiltWithOutstatic fixed />
+          {/* <BuiltWithOutstatic fixed /> */}
           <Footer />
         </ThemeProvider>
       </body>

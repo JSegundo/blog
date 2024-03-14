@@ -1,17 +1,3 @@
----
-title: "Familiarizandome con conceptos básicos de AWS"
-status: "published"
-author:
-  name: "Segundo Juan"
-  # picture: "https://avatars.githubusercontent.com/u/1417109?v=4"
-slug: "conceptos-basicos-aws"
-description: "Thank you for choosing Outstatic to create your website! We look forward to helping you every step of the way."
-coverImage: "/images/conceptos-basicos-aws.png"
-tags:
-  [{ "value": "aws", "label": "AWS" }, { "value": "nextJs", "label": "NextJs" }]
-publishedAt: "2024-03-15T01:41:03.484Z"
----
-
 # Primeros pasos - AWS Cloud
 
 Created: 21 de febrero de 2024 21:10
@@ -36,7 +22,7 @@ Las necesitamos para distribuir nuestros recursos. ¿Para qué? Si una zona fall
 
 Cada AZ tiene uno o mas data centers con servidores.
 
-![**Cuantas más AZ tenga una región, mejor será la disponibilidad y la capacidad de recuperación de tus aplicaciones.** ](Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-21_23-29-31.png)
+![**Cuantas más AZ tenga una región, mejor será la disponibilidad y la capacidad de recuperación de tus aplicaciones.** ](images/primeros-pasos-aws/Screenshot_from_2024-02-21_23-29-31.png)
 
 **Cuantas más AZ tenga una región, mejor será la disponibilidad y la capacidad de recuperación de tus aplicaciones.**
 
@@ -44,13 +30,13 @@ Una vez que seleccionaste una región, podés crear tu propio **Virtual Private 
 
 > Tu propio datacenter virtual
 
-![Ejemplo de VPC distrubuído en 3 AZs](Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-22_00-05-03.png)
+![Ejemplo de VPC distrubuído en 3 AZs](images/primeros-pasos-aws/Screenshot_from_2024-02-22_00-05-03.png)
 
 Ejemplo de VPC distrubuído en 3 AZs
 
 Dentro de tu VPC, podés definir **subnets** (subredes) que se extienden a través de diferentes zonas de disponibilidad, lo que te permite distribuir tus recursos de manera eficiente y garantizar la disponibilidad y el rendimiento de tus aplicaciones. Estas subredes son como salas de un edificio, donde cada sala puede tener un propósito específico y contener recursos específicos.
 
-![Screenshot from 2024-02-28 12-12-53.png](Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-28_12-12-53.png)
+![Screenshot from 2024-02-28 12-12-53.png](images/primeros-pasos-aws/Screenshot_from_2024-02-28_12-12-53.png)
 
 Pero las VPC están aisladas de forma predeterminada, **NO TIENEN ACCESO A INTERNET,** lo que puede ser un problema si tus recursos necesitan comunicarse con el mundo exterior.
 
@@ -61,7 +47,7 @@ Pero las VPC están aisladas de forma predeterminada, **NO TIENEN ACCESO A INTER
 
 Para permitir que tus recursos dentro de la VPC, como tu sitio web, sean accesibles desde Internet, necesitas configurar un **Internet Gateway**. Esto te permite asociar tu VPC a Internet y ubicar los recursos que querés hacer públicos en una **Public Subnet.** Este es un proceso crucial para hacer que tus aplicaciones y servicios sean accesibles para tus usuarios.
 
-![Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-22_00-38-14.png](Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-22_00-38-14.png)
+![Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-22_00-38-14.png](images/primeros-pasos-aws/Screenshot_from_2024-02-22_00-38-14.png)
 
 En esta subred, podés desplegar **instancias EC2**, que son **máquinas virtuales (Virtual machines - VM)** escalables y personalizables que pueden servir páginas web, actuar como servidores SSH y mucho más. Las instancias EC2 son uno de los recursos más utilizados en AWS, gracias a su flexibilidad y a la gran variedad de tipos de instancias disponibles.
 
@@ -77,7 +63,7 @@ Necesitamos algo que escale mejor, algo elástico..
 
 - **Elastic Load Balancers** (ELB) : Ahora podemos repartir la carga de todo el tráfico que recibimos, **entre varias instancias EC2 en diferentes Zonas de Disponibilidad**. Los ELB son una herramienta poderosa para manejar el tráfico entrante, ya que pueden distribuir la carga entre varias instancias, lo que ayuda a prevenir la sobrecarga de una sola instancia y mejora la disponibilidad y el rendimiento de tu aplicación.
 
-![Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-22_00-51-42.png](Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-22_00-51-42.png)
+![Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-22_00-51-42.png](images/primeros-pasos-aws/Screenshot_from_2024-02-22_00-51-42.png)
 
 Un ELB también nos da seguridad, ahora podríamos poner nuestras VMs en PRIVATE SUBNETS y el ELB en una pública. Entonces, el tráfico llega ahí y nuestras VMs no son accesibles desde afuera. Este es un enfoque común para mejorar la seguridad de una aplicación en la nube, ya que limita el acceso directo a las instancias y solo permite el tráfico a través del balanceador de carga.
 
@@ -88,7 +74,7 @@ Un ELB también nos da seguridad, ahora podríamos poner nuestras VMs en PRIVATE
 
 - Podés configurar un **NAT Gateway** en tus subredes públicas. Esto permite que las instancias en subredes privadas se conecten a servicios fuera de la VPC de manera segura, mientras que los servicios externos no pueden iniciar una conexión con estas instancias**, lo que fortalece la seguridad de tu entorno.** El NAT Gateway actúa como un intermediario entre las instancias en la VPC y el internet, lo que permite a las instancias acceder a los recursos de internet sin exponerlas directamente.
 
-![Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-22_00-55-40.png](Primeros%20pasos%20-%20AWS%20Cloud%20358118d1d6454f8881d515d617024053/Screenshot_from_2024-02-22_00-55-40.png)
+![images/primeros-pasos-aws/Screenshot_from_2024-02-22_00-55-40.png](images/primeros-pasos-aws/Screenshot_from_2024-02-22_00-55-40.png)
 
 ### ¿Y para nuestras VMs que querrían acceso a internet?
 
