@@ -4,9 +4,9 @@ title: 'Primeros pasos - AWS Cloud'
 status: 'published'
 author:
   name: 'Segundo Juan'
-  picture: '/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Y3OT.jpeg'
+  picture: '/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-MyNT.jpeg'
 description: 'Este artículo tiene la intención de introducir al desarrollador a algunos de los principales conceptos a considerar cuando decidimos aprender sobre computación en la nube'
-coverImage: '/images/aws-M1MD.png'
+coverImage: '/images/aws-g1MT.png'
 tags: ''
 publishedAt: '2024-03-15T13:47:29.164Z'
 ---
@@ -18,9 +18,7 @@ Created: 21 de febrero de 2024 21:10 Tags: Basics, Cloud, Technical Writing
 
 Este artículo tiene la intención de introducir al desarrollador a algunos de los **principales conceptos** a considerar cuando decidimos aprender sobre computación en la nube, una área de la tecnología que está ganando cada vez más relevancia en el mundo actual. Desde el manejo de grandes cantidades de datos hasta el alojamiento de sitios web y aplicaciones, la nube es una herramienta esencial para cualquier desarrollador.
 
-&lt;aside&gt; 👋🏻 Tomalo como una introducción y no como una guía definitiva, yo tambien estoy aprendiendo!
-
-&lt;/aside&gt;
+` 👋🏻 Tomalo como una introducción y no como una guía definitiva, yo tambien estoy aprendiendo!`
 
 # ¿Cuál es el primer paso para crear recursos en la nube?
 
@@ -32,7 +30,7 @@ Las necesitamos para distribuir nuestros recursos. ¿Para qué? Si una zona fall
 
 Cada AZ tiene uno o mas data centers con servidores.
 
-![](/images/screenshot_from_2024-02-21_23-29-31-gxND.png)
+![](/images/screenshot_from_2024-02-21_23-29-31-M1Nz.png)
 
 **Cuantas más AZ tenga una región, mejor será la disponibilidad y la capacidad de recuperación de tus aplicaciones.**
 
@@ -40,13 +38,13 @@ Una vez que seleccionaste una región, podés crear tu propio **Virtual Private 
 
 > Tu propio datacenter virtual
 
-![](/images/screenshot_from_2024-02-22_00-05-03-g1ND.png)
+![](/images/screenshot_from_2024-02-22_00-05-03-A3MD.png)
 
 Ejemplo de VPC distrubuído en 3 AZs
 
 Dentro de tu VPC, podés definir **subnets** (subredes) que se extienden a través de diferentes zonas de disponibilidad, lo que te permite distribuir tus recursos de manera eficiente y garantizar la disponibilidad y el rendimiento de tus aplicaciones. Estas subredes son como salas de un edificio, donde cada sala puede tener un propósito específico y contener recursos específicos.
 
-![](/images/screenshot_from_2024-02-28_12-12-53-U3Mj.png)
+![](/images/screenshot_from_2024-02-28_12-12-53-k0MD.png)
 
 Pero las VPC están aisladas de forma predeterminada, **NO TIENEN ACCESO A INTERNET,** lo que puede ser un problema si tus recursos necesitan comunicarse con el mundo exterior.
 
@@ -54,7 +52,7 @@ Pero las VPC están aisladas de forma predeterminada, **NO TIENEN ACCESO A INTER
 
 Para permitir que tus recursos dentro de la VPC, como tu sitio web, sean accesibles desde Internet, necesitas configurar un **Internet Gateway**. Esto te permite asociar tu VPC a Internet y ubicar los recursos que querés hacer públicos en una **Public Subnet.** Este es un proceso crucial para hacer que tus aplicaciones y servicios sean accesibles para tus usuarios.
 
-![](/images/screenshot_from_2024-02-22_00-38-14-AxNj.png)
+![](/images/screenshot_from_2024-02-22_00-38-14-A3MD.png)
 
 En esta subred, podés desplegar **instancias EC2**, que son **máquinas virtuales (Virtual machines - VM)** escalables y personalizables que pueden servir páginas web, actuar como servidores SSH y mucho más. Las instancias EC2 son uno de los recursos más utilizados en AWS, gracias a su flexibilidad y a la gran variedad de tipos de instancias disponibles.
 
@@ -66,7 +64,7 @@ Cuando tu web empiece a tener mucho tráfico, **una sola instancia EC2 puede no 
 
 - **Elastic Load Balancers** (ELB) : Ahora podemos repartir la carga de todo el tráfico que recibimos, **entre varias instancias EC2 en diferentes Zonas de Disponibilidad**. Los ELB son una herramienta poderosa para manejar el tráfico entrante, ya que pueden distribuir la carga entre varias instancias, lo que ayuda a prevenir la sobrecarga de una sola instancia y mejora la disponibilidad y el rendimiento de tu aplicación.
 
-![](/images/screenshot_from_2024-02-22_00-51-42-gyMz.png)
+![](/images/screenshot_from_2024-02-22_00-51-42-k2MT.png)
 
 Un ELB también nos da seguridad, ahora podríamos poner nuestras VMs en PRIVATE SUBNETS y el ELB en una pública. Entonces, el tráfico llega ahí y nuestras VMs no son accesibles desde afuera. Este es un enfoque común para mejorar la seguridad de una aplicación en la nube, ya que limita el acceso directo a las instancias y solo permite el tráfico a través del balanceador de carga.
 
@@ -74,7 +72,7 @@ Un ELB también nos da seguridad, ahora podríamos poner nuestras VMs en PRIVATE
 
 - Podés configurar un **NAT Gateway** en tus subredes públicas. Esto permite que las instancias en subredes privadas se conecten a servicios fuera de la VPC de manera segura, mientras que los servicios externos no pueden iniciar una conexión con estas instancias\*\*, lo que fortalece la seguridad de tu entorno.\*\* El NAT Gateway actúa como un intermediario entre las instancias en la VPC y el internet, lo que permite a las instancias acceder a los recursos de internet sin exponerlas directamente.
 
-![](/images/screenshot_from_2024-02-22_00-55-40-MwNz.png)
+![](/images/screenshot_from_2024-02-22_00-55-40-IzMD.png)
 
 ### ¿Y para nuestras VMs que querrían acceso a internet?
 
