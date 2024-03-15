@@ -1,6 +1,6 @@
 {
-  "commit": "5f6a88320da27c4d284996d498842939ad1d8d19",
-  "generated": "Sun, 11 Feb 2024 21:48:22 GMT",
+  "commit": "2900b527f37863a7664b9b36d4a2825544c17936",
+  "generated": "2024-03-15T13:41:46.290Z",
   "metadata": [
     {
       "__outstatic": {
@@ -66,7 +66,6 @@
       ],
       "title": "Add a free CMS to your Next.js website with Outstatic"
     },
-
     {
       "__outstatic": {
         "commit": "fec3e47bc674c17926b8f31c8c8e26a003764b11",
@@ -126,6 +125,24 @@
         }
       ],
       "title": "Far Out - The Next Steps for Outstatic "
+    },
+    {
+      "__outstatic": {
+        "commit": "2900b527f37863a7664b9b36d4a2825544c17936",
+        "hash": "3567629865",
+        "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
+      },
+      "author": {
+        "name": "Segundo Juan"
+      },
+      "collection": "posts",
+      "description": "",
+      "publishedAt": "2024-03-15T13:47:29.164Z",
+      "slug": "primeros-pasos-aws-cloud",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Primeros pasos - AWS Cloud"
     }
   ]
 }
