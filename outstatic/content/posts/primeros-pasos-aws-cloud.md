@@ -4,7 +4,9 @@ title: 'Primeros pasos - AWS Cloud'
 status: 'published'
 author:
   name: 'Segundo Juan'
-description: ''
+  picture: '/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-g4ND.jpeg'
+description: 'Este artículo tiene la intención de introducir al desarrollador a algunos de los principales conceptos a considerar cuando decidimos aprender sobre computación en la nube'
+coverImage: '/images/aws-g5Nz.png'
 tags: ''
 publishedAt: '2024-03-15T13:47:29.164Z'
 ---
