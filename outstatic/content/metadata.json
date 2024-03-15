@@ -1,6 +1,6 @@
 {
   "commit": "2900b527f37863a7664b9b36d4a2825544c17936",
-  "generated": "2024-03-15T13:44:51.135Z",
+  "generated": "2024-03-15T13:48:17.614Z",
   "metadata": [
     {
       "__outstatic": {
@@ -129,15 +129,15 @@
     {
       "__outstatic": {
         "commit": "2900b527f37863a7664b9b36d4a2825544c17936",
-        "hash": "1628525545",
+        "hash": "3338853214",
         "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
       },
       "author": {
         "name": "Segundo Juan",
-        "picture": "/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-g4ND.jpeg"
+        "picture": "/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Y3OT.jpeg"
       },
       "collection": "posts",
-      "coverImage": "/images/aws-g5Nz.png",
+      "coverImage": "/images/aws-M1MD.png",
       "description": "Este artículo tiene la intención de introducir al desarrollador a algunos de los principales conceptos a considerar cuando decidimos aprender sobre computación en la nube",
       "publishedAt": "2024-03-15T13:47:29.164Z",
       "slug": "primeros-pasos-aws-cloud",
