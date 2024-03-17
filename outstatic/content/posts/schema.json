@@ -20,6 +20,22 @@
         {
           "value": "outstatic",
           "label": "Outstatic"
+        },
+        {
+          "value": "cloudFront",
+          "label": "CloudFront"
+        },
+        {
+          "value": "s3",
+          "label": "S3"
+        },
+        {
+          "value": "route53",
+          "label": "Route53"
+        },
+        {
+          "value": "acm",
+          "label": "ACM"
         }
       ]
     }

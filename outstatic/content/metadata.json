@@ -1,6 +1,6 @@
 {
-  "commit": "caf8f55eff327fdfa9d4205866f0b1c164ead589",
-  "generated": "Fri, 15 Mar 2024 13:59:08 GMT",
+  "commit": "dea422401c701beb764b434d3402985a36fedbb9",
+  "generated": "2024-03-17T02:33:38.123Z",
   "metadata": [
     {
       "__outstatic": {
@@ -56,6 +56,42 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "dea422401c701beb764b434d3402985a36fedbb9",
+        "hash": "878290148",
+        "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS.",
+      "publishedAt": "2024-03-17T02:24:07.596Z",
+      "slug": "mi-primer-deploy-en-aws",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "CloudFront",
+          "value": "cloudFront"
+        },
+        {
+          "label": "S3",
+          "value": "s3"
+        },
+        {
+          "label": "Route53",
+          "value": "route53"
+        },
+        {
+          "label": "ACM",
+          "value": "acm"
+        }
+      ],
+      "title": "Mi primer deploy en AWS"
     }
   ]
 }
