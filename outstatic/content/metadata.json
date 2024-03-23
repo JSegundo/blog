@@ -1,6 +1,6 @@
 {
-  "commit": "234712061b3d27c2ddb13188eadea0b3b0c19d51",
-  "generated": "2024-03-23T13:24:11.761Z",
+  "commit": "b04572366efe107e98079643fe845d594478517f",
+  "generated": "2024-03-23T13:37:33.238Z",
   "metadata": [
     {
       "__outstatic": {
@@ -59,8 +59,8 @@
     },
     {
       "__outstatic": {
-        "commit": "234712061b3d27c2ddb13188eadea0b3b0c19d51",
-        "hash": "3913091029",
+        "commit": "b04572366efe107e98079643fe845d594478517f",
+        "hash": "2541736491",
         "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
       },
       "author": {
@@ -72,7 +72,7 @@
       "description": "Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS.",
       "publishedAt": "2024-03-17T02:24:07.596Z",
       "slug": "mi-primer-deploy-en-aws",
-      "status": "published",
+      "status": "draft",
       "tags": [
         {
           "label": "CloudFront",
