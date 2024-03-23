@@ -1,6 +1,6 @@
 ---
 title: 'Mi primer deploy en AWS'
-status: 'draft'
+status: 'published'
 author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
@@ -18,6 +18,8 @@ Pero si tu objetivo es ser un verdadero full-stack, al menos tenemos que saber l
 - ¿Cómo se garantiza que un dominio recién comprado pueda ser encontrado en Internet? (DNS - Route 53)
 - ¿Cómo una web puede estar disponible globalmente, con baja latencia, alta velocidad de transferencia de datos, y entregada de manera segura? (CDN- CLOUDFRONT)
 - ¿Cuál es la clave para asegurar una conexión segura entre el navegador del usuario y el servidor web, especialmente al transmitir datos sensibles? (ACM - Amazon Certificate Manager)
+
+Overview del proceso:
 
 ![flow diagram](/images/screenshot-from-2024-03-23-14-22-21-QyMD.png)
 
