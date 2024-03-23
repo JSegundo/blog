@@ -1,6 +1,6 @@
 {
-  "commit": "dea422401c701beb764b434d3402985a36fedbb9",
-  "generated": "2024-03-17T02:33:38.123Z",
+  "commit": "04fb1e8b314726f9abd0bc6f739cfc46a42cb5d6",
+  "generated": "2024-03-23T11:48:31.772Z",
   "metadata": [
     {
       "__outstatic": {
@@ -59,8 +59,8 @@
     },
     {
       "__outstatic": {
-        "commit": "dea422401c701beb764b434d3402985a36fedbb9",
-        "hash": "878290148",
+        "commit": "04fb1e8b314726f9abd0bc6f739cfc46a42cb5d6",
+        "hash": "1016161146",
         "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
       },
       "author": {
@@ -89,6 +89,14 @@
         {
           "label": "ACM",
           "value": "acm"
+        },
+        {
+          "label": "DNS",
+          "value": "dns"
+        },
+        {
+          "label": "CDN",
+          "value": "cdn"
         }
       ],
       "title": "Mi primer deploy en AWS"

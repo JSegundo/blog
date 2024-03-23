@@ -36,6 +36,14 @@
         {
           "value": "acm",
           "label": "ACM"
+        },
+        {
+          "value": "dns",
+          "label": "DNS"
+        },
+        {
+          "value": "cdn",
+          "label": "CDN"
         }
       ]
     }
