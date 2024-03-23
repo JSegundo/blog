@@ -5,20 +5,18 @@ status: 'published'
 author:
   name: 'Segundo Juan'
   picture: '/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Q4ND.jpeg'
-description: 'Este artículo tiene la intención de introducir al desarrollador a algunos de los principales conceptos a considerar cuando decidimos aprender sobre computación en la nube'
+description: 'Agunos de los principales conceptos a considerar para aprender sobre computación en la nube'
 coverImage: '/images/aws-U5Nz.png'
-tags: ''
+tags: [{"label":"AWS","value":"aws"},{"label":"VPC","value":"vpc"},{"label":"EC2","value":"ec2"},{"label":"Basics","value":"basics"}]
 publishedAt: '2024-03-15T13:47:29.164Z'
 ---
 
-
-Created: 21 de febrero de 2024 21:10 Tags: Basics, Cloud, Technical Writing
 
 ---
 
 Este artículo tiene la intención de introducir al desarrollador a algunos de los **principales conceptos** a considerar cuando decidimos aprender sobre computación en la nube, una área de la tecnología que está ganando cada vez más relevancia en el mundo actual. Desde el manejo de grandes cantidades de datos hasta el alojamiento de sitios web y aplicaciones, la nube es una herramienta esencial para cualquier desarrollador.
 
-` 👋🏻 Tomalo como una introducción y no como una guía definitiva, yo tambien estoy aprendiendo!`
+`👋🏻 Tomalo como una introducción y no como una guía definitiva, yo tambien estoy aprendiendo!`
 
 # ¿Cuál es el primer paso para crear recursos en la nube?
 
@@ -58,7 +56,7 @@ En esta subred, podés desplegar **instancias EC2**, que son **máquinas virtual
 
 Ahora ya podríamos tener nuestra primera web accesible, pública para todo el mundo. Este es un gran paso para cualquier desarrollador, demuestra que uno es capaz de configurar correctamente un entorno de nube y desplegar una aplicación en él.
 
-` ⚠️ Pero... esto no escala`
+`⚠️ Pero... esto no escala`
 
 Cuando tu web empiece a tener mucho tráfico, **una sola instancia EC2 puede no ser suficiente para manejar la carga.** Necesitamos algo que escale mejor, algo elástico..
 
@@ -68,7 +66,7 @@ Cuando tu web empiece a tener mucho tráfico, **una sola instancia EC2 puede no 
 
 Un ELB también nos da seguridad, ahora podríamos poner nuestras VMs en PRIVATE SUBNETS y el ELB en una pública. Entonces, el tráfico llega ahí y nuestras VMs no son accesibles desde afuera. Este es un enfoque común para mejorar la seguridad de una aplicación en la nube, ya que limita el acceso directo a las instancias y solo permite el tráfico a través del balanceador de carga.
 
-` ❓ ¿Y qué pasa si nuestras VMs que tenemos en private subnets necesitan acceder a internet?`
+`❓ ¿Y qué pasa si nuestras VMs que tenemos en private subnets necesitan acceder a internet?`
 
 - Podés configurar un **NAT Gateway** en tus subredes públicas. Esto permite que las instancias en subredes privadas se conecten a servicios fuera de la VPC de manera segura, mientras que los servicios externos no pueden iniciar una conexión con estas instancias\*\*, lo que fortalece la seguridad de tu entorno.\*\* El NAT Gateway actúa como un intermediario entre las instancias en la VPC y el internet, lo que permite a las instancias acceder a los recursos de internet sin exponerlas directamente.
 

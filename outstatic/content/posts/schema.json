@@ -44,6 +44,22 @@
         {
           "value": "cdn",
           "label": "CDN"
+        },
+        {
+          "value": "aws",
+          "label": "AWS"
+        },
+        {
+          "value": "vpc",
+          "label": "VPC"
+        },
+        {
+          "value": "ec2",
+          "label": "EC2"
+        },
+        {
+          "value": "basics",
+          "label": "Basics"
         }
       ]
     }
