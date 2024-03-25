@@ -5,7 +5,7 @@ author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'mi-primer-deploy-en-aws'
-description: 'Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS.'
+description: 'Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS y desplegué un sitio estatico (HTML)'
 coverImage: '/images/screenshot-from-2024-03-23-14-22-21-kxNT.png'
 tags: [{"label":"CloudFront","value":"cloudFront"},{"label":"S3","value":"s3"},{"label":"Route53","value":"route53"},{"label":"ACM","value":"acm"},{"label":"DNS","value":"dns"},{"label":"CDN","value":"cdn"}]
 publishedAt: '2024-03-17T02:24:07.596Z'
