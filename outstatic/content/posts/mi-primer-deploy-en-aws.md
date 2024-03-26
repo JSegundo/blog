@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'mi-primer-deploy-en-aws'
 description: 'Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS y desplegué un sitio estatico (HTML)'
-coverImage: '/images/screenshot-from-2024-03-26-12-46-49-A1MT.png'
+coverImage: '/images/screenshot-from-2024-03-26-12-46-49-A4MD.png'
 tags: [{"label":"CloudFront","value":"cloudFront"},{"label":"S3","value":"s3"},{"label":"Route53","value":"route53"},{"label":"ACM","value":"acm"},{"label":"DNS","value":"dns"},{"label":"CDN","value":"cdn"}]
 publishedAt: '2024-03-17T02:24:07.596Z'
 ---
@@ -21,9 +21,9 @@ Deployar un simple HTML me ayudo a comprender mejor lo que pasa internamente, y 
 
 ---
 
-Hostear un sitio en S3 puede ser tan fácil como subir el archivo HTML y usar el link que nos provee AWS ([http://nombredelbucket.s3-website-region.amazonaws.com](http://nombredelbucket.s3-website-region.amazonaws.com/)).
+Hostear un sitio en S3 puede ser tan fácil como subir el archivo HTML y usar el link que nos provee AWS [http://nombredelbucket.s3-website-region.amazonaws.com](http://nombredelbucket.s3-website-region.amazonaws.com/).
 
-> ![](/images/screenshot-from-2024-03-26-12-15-05-I1Nz.png)
+> ![](/images/screenshot-from-2024-03-26-12-15-05-MyNj.png)
 > ****Amazon S3 (Simple Storage Service)** no es unicamente un servicio de almacenamiento de objetos altamente escalable, también puede servir contenido estático a través de HTTP. Es fácil de configurar y puede manejar grandes volúmenes de tráfico.
 
 Una vez que hayas subido tu sitio web a un bucket de S3, podés configurar tu dominio para que apunte a ese bucket utilizando **Route 53**, el servicio de DNS de AWS.* 
@@ -32,11 +32,11 @@ Una vez que hayas subido tu sitio web a un bucket de S3, podés configurar tu do
 
 Ahora podríamos acceder a nuestro sitio a través de <http://xxx.example.com>
 
-![](/images/screenshot-from-2024-03-26-12-40-42-Y4OT.png)
+![](/images/screenshot-from-2024-03-26-12-40-42-AxNj.png)
 
 🔓️`Lo que no tiene un certificado SSL (HTTPS), por lo que perderíamos tráfico y credibilidad.`
 
-> ![](/images/screenshot-from-2024-03-26-12-16-48-k1Nj.png)
+> ![](/images/screenshot-from-2024-03-26-12-16-48-Y1Nz.png)
 >
 > Es importante tener en cuenta que, si no se utiliza HTTPS, los navegadores modernos pueden mostrar advertencias de seguridad para tu sitio web. Esto puede hacer que los usuarios se sientan inseguros y reducir la credibilidad de tu sitio. Además, los motores de búsqueda como Google también pueden penalizar los sitios web que no utilizan HTTPS en sus resultados de búsqueda.
 
@@ -52,6 +52,6 @@ Cuando un usuario accede a tu sitio web a través de HTTPS, su navegador estable
 
 ### Resultado final:
 
-![](/images/screenshot-from-2024-03-26-12-46-49-Y3Mz.png)
+![](/images/screenshot-from-2024-03-26-12-46-49-kyMT.png)
 
-![sitio estatico bajo domnio propio, servido a través de HTTPS](/images/screenshot-from-2024-03-26-12-19-13-YwNj.png)
+![sitio estatico bajo domnio propio, servido a través de HTTPS](/images/screenshot-from-2024-03-26-12-19-13-QzNj.png)
