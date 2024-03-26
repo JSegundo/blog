@@ -1,6 +1,6 @@
 {
-  "commit": "8bd389c0b598c703e1eb5fad41ae54bb50b11888",
-  "generated": "2024-03-25T22:58:09.133Z",
+  "commit": "4ab996c40e220389cb6b26b008168142fad68c02",
+  "generated": "2024-03-26T11:07:25.004Z",
   "metadata": [
     {
       "__outstatic": {
@@ -76,8 +76,8 @@
     },
     {
       "__outstatic": {
-        "commit": "8bd389c0b598c703e1eb5fad41ae54bb50b11888",
-        "hash": "298787676",
+        "commit": "4ab996c40e220389cb6b26b008168142fad68c02",
+        "hash": "64826719",
         "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
       },
       "author": {
