@@ -1,6 +1,6 @@
 {
   "commit": "4ab996c40e220389cb6b26b008168142fad68c02",
-  "generated": "2024-03-26T14:18:44.853Z",
+  "generated": "2024-03-26T14:22:22.306Z",
   "metadata": [
     {
       "__outstatic": {
@@ -77,7 +77,7 @@
     {
       "__outstatic": {
         "commit": "4ab996c40e220389cb6b26b008168142fad68c02",
-        "hash": "672347670",
+        "hash": "1344151738",
         "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
       },
       "author": {
@@ -85,7 +85,7 @@
         "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
       },
       "collection": "posts",
-      "coverImage": "/images/screenshot-from-2024-03-26-12-46-49-U5Nj.png",
+      "coverImage": "/images/screenshot-from-2024-03-26-12-46-49-QzMj.png",
       "description": "Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS y desplegué un sitio estatico (HTML)",
       "publishedAt": "2024-03-17T02:24:07.596Z",
       "slug": "mi-primer-deploy-en-aws",
