@@ -23,7 +23,7 @@ Deployar un simple HTML me ayudo a comprender mejor lo que pasa internamente, y 
 
 Hostear un sitio en S3 puede ser tan fácil como subir el archivo HTML y usar el link que nos provee AWS ([http://nombredelbucket.s3-website-region.amazonaws.com](http://nombredelbucket.s3-website-region.amazonaws.com/)).
 
-> ![](/images/screenshot-from-2024-03-26-12-15-05-Q3Mj.png)
+> ![](/images/screenshot-from-2024-03-26-12-15-05-kyMD.png)
 > ****Amazon S3 (Simple Storage Service)** no es unicamente un servicio de almacenamiento de objetos altamente escalable, también puede servir contenido estático a través de HTTP. Es fácil de configurar y puede manejar grandes volúmenes de tráfico.
 
 `Después podríamos apuntar nuestro dominio (HOSTED ZONES) a el bucket y tendríamos un http://xxx.example.com.`
@@ -32,15 +32,17 @@ Una vez que hayas subido tu sitio web a un bucket de S3, podés configurar tu do
 
 >  Route 53 te permite asociar tu dominio con recursos en la nube de AWS, como tu bucket de S3, para que los usuarios puedan acceder a tu sitio web utilizando tu propio nombre de dominio personalizado.
 
+![](/images/screenshot-from-2024-03-26-12-36-13-IyND.png)
+
 🔓️`Lo que no tiene un certificado SSL (HTTPS), por lo que perderíamos tráfico y credibilidad.`
 
-> ![](/images/screenshot-from-2024-03-26-12-16-48-I3OT.png)
+> ![](/images/screenshot-from-2024-03-26-12-16-48-U3NT.png)
 >
 > Es importante tener en cuenta que, si no se utiliza HTTPS, los navegadores modernos pueden mostrar advertencias de seguridad para tu sitio web. Esto puede hacer que los usuarios se sientan inseguros y reducir la credibilidad de tu sitio. Además, los motores de búsqueda como Google también pueden penalizar los sitios web que no utilizan HTTPS en sus resultados de búsqueda.
 
-**Podemos generar un Certificado SSL usando Amazon Certificate Manager y vincularlo con nuestro CDN (CloudFront), que es el que va a estar recibiendo las peticiones que llegan a Route 53.**
+**Podemos generar un Certificado SSL usando Amazon Certificate Manager y vincularlo con nuestro CDN (CloudFront), que es quien va a estar recibiendo las peticiones que llegan a Route 53.**
 
-Amazon Certificate Manager (ACM) simplifica el proceso de gestión de certificados SSL/TLS al proporcionar certificados SSL gratuitos y gestionar su renovación automática. Una vez que hayas generado un certificado SSL en ACM, puedes asociarlo con tu distribución de CloudFront, el servicio de CDN (Content Delivery Network) de AWS. 
+Amazon Certificate Manager (ACM) simplifica el proceso de gestión de certificados SSL/TLS al proporcionar certificados SSL gratuitos y gestionar su renovación automática. Una vez que hayas generado un certificado SSL en ACM, podés asociarlo con tu distribución de CloudFront, el servicio de CDN (Content Delivery Network) de AWS. 
 
 CloudFront es el que recibe las peticiones que llegan a Route 53 y distribuye el contenido de tu sitio web a través de una red global de servidores para proporcionar tiempos de carga más rápidos y una mejor experiencia de usuario.
 
@@ -48,8 +50,8 @@ CloudFront es el que recibe las peticiones que llegan a Route 53 y distribuye el
 
 Cuando un usuario accede a tu sitio web a través de HTTPS, su navegador establece una conexión segura con CloudFront utilizando el certificado SSL asociado. CloudFront puede desencriptar las solicitudes utilizando el certificado SSL y, a continuación, entregar el contenido de tu sitio web de manera segura al usuario.
 
-![](/images/screenshot-from-2024-03-26-12-19-13-U5OD.png)
-
 ### Resultado final:
 
 ![diagrama de flow servicios aws](/images/screenshot-from-2024-03-23-14-22-21-QyMD.png)
+
+![](/images/screenshot-from-2024-03-26-12-19-13-YzNj.png)
