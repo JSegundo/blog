@@ -26,7 +26,7 @@ const ContentGrid = ({
   return (
     <section id={collection} className="mb-24">
       <div className="flex gap-4 md:gap-6 items-end">
-        <h2 className="text-4xl md:text-6xl font-bold tracking-tighter leading-tight capitalize">
+        <h2 className="text-4xl md:text-5xl font-bold tracking-tighter leading-tight capitalize">
           {title}
         </h2>
         {viewAll ? (
@@ -43,7 +43,7 @@ const ContentGrid = ({
             <div className="cursor-pointer border rounded-md md:w-full scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden h-full">
               <Image
                 src={item.coverImage || `/api/og?title=${item.title}`}
-                alt=""
+                alt="cover image"
                 className="border-b w-full md:h-[180px] object-cover object-center"
                 width={430}
                 height={180}

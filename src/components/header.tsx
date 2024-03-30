@@ -21,8 +21,9 @@ const Header = async () => {
       <nav className="max-w-6xl mx-auto w-full layout flex items-center justify-between">
         <Link
           href="/"
-          className="hover:text-slate-900 hover:dark:text-blue-200 px-5 underline-offset-2 font-semibold transition-all hover:scale-105"
+          className="flex gap-2 hover:text-slate-900 hover:dark:text-blue-200 px-5 underline-offset-2 font-semibold transition-all hover:scale-105"
         >
+          {/* <img src="favicon.ico" width={40} /> */}
           Segundo Juan
         </Link>
         <ul className="hidden md:flex items-center justify-between space-x-3 text-xs md:space-x-4 md:text-base">

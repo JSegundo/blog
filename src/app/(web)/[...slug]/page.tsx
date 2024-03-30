@@ -1,31 +1,31 @@
-import ContentGrid from "@/components/content-grid";
-import DocHero from "@/components/doc-hero";
-import MDXComponent from "@/components/mdx/mdx-component";
-import MDXServer from "@/lib/mdx-server";
-import { absoluteUrl, ogUrl } from "@/lib/utils";
-import { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { OstDocument } from "outstatic";
-import { getCollections, load } from "outstatic/server";
+import ContentGrid from "@/components/content-grid"
+import DocHero from "@/components/doc-hero"
+import MDXComponent from "@/components/mdx/mdx-component"
+import MDXServer from "@/lib/mdx-server"
+import { absoluteUrl, ogUrl } from "@/lib/utils"
+import { Metadata } from "next"
+import { notFound } from "next/navigation"
+import { OstDocument } from "outstatic"
+import { getCollections, load } from "outstatic/server"
 
 type Document = {
-  tags: { value: string; label: string }[];
-} & OstDocument;
+  tags: { value: string; label: string }[]
+} & OstDocument
 
 interface Params {
   params: {
-    slug: string;
-  };
+    slug: string
+  }
 }
 
 export async function generateMetadata(params: Params): Promise<Metadata> {
-  const { doc, moreDocs } = await getData(params);
+  const { doc, moreDocs } = await getData(params)
 
   if (!doc) {
     return {
       title: `All ${moreDocs.collection}`,
       description: `All ${moreDocs.collection}`,
-    };
+    }
   }
 
   return {
@@ -51,14 +51,14 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
       description: doc.description,
       images: ogUrl(doc?.coverImage || `/api/og?title=${doc.title}`),
     },
-  };
+  }
 }
 
 export default async function Document(params: Params) {
-  const { doc, moreDocs } = await getData(params);
+  const { doc, moreDocs } = await getData(params)
 
   if (!doc) {
-    const { docs, collection } = moreDocs;
+    const { docs, collection } = moreDocs
     return (
       <div className="pt-24 mb-16">
         {docs.length > 0 && (
@@ -69,7 +69,7 @@ export default async function Document(params: Params) {
           />
         )}
       </div>
-    );
+    )
   }
 
   if (doc.collection === "pages") {
@@ -79,7 +79,7 @@ export default async function Document(params: Params) {
           <MDXComponent content={doc.content} />
         </div>
       </article>
-    );
+    )
   }
 
   return (
@@ -102,13 +102,13 @@ export default async function Document(params: Params) {
         )}
       </div>
     </>
-  );
+  )
 }
 
 async function getData({ params }: Params) {
-  const db = await load();
-  let slug = params.slug[1];
-  let collection = params.slug[0];
+  const db = await load()
+  let slug = params.slug[1]
+  let collection = params.slug[0]
 
   // check if we have two slugs, if not, we are on a collection archive or a page
   if (!params.slug || params.slug.length !== 2) {
@@ -122,7 +122,7 @@ async function getData({ params }: Params) {
           "tags",
         ])
         .sort({ publishedAt: -1 })
-        .toArray();
+        .toArray()
 
       // if we have docs, we are on a collection archive
       if (docs.length) {
@@ -131,13 +131,13 @@ async function getData({ params }: Params) {
             docs,
             collection,
           },
-        };
+        }
       }
     }
 
     // if we don't have docs, we are on a page
-    slug = params.slug[0];
-    collection = "pages";
+    slug = params.slug[0]
+    collection = "pages"
   }
 
   // get the document
@@ -153,13 +153,13 @@ async function getData({ params }: Params) {
       "coverImage",
       "tags",
     ])
-    .first();
+    .first()
 
   if (!doc) {
-    notFound();
+    notFound()
   }
 
-  const content = await MDXServer(doc.content);
+  const content = await MDXServer(doc.content)
 
   const moreDocs =
     collection === "pages"
@@ -174,7 +174,7 @@ async function getData({ params }: Params) {
             ["title", "slug", "coverImage", "description"]
           )
           .sort({ publishedAt: -1 })
-          .toArray();
+          .toArray()
 
   return {
     doc: {
@@ -182,14 +182,14 @@ async function getData({ params }: Params) {
       content,
     },
     moreDocs,
-  };
+  }
 }
 
 export async function generateStaticParams() {
-  const db = await load();
+  const db = await load()
   const collections = getCollections().filter(
     (collection) => collection !== "pages"
-  );
+  )
 
   // get all documents, except those in the posts collection and the home page
   // as we have a specific route for them (/posts)
@@ -201,18 +201,18 @@ export async function generateStaticParams() {
       },
       ["collection", "slug"]
     )
-    .toArray();
+    .toArray()
 
   // pages should be at the root level
   const slugs = items.map(({ collection, slug }) => ({
     slug: collection === "pages" ? [slug] : [collection, slug],
-  }));
+  }))
 
   collections.forEach((collection) => {
     slugs.push({
       slug: [collection],
-    });
-  });
+    })
+  })
 
-  return slugs;
+  return slugs
 }

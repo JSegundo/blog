@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="max-w-6xl container mx-auto flex flex-col md:flex-row items-start justify-between p6-4 px-6">
         <div className="flex justify-between w-full items-center">
           <div className="flex flex-col w-1/2">
-            <p className="text-sm mt-4 md:mt-0">
+            {/* <p className="text-sm mt-4 md:mt-0">
               The code for this website is{" "}
               <Link
                 className="underline underline-offset-2 hover:text-gray-600 dark:hover:text-white"
@@ -17,7 +17,7 @@ const Footer = () => {
                 open source
               </Link>
               .
-            </p>
+            </p> */}
             {/* <p className="hidden md:block text-sm mt-4">
               © Andre Vitorio {new Date().getFullYear()}
             </p> */}

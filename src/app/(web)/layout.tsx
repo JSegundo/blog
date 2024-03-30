@@ -7,18 +7,16 @@ import "@/styles/index.css"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
-  // metadataBase: new URL("https://segu.work"),
+  // metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://segu.work"),
   title: {
     default: "Segundo Juan - Blog.",
     template: "%s | Segundo Juan",
   },
-  description:
-    "Front-end developer from Argentina. I write about web, cloud and more.",
+  description: "Front-end developer. I write about web, cloud and more.",
   openGraph: {
     title: "Segundo Juan - Blog.",
-    description:
-      "Front-end developer from Argentina. I write about web, cloud and more.",
+    description: "Front-end developer. I write about web, cloud and more.",
     url: absoluteUrl("/"),
     siteName: "localhost",
     images: [
