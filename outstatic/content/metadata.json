@@ -1,6 +1,6 @@
 {
-  "commit": "1e8092a1ed7a1c2f767a06fc89a8455eea2919a0",
-  "generated": "2024-04-23T15:32:30.380Z",
+  "commit": "7c441df65a0378cc6ed6352e845699e216736c22",
+  "generated": "2024-04-23T15:52:25.338Z",
   "metadata": [
     {
       "__outstatic": {
@@ -135,6 +135,24 @@
       "slug": "entendiendo-state-managment-en-react",
       "status": "draft",
       "title": "Entendiendo state managment en React"
+    },
+    {
+      "__outstatic": {
+        "commit": "7c441df65a0378cc6ed6352e845699e216736c22",
+        "hash": "2359018456",
+        "path": "outstatic/content/frontend/my-takes-on-server-components.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "frontend",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-23T15:51:26.407Z",
+      "slug": "my-takes-on-server-components",
+      "status": "published",
+      "title": "My takes on server components"
     }
   ]
 }
