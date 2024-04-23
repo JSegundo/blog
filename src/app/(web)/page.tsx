@@ -7,12 +7,12 @@ export default async function Index() {
 
   return (
     <>
-      {/* <section className="mb-12 md:min-h-[calc(100vh-256px)] items-center flex">
+      <section className="mb-12 md:min-h-[calc(100vh-256px)] items-center flex">
         <div
           className="prose lg:prose-xl home-intro prose-outstatic"
           dangerouslySetInnerHTML={{ __html: content }}
         />
-      </section> */}
+      </section>
       {allPosts.length > 0 && (
         <ContentGrid
           title="posts"
