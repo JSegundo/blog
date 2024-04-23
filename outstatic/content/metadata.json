@@ -1,6 +1,6 @@
 {
-  "commit": "4ab996c40e220389cb6b26b008168142fad68c02",
-  "generated": "2024-03-26T14:29:38.761Z",
+  "commit": "d90d3bd2a29c77f633f893f4e3c6b6c0cd192f61",
+  "generated": "2024-03-28T11:10:31.649Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,42 +37,6 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
-    },
-    {
-      "__outstatic": {
-        "commit": "9e1d52735a0e1e2d8e4deaac5c35c841cb2d5e58",
-        "hash": "3743179964",
-        "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Q4ND.jpeg"
-      },
-      "collection": "posts",
-      "coverImage": "/images/aws-U5Nz.png",
-      "description": "Agunos de los principales conceptos a considerar para aprender sobre computación en la nube",
-      "publishedAt": "2024-03-15T13:47:29.164Z",
-      "slug": "primeros-pasos-aws-cloud",
-      "status": "published",
-      "tags": [
-        {
-          "label": "AWS",
-          "value": "aws"
-        },
-        {
-          "label": "VPC",
-          "value": "vpc"
-        },
-        {
-          "label": "EC2",
-          "value": "ec2"
-        },
-        {
-          "label": "Basics",
-          "value": "basics"
-        }
-      ],
-      "title": "Primeros pasos - AWS Cloud"
     },
     {
       "__outstatic": {
@@ -117,6 +81,42 @@
         }
       ],
       "title": "Mi primer deploy en AWS"
+    },
+    {
+      "__outstatic": {
+        "commit": "d90d3bd2a29c77f633f893f4e3c6b6c0cd192f61",
+        "hash": "704991631",
+        "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Q4ND.jpeg"
+      },
+      "collection": "posts",
+      "coverImage": "/images/aws-U5Nz.png",
+      "description": "Agunos de los principales conceptos a considerar para aprender sobre computación en la nube",
+      "publishedAt": "2024-03-15T13:47:29.164Z",
+      "slug": "primeros-pasos-aws-cloud",
+      "status": "published",
+      "tags": [
+        {
+          "label": "AWS",
+          "value": "aws"
+        },
+        {
+          "label": "VPC",
+          "value": "vpc"
+        },
+        {
+          "label": "EC2",
+          "value": "ec2"
+        },
+        {
+          "label": "Basics",
+          "value": "basics"
+        }
+      ],
+      "title": "Primeros pasos - AWS Cloud"
     }
   ]
 }
