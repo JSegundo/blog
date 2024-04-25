@@ -62,6 +62,13 @@
           "label": "Basics"
         }
       ]
+    },
+    "aws": {
+      "required": false,
+      "description": "aws",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "aws"
     }
   }
 }

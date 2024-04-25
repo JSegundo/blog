@@ -1,6 +1,6 @@
 {
-  "commit": "7c441df65a0378cc6ed6352e845699e216736c22",
-  "generated": "2024-04-23T15:52:25.338Z",
+  "commit": "eee7a7623fc8efe458b3960e01b5848e948b09a9",
+  "generated": "2024-04-25T10:47:29.475Z",
   "metadata": [
     {
       "__outstatic": {
@@ -40,50 +40,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4ab996c40e220389cb6b26b008168142fad68c02",
-        "hash": "3401967125",
-        "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/screenshot-from-2024-03-26-12-46-49-gyMj.png",
-      "description": "Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS y desplegué un sitio estatico (HTML)",
-      "publishedAt": "2024-03-17T02:24:07.596Z",
-      "slug": "mi-primer-deploy-en-aws",
-      "status": "published",
-      "tags": [
-        {
-          "label": "CloudFront",
-          "value": "cloudFront"
-        },
-        {
-          "label": "S3",
-          "value": "s3"
-        },
-        {
-          "label": "Route53",
-          "value": "route53"
-        },
-        {
-          "label": "ACM",
-          "value": "acm"
-        },
-        {
-          "label": "DNS",
-          "value": "dns"
-        },
-        {
-          "label": "CDN",
-          "value": "cdn"
-        }
-      ],
-      "title": "Mi primer deploy en AWS"
-    },
-    {
-      "__outstatic": {
         "commit": "d90d3bd2a29c77f633f893f4e3c6b6c0cd192f61",
         "hash": "704991631",
         "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
@@ -120,24 +76,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1e8092a1ed7a1c2f767a06fc89a8455eea2919a0",
-        "hash": "2354789008",
-        "path": "outstatic/content/frontend/entendiendo-state-managment-en-react.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "frontend",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-23T14:29:00.430Z",
-      "slug": "entendiendo-state-managment-en-react",
-      "status": "draft",
-      "title": "Entendiendo state managment en React"
-    },
-    {
-      "__outstatic": {
         "commit": "7c441df65a0378cc6ed6352e845699e216736c22",
         "hash": "2359018456",
         "path": "outstatic/content/frontend/my-takes-on-server-components.md"
@@ -153,6 +91,97 @@
       "slug": "my-takes-on-server-components",
       "status": "published",
       "title": "My takes on server components"
+    },
+    {
+      "__outstatic": {
+        "commit": "6d13f81d8f66490dfbed6d057a54ef4ea2b8b7ad",
+        "hash": "2847699777",
+        "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "awss",
+      "collection": "posts",
+      "coverImage": "/images/screenshot-from-2024-03-26-12-46-49-gyMj.png",
+      "description": "Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS y desplegué un sitio estatico (HTML)",
+      "publishedAt": "2024-03-17T02:24:07.596Z",
+      "slug": "mi-primer-deploy-en-aws",
+      "status": "published",
+      "tags": [
+        {
+          "label": "CloudFront",
+          "value": "cloudFront"
+        },
+        {
+          "label": "S3",
+          "value": "s3"
+        },
+        {
+          "label": "Route53",
+          "value": "route53"
+        },
+        {
+          "label": "ACM",
+          "value": "acm"
+        },
+        {
+          "label": "DNS",
+          "value": "dns"
+        },
+        {
+          "label": "CDN",
+          "value": "cdn"
+        },
+        {
+          "label": "AWS",
+          "value": "aws"
+        }
+      ],
+      "title": "Mi primer deploy en AWS"
+    },
+    {
+      "__outstatic": {
+        "commit": "a95d542c3993c1fd4c8e2e9b462e4582b135d9f7",
+        "hash": "1907862585",
+        "path": "outstatic/content/posts/my-takes-on-server-components.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-25T10:54:59.360Z",
+      "slug": "my-takes-on-server-components",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "My takes on server components"
+    },
+    {
+      "__outstatic": {
+        "commit": "eee7a7623fc8efe458b3960e01b5848e948b09a9",
+        "hash": "2355795964",
+        "path": "outstatic/content/posts/what-is-state-managment.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-25T10:59:04.794Z",
+      "slug": "what-is-state-managment",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "What is State managment?"
     }
   ]
 }
