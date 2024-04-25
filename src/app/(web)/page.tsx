@@ -22,7 +22,7 @@ export default async function Index() {
           viewAll
         />
       )}
-      {/* {Object.keys(otherCollections).map((collection) => {
+      {Object.keys(otherCollections).map((collection) => {
         if (!collection.length) return null
         return (
           <ContentGrid
@@ -33,7 +33,7 @@ export default async function Index() {
             viewAll
           />
         )
-      })} */}
+      })}
     </>
   )
 }
