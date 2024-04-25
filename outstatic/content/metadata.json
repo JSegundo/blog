@@ -1,6 +1,6 @@
 {
-  "commit": "6d13f81d8f66490dfbed6d057a54ef4ea2b8b7ad",
-  "generated": "2024-04-25T10:39:13.431Z",
+  "commit": "a95d542c3993c1fd4c8e2e9b462e4582b135d9f7",
+  "generated": "2024-04-25T10:46:39.157Z",
   "metadata": [
     {
       "__outstatic": {
@@ -158,6 +158,27 @@
         }
       ],
       "title": "Mi primer deploy en AWS"
+    },
+    {
+      "__outstatic": {
+        "commit": "a95d542c3993c1fd4c8e2e9b462e4582b135d9f7",
+        "hash": "1907862585",
+        "path": "outstatic/content/posts/my-takes-on-server-components.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-25T10:54:59.360Z",
+      "slug": "my-takes-on-server-components",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "My takes on server components"
     }
   ]
 }
