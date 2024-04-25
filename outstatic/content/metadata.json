@@ -1,6 +1,6 @@
 {
   "commit": "fb991e93760e86c3bbc894dea0f43a2c16106c26",
-  "generated": "2024-04-25T10:46:48.487Z",
+  "generated": "2024-04-25T10:46:55.020Z",
   "metadata": [
     {
       "__outstatic": {
@@ -76,9 +76,9 @@
     },
     {
       "__outstatic": {
-        "commit": "1e8092a1ed7a1c2f767a06fc89a8455eea2919a0",
-        "hash": "2354789008",
-        "path": "outstatic/content/frontend/entendiendo-state-managment-en-react.md"
+        "commit": "7c441df65a0378cc6ed6352e845699e216736c22",
+        "hash": "2359018456",
+        "path": "outstatic/content/frontend/my-takes-on-server-components.md"
       },
       "author": {
         "name": "Segundo Juan",
@@ -87,10 +87,10 @@
       "collection": "frontend",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-04-23T14:29:00.430Z",
-      "slug": "entendiendo-state-managment-en-react",
-      "status": "draft",
-      "title": "Entendiendo state managment en React"
+      "publishedAt": "2024-04-23T15:51:26.407Z",
+      "slug": "my-takes-on-server-components",
+      "status": "published",
+      "title": "My takes on server components"
     },
     {
       "__outstatic": {
@@ -140,6 +140,27 @@
         }
       ],
       "title": "Mi primer deploy en AWS"
+    },
+    {
+      "__outstatic": {
+        "commit": "a95d542c3993c1fd4c8e2e9b462e4582b135d9f7",
+        "hash": "1907862585",
+        "path": "outstatic/content/posts/my-takes-on-server-components.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-25T10:54:59.360Z",
+      "slug": "my-takes-on-server-components",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "My takes on server components"
     }
   ]
 }
