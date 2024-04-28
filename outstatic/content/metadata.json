@@ -1,25 +1,7 @@
 {
-  "commit": "eee7a7623fc8efe458b3960e01b5848e948b09a9",
-  "generated": "2024-04-25T10:47:29.475Z",
+  "commit": "063a161931c67d0d76eea59d2092c9c4f478a3f5",
+  "generated": "Sun, 28 Apr 2024 20:36:48 GMT",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "7933311333ec45a981967251d417f69239c3d597",
-        "hash": "3094821047",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2024-03-03T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
     {
       "__outstatic": {
         "commit": "5b73b8575b5bbb6b233fbc09a295824e72b6c77d",
@@ -40,7 +22,27 @@
     },
     {
       "__outstatic": {
-        "commit": "d90d3bd2a29c77f633f893f4e3c6b6c0cd192f61",
+        "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
+        "hash": "2355795964",
+        "path": "outstatic/content/posts/what-is-state-managment.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-25T10:59:04.794Z",
+      "slug": "what-is-state-managment",
+      "status": "draft",
+      "tags": "",
+      "title": "What is State managment?"
+    },
+    {
+      "__outstatic": {
+        "commit": "ec2822c5dd47cde4dfc381b01f38547d52fa5c06",
         "hash": "704991631",
         "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
       },
@@ -76,25 +78,27 @@
     },
     {
       "__outstatic": {
-        "commit": "7c441df65a0378cc6ed6352e845699e216736c22",
-        "hash": "2359018456",
-        "path": "outstatic/content/frontend/my-takes-on-server-components.md"
+        "commit": "483a4e965a19db08bf8b224c771eac58d8c656a3",
+        "hash": "1907862585",
+        "path": "outstatic/content/posts/my-takes-on-server-components.md"
       },
       "author": {
         "name": "Segundo Juan",
         "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
       },
-      "collection": "frontend",
+      "aws": "",
+      "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-04-23T15:51:26.407Z",
+      "publishedAt": "2024-04-25T10:54:59.360Z",
       "slug": "my-takes-on-server-components",
       "status": "published",
+      "tags": "",
       "title": "My takes on server components"
     },
     {
       "__outstatic": {
-        "commit": "6d13f81d8f66490dfbed6d057a54ef4ea2b8b7ad",
+        "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
         "hash": "2847699777",
         "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
       },
@@ -143,45 +147,21 @@
     },
     {
       "__outstatic": {
-        "commit": "a95d542c3993c1fd4c8e2e9b462e4582b135d9f7",
-        "hash": "1907862585",
-        "path": "outstatic/content/posts/my-takes-on-server-components.md"
+        "commit": "d40b86df9de767568f591700da88b3ee6f23d81b",
+        "hash": "3385968233",
+        "path": "outstatic/content/pages/home.md"
       },
       "author": {
         "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+        "picture": ""
       },
-      "aws": "",
-      "collection": "posts",
+      "collection": "pages",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-25T10:54:59.360Z",
-      "slug": "my-takes-on-server-components",
+      "description": "This is my blog.",
+      "publishedAt": "2024-03-03T05:35:07.322Z",
+      "slug": "home",
       "status": "published",
-      "tags": [
-      ],
-      "title": "My takes on server components"
-    },
-    {
-      "__outstatic": {
-        "commit": "eee7a7623fc8efe458b3960e01b5848e948b09a9",
-        "hash": "2355795964",
-        "path": "outstatic/content/posts/what-is-state-managment.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-25T10:59:04.794Z",
-      "slug": "what-is-state-managment",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "What is State managment?"
+      "title": "Home"
     }
   ]
 }
