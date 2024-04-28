@@ -8,13 +8,12 @@ export default async function MDXServer(code: string) {
     source: code,
     mdxOptions(options) {
       options.rehypePlugins = [
-        ...(options.rehypePlugins ?? []),
+        ...((options.rehypePlugins ?? []) as any[]), // Type assertion here
         rehypeSlug,
         [
           rehypePrettyCode,
           {
             theme: "dracula",
-            // The rest of the rehypePrettyCode config
           },
         ],
         [
@@ -32,3 +31,32 @@ export default async function MDXServer(code: string) {
 
   return result.code
 }
+
+// export default async function MDXServer(code: string) {
+//   const result = await bundleMDX({
+//     source: code,
+//     // mdxOptions(options) {
+//     //   options.rehypePlugins = [
+//     //     ...(options.rehypePlugins ?? []),
+//     //     rehypeSlug,
+//     //     [
+//     //       rehypePrettyCode,
+//     //       {
+//     //         theme: "dracula",
+//     //       },
+//     //     ],
+//     //     [
+//     //       rehypeAutolinkHeadings,
+//     //       {
+//     //         properties: {
+//     //           className: ["hash-anchor"],
+//     //         },
+//     //       },
+//     //     ],
+//     //   ]
+//     //   return options
+//     // },
+//   })
+
+//   return result.code
+// }
