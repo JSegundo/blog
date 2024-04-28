@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { absoluteUrl, ogUrl } from "@/lib/utils"
 import "@/styles/index.css"
 import { Metadata } from "next"
+import { GoogleTagManager } from "@next/third-parties/google"
 
 export const metadata: Metadata = {
   // metadataBase: new URL("http://localhost:3000"),
@@ -43,6 +44,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className="relative pb-56 md:pb-36 min-h-screen">
+        <GoogleTagManager gtmId="G-Q0RN52GJ8G" />
+
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

@@ -40,7 +40,7 @@ const Header = async () => {
               </Link>
             </li>
           ))}
-          {collections.map((collection) => (
+          {/* {collections.map((collection) => (
             <li key={collection}>
               <Link
                 href={`/${collection}`}
@@ -52,7 +52,7 @@ const Header = async () => {
                 {collection}
               </Link>
             </li>
-          ))}
+          ))} */}
           <ThemeToggle />
         </ul>
         <MobileMenu pages={pages} collections={collections} />
