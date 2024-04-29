@@ -1,6 +1,6 @@
 {
-  "commit": "b3c50ad7f127848af8d5cf921d6f34cb4fea8b3b",
-  "generated": "2024-04-29T21:31:44.096Z",
+  "commit": "23d75a938bfdb14299036c9c76ec49b554dcc6a3",
+  "generated": "2024-04-29T21:32:57.517Z",
   "metadata": [
     {
       "__outstatic": {
@@ -165,8 +165,8 @@
     },
     {
       "__outstatic": {
-        "commit": "b3c50ad7f127848af8d5cf921d6f34cb4fea8b3b",
-        "hash": "4285117459",
+        "commit": "23d75a938bfdb14299036c9c76ec49b554dcc6a3",
+        "hash": "1513462192",
         "path": "outstatic/content/pages/curated-finds.md"
       },
       "author": {

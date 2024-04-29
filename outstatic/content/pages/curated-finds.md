@@ -10,7 +10,7 @@ coverImage: ''
 publishedAt: '2024-04-29T20:57:57.726Z'
 ---
 
-handpicked collection of noteworthy articles, resources, and insights curated to inspire and inform
+## handpicked collection of noteworthy articles, resources, and insights curated to inspire and inform
 
 [What nobody tells beginners](https://numerocinqmagazine.com/2011/05/13/what-nobody-tells-beginners-ira-glass-on-storytelling/)
 
