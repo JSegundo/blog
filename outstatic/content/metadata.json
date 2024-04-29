@@ -1,6 +1,6 @@
 {
   "commit": "23d75a938bfdb14299036c9c76ec49b554dcc6a3",
-  "generated": "2024-04-29T21:40:14.680Z",
+  "generated": "2024-04-29T21:41:06.873Z",
   "metadata": [
     {
       "__outstatic": {
@@ -166,7 +166,7 @@
     {
       "__outstatic": {
         "commit": "23d75a938bfdb14299036c9c76ec49b554dcc6a3",
-        "hash": "3920603033",
+        "hash": "1842239964",
         "path": "outstatic/content/pages/curated-finds.md"
       },
       "author": {
