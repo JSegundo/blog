@@ -53,7 +53,7 @@ const Header = async () => {
               </Link>
             </li>
           ))} */}
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
         </ul>
         <MobileMenu pages={pages} collections={collections} />
       </nav>
