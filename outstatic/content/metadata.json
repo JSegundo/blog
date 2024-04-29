@@ -1,6 +1,6 @@
 {
   "commit": "b3c50ad7f127848af8d5cf921d6f34cb4fea8b3b",
-  "generated": "2024-04-29T21:31:23.714Z",
+  "generated": "2024-04-29T21:31:44.096Z",
   "metadata": [
     {
       "__outstatic": {
@@ -166,7 +166,7 @@
     {
       "__outstatic": {
         "commit": "b3c50ad7f127848af8d5cf921d6f34cb4fea8b3b",
-        "hash": "1383432547",
+        "hash": "4285117459",
         "path": "outstatic/content/pages/curated-finds.md"
       },
       "author": {
@@ -178,7 +178,7 @@
       "description": "",
       "publishedAt": "2024-04-29T20:57:57.726Z",
       "slug": "curated-finds",
-      "status": "draft",
+      "status": "published",
       "title": "Curated finds"
     }
   ]
