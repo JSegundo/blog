@@ -15,7 +15,7 @@ export default async function Index() {
       </section>
       {allPosts.length > 0 && (
         <ContentGrid
-          title="posts"
+          title="Notes and half-baked explorations"
           items={allPosts}
           collection="posts"
           priority

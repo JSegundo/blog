@@ -26,7 +26,7 @@ const ContentGrid = ({
   return (
     <section id={collection} className="mb-24">
       <div className="flex gap-4 md:gap-6 items-end">
-        <h2 className="text-4xl md:text-5xl font-bold tracking-tighter leading-tight capitalize">
+        <h2 className="text-2xl md:text-3xl font-bold tracking-tighter leading-tight capitalize">
           {title}
         </h2>
         {viewAll ? (
