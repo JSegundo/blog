@@ -1,6 +1,6 @@
 {
-  "commit": "145062254811327745e6c45b05d14c4abf027127",
-  "generated": "2024-04-30T23:15:28.778Z",
+  "commit": "e779e64e97d24072914e7a6bccd4cf98798cff5a",
+  "generated": "2024-04-30T23:29:57.447Z",
   "metadata": [
     {
       "__outstatic": {
@@ -183,8 +183,8 @@
     },
     {
       "__outstatic": {
-        "commit": "145062254811327745e6c45b05d14c4abf027127",
-        "hash": "254682614",
+        "commit": "e779e64e97d24072914e7a6bccd4cf98798cff5a",
+        "hash": "4177237826",
         "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
       },
       "author": {
