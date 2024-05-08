@@ -1,5 +1,5 @@
 ---
-title: 'What is the purpose of react?'
+title: 'Why react?'
 status: 'draft'
 author:
   name: 'Segundo Juan'
@@ -12,19 +12,62 @@ aws: ''
 publishedAt: '2024-04-30T23:15:37.052Z'
 ---
 
-As a frontend developer coming from a bootcamp, i was sure i knew everything one should know about JavaScript to move on onto React or any other framework.
+what are the holes that react fills up? why do we need it?
 
-variable declaration, loops, if statements, some DOM manipilation, object methods (forEach, Map), and a bit of the weird things like clousures, hoisting and the 'this' keyword.
+react is not a framework
 
-I saw it as a checklist of things to know but i couldnt wait to jump into React and start building stuff.
+es una libreria que importamos para hacer cosas interesantes
 
-After working on multiple projects and websites with React, one notices a lack of knowledge, and starts wondering .. why ?
+casi siempre que pensamos en una aplicación de react la vemos como un paquete completo, pero enrealidad react es una pequeña porción de eso
 
-days ago i was working on a personal weather app to sthrengten my skills. i wanted to achieve a solid, well funded state managment of my application.
+cuando pensamos en una aplicación de react, lo que tenemos enrealidad es una red de herramientas que trabajan juntas
 
-my go-to was always redux. i asked myself why redux? why not a javascript variable in window object? whats the purpose of redux?
+webpack
 
-in this post im going to try to come up with a simple list of things that react solves for building web apps.
+node 
+
+npm 
+
+jsx
+
+babel
+
+### primero jsx
+
+ si no sabes lo que es jsx probablemente nunca tocaste react.
+
+jsx nos permite usar html en nuestro javascript, y javascript en el html
+
+```javascript
+import React from "react"
+
+const Component = () => {
+  return <div>Component</div>
+}
+
+export default Component
+```
+
+(una función de javascript retorna HTML)
+
+```typescriptreact
+const Component = () => {
+  const handleOnClick = () => {
+    return "bla bla bla"
+  }
+
+  return (
+    <>
+      <div>Component</div>
+      <button onClick={() => handleOnClick}>Component</button>
+    </>
+  )
+}
+
+export default Component
+```
+
+(ejecutamos una funcion de javascript dentro de una etiqueta html)
 
 here is a nice quote:
 

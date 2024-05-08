@@ -1,6 +1,6 @@
 {
-  "commit": "cee80c0ec4b12f29c797a435c21785904d574c2d",
-  "generated": "2024-05-01T00:09:20.982Z",
+  "commit": "4c5683794db673afde177f69564afee7b0182ae6",
+  "generated": "2024-05-08T23:49:31.301Z",
   "metadata": [
     {
       "__outstatic": {
@@ -165,27 +165,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e779e64e97d24072914e7a6bccd4cf98798cff5a",
-        "hash": "4177237826",
-        "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-30T23:15:37.052Z",
-      "slug": "what-is-the-purpose-of-react",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "What is the purpose of react?"
-    },
-    {
-      "__outstatic": {
         "commit": "cee80c0ec4b12f29c797a435c21785904d574c2d",
         "hash": "2270879249",
         "path": "outstatic/content/pages/about.md"
@@ -201,6 +180,27 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "4c5683794db673afde177f69564afee7b0182ae6",
+        "hash": "1026950877",
+        "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-30T23:15:37.052Z",
+      "slug": "what-is-the-purpose-of-react",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Why react?"
     }
   ]
 }
