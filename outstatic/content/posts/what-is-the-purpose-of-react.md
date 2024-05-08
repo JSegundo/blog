@@ -1,5 +1,5 @@
 ---
-title: 'Porqué react?'
+title: 'Porqué react? #1'
 status: 'draft'
 author:
   name: 'Segundo Juan'
@@ -20,17 +20,13 @@ es una libreria que importamos para hacer cosas interesantes
 
 casi siempre que pensamos en una aplicación de react la vemos como un paquete completo, pero enrealidad react es una pequeña porción de eso
 
-cuando pensamos en una aplicación de react, lo que tenemos enrealidad es una red de herramientas que trabajan juntas
+cuando pensamos en una aplicación de react, lo que tenemos enrealidad es una red de herramientas que trabajan juntas;
 
-webpack
-
-node 
-
-npm 
-
-jsx
-
-babel
+- Webpack
+- Node 
+- Npm 
+- Jsx
+- Babel
 
 ### primero jsx
 
@@ -51,15 +47,16 @@ export default Component
 (una función de javascript retorna HTML)
 
 ```typescriptreact
-const Component = () => {
+const Component = ({props}) => {
   const handleOnClick = () => {
     return "bla bla bla"
   }
 
   return (
     <>
-      <div>Component</div>
-      <button onClick={() => handleOnClick}>Component</button>
+      <button onClick={() => handleOnClick}>
+        {props.message}
+      </button>
     </>
   )
 }
@@ -67,7 +64,7 @@ const Component = () => {
 export default Component
 ```
 
-(ejecutamos una funcion de javascript dentro de una etiqueta html)
+(ejecutamos una funcion de javascript dentro de una etiqueta html y mostramos un mensaje accediendo a un objeto con js)
 
 here is a nice quote:
 
