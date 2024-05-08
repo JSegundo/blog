@@ -1,6 +1,6 @@
 {
   "commit": "4c5683794db673afde177f69564afee7b0182ae6",
-  "generated": "2024-05-08T23:49:31.301Z",
+  "generated": "2024-05-08T23:49:44.574Z",
   "metadata": [
     {
       "__outstatic": {
@@ -184,7 +184,7 @@
     {
       "__outstatic": {
         "commit": "4c5683794db673afde177f69564afee7b0182ae6",
-        "hash": "1026950877",
+        "hash": "3032942916",
         "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
       },
       "author": {
@@ -200,7 +200,7 @@
       "status": "draft",
       "tags": [
       ],
-      "title": "Why react?"
+      "title": "Porqué react?"
     }
   ]
 }

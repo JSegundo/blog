@@ -1,5 +1,5 @@
 ---
-title: 'Why react?'
+title: 'Porqué react?'
 status: 'draft'
 author:
   name: 'Segundo Juan'
