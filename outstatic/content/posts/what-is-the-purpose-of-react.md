@@ -23,14 +23,14 @@ casi siempre que pensamos en una aplicación de react la vemos como un paquete c
 cuando pensamos en una aplicación de react, lo que tenemos enrealidad es una red de herramientas que trabajan juntas;
 
 - Webpack
-- Node 
-- Npm 
+- Node
+- Npm
 - Jsx
 - Babel
 
 ### primero jsx
 
- si no sabes lo que es jsx probablemente nunca tocaste react.
+si no sabes lo que es jsx probablemente nunca tocaste react.
 
 jsx nos permite usar html en nuestro javascript, y javascript en el html
 
@@ -49,7 +49,7 @@ export default Component
 ```typescriptreact
 const Component = ({props}) => {
   const handleOnClick = () => {
-    return "bla bla bla"
+    doSomething()
   }
 
   return (
