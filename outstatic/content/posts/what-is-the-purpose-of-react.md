@@ -66,6 +66,34 @@ export default Component
 
 (ejecutamos una funcion de javascript dentro de una etiqueta html y mostramos un mensaje accediendo a un objeto con js)
 
+### Babel
+
+JavaScript es un lenguage que recibe mantenimiento y actualizaciones. Nosotros cómo devs queremos usar las últimas features y mejoras.
+
+Pero los navegadores se van quedando atras, no siempre dan suport a las mejoras de javascript.
+
+Ahí entra Babel, que nos permite usar las últimas features de JavaScript y nos asegura que todo browser entienda nuestro código.
+
+Ese proceso de convertir código nuevo en código entendible para todos los browsers se llama Transpilación.
+
+Y Babel no se queda ahí, también nos permite transpilar JSX a versiones viejas de JavaScript
+
+### Webpack
+
+se ejecuta por ejemplo si corremos el comando npm run build
+
+webpack (o el bundler que sea) va por nuestros archivos y los bundlea? los achica? que pasa?
+
+antes de seguir hay que hablar un poco de;
+
+### Node y NPM
+
+JavaScript fue creado para el navegador.
+
+Node nos permite ejecutar JavaScript en nuestro sistema operativo
+
+##### Node package manager
+
 here is a nice quote:
 
 > React allows you to write maintainable and performant code by using the concept of components. Components allow you to focus on describing the UI you want, rather than focusing on the details of how the UI actually gets inserted in the page.
