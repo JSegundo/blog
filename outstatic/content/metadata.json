@@ -1,6 +1,6 @@
 {
-  "commit": "635405eed83a09b78e0ed9ee5e7d6384322cebe7",
-  "generated": "2024-05-09T21:39:46.283Z",
+  "commit": "5dc3ef54b5ee712a4ca45d9ea747215ee8111685",
+  "generated": "2024-05-09T22:33:48.487Z",
   "metadata": [
     {
       "__outstatic": {
@@ -207,8 +207,26 @@
     },
     {
       "__outstatic": {
-        "commit": "6773fc44c763388181f82a8c67e3d24325b1bcb8",
-        "hash": "3283198664",
+        "commit": "635405eed83a09b78e0ed9ee5e7d6384322cebe7",
+        "hash": "2909017033",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Segundo, a Front-end dev from Argentina",
+      "publishedAt": "2024-03-03T18:49:02.348Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "5dc3ef54b5ee712a4ca45d9ea747215ee8111685",
+        "hash": "374502030",
         "path": "outstatic/content/posts/node-js-event-loop.md"
       },
       "author": {
@@ -225,24 +243,6 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "635405eed83a09b78e0ed9ee5e7d6384322cebe7",
-        "hash": "2909017033",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Segundo, a Front-end dev from Argentina",
-      "publishedAt": "2024-03-03T18:49:02.348Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
     }
   ]
 }
