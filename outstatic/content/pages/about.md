@@ -13,7 +13,7 @@ publishedAt: '2024-03-03T18:49:02.348Z'
 ## Hey, I'm Segundo! 👋
 
 ⚙️ Front-end developer \
-🇦🇷 From Argentina ️, now based in Barcelona 🇪🇸
+🇦🇷 From Argentina ️, now living in Europe
 
 Having gained experience from two professional roles as dev, with the last one ending due to the closure of the startup I was working for, I've embraced a learning-focused mindset
 
