@@ -1,6 +1,6 @@
 {
-  "commit": "aa29c296e7034eeaf9b3af47c3acb93f8e1a2058",
-  "generated": "2024-05-09T14:55:44.866Z",
+  "commit": "37cd3bd01f7f7142174ed617e93a24f0e6e13ad3",
+  "generated": "2024-05-09T15:46:59.514Z",
   "metadata": [
     {
       "__outstatic": {
@@ -147,24 +147,6 @@
     },
     {
       "__outstatic": {
-        "commit": "23d75a938bfdb14299036c9c76ec49b554dcc6a3",
-        "hash": "1842239964",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
-    },
-    {
-      "__outstatic": {
         "commit": "cee80c0ec4b12f29c797a435c21785904d574c2d",
         "hash": "2270879249",
         "path": "outstatic/content/pages/about.md"
@@ -201,6 +183,24 @@
       "tags": [
       ],
       "title": "Porqué react? #1"
+    },
+    {
+      "__outstatic": {
+        "commit": "37cd3bd01f7f7142174ed617e93a24f0e6e13ad3",
+        "hash": "3292266961",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
     }
   ]
 }

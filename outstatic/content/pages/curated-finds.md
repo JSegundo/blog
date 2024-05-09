@@ -14,3 +14,4 @@ publishedAt: '2024-04-29T20:57:57.726Z'
 
 - *For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you.*\
   [What nobody tells beginners](https://numerocinqmagazine.com/2011/05/13/what-nobody-tells-beginners-ira-glass-on-storytelling/)
+- [UI = f(data)(state)](https://overreacted.io/the-two-reacts/)
