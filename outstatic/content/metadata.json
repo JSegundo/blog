@@ -1,25 +1,7 @@
 {
-  "commit": "23d75a938bfdb14299036c9c76ec49b554dcc6a3",
-  "generated": "2024-04-29T21:41:06.873Z",
+  "commit": "5dc3ef54b5ee712a4ca45d9ea747215ee8111685",
+  "generated": "2024-05-09T22:33:48.487Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "5b73b8575b5bbb6b233fbc09a295824e72b6c77d",
-        "hash": "3165790800",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Segundo, a Front-end dev from Argentina",
-      "publishedAt": "2024-03-03T18:49:02.348Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
-    },
     {
       "__outstatic": {
         "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
@@ -165,8 +147,29 @@
     },
     {
       "__outstatic": {
-        "commit": "23d75a938bfdb14299036c9c76ec49b554dcc6a3",
-        "hash": "1842239964",
+        "commit": "aa29c296e7034eeaf9b3af47c3acb93f8e1a2058",
+        "hash": "1776118954",
+        "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-30T23:15:37.052Z",
+      "slug": "what-is-the-purpose-of-react",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Porqué react? #1"
+    },
+    {
+      "__outstatic": {
+        "commit": "37cd3bd01f7f7142174ed617e93a24f0e6e13ad3",
+        "hash": "3292266961",
         "path": "outstatic/content/pages/curated-finds.md"
       },
       "author": {
@@ -180,6 +183,66 @@
       "slug": "curated-finds",
       "status": "published",
       "title": "Curated finds"
+    },
+    {
+      "__outstatic": {
+        "commit": "fc6fc11eaa48b3b81a9979f9a00a69003b302b3d",
+        "hash": "469862746",
+        "path": "outstatic/content/posts/typescript-without-any.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-09T18:17:59.852Z",
+      "slug": "typescript-without-any",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Typescript without "
+    },
+    {
+      "__outstatic": {
+        "commit": "635405eed83a09b78e0ed9ee5e7d6384322cebe7",
+        "hash": "2909017033",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Segundo, a Front-end dev from Argentina",
+      "publishedAt": "2024-03-03T18:49:02.348Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "5dc3ef54b5ee712a4ca45d9ea747215ee8111685",
+        "hash": "374502030",
+        "path": "outstatic/content/posts/node-js-event-loop.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-09T21:05:45.985Z",
+      "slug": "node-js-event-loop",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Node.js Event Loop"
     }
   ]
 }
