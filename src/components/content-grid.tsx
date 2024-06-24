@@ -3,8 +3,9 @@ import { ArrowRight } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import type { OstDocument } from "outstatic"
+import PostPreview from "./PostPreview"
 
-type Item = {
+export type Item = {
   tags?: { value: string; label: string }[]
 } & OstDocument
 
@@ -17,6 +18,7 @@ type Props = {
 }
 
 const ContentGrid = ({
+  // const ContentGrid = ({
   title = "More",
   items,
   collection,
@@ -39,6 +41,7 @@ const ContentGrid = ({
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mt-4 md:mt-8">
         {items.map((item, id) => (
+          // <PostPreview item={item} collection={collection} />
           <Link key={item.slug} href={`/${collection}/${item.slug}`}>
             <div className="cursor-pointer border rounded-md md:w-full scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden h-full">
               <Image

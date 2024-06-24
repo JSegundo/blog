@@ -52,6 +52,7 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
 
 export default async function Post(params: Params) {
   const post = await getData(params)
+  console.log(post)
   return (
     <article className="mb-32">
       <DocHero {...post} />
@@ -85,10 +86,12 @@ async function getData({ params }: Params) {
   }
 
   const content = await MDXServer(post.content)
+  const wordCount = content.split(" ").filter(Boolean).length
 
   return {
     ...post,
     content,
+    wordCount,
   }
 }
 

@@ -1,12 +1,13 @@
-import Image from "next/image";
-import { OstDocument } from "outstatic";
-import DateFormatter from "./date-formatter";
+import Image from "next/image"
+import { OstDocument } from "outstatic"
+import DateFormatter from "./date-formatter"
 
 type Doc = {
-  tags: { value: string; label: string }[];
-} & OstDocument;
+  tags: { value: string; label: string }[]
+} & OstDocument
 
 export default function DocHero(doc: Doc) {
+  console.log(doc.wordCount)
   return (
     <>
       <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
@@ -31,11 +32,14 @@ export default function DocHero(doc: Doc) {
       <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
         {doc.title}
       </h1>
+      {/* <div className="hidden md:block md:mb-2 text-slate-600 dark:text-slate-400">
+        {doc?.wordCount} Words
+      </div> */}
       <div className="hidden md:block md:mb-12 text-slate-600 dark:text-slate-400">
         Written on <DateFormatter dateString={doc.publishedAt} /> by{" "}
         {doc?.author?.name || ""}.
       </div>
       <hr className="border-gray-200 mt-10 mb-10" />
     </>
-  );
+  )
 }

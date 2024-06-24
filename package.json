@@ -16,7 +16,6 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "date-fns": "^2.30.0",
-    "gray-matter": "^4.0.3",
     "lucide-react": "^0.303.0",
     "mdx-bundler": "^10.0.1",
     "next": "^14.0.0",
