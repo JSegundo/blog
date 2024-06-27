@@ -1,83 +1,7 @@
 {
-  "commit": "5dc3ef54b5ee712a4ca45d9ea747215ee8111685",
-  "generated": "2024-05-09T22:33:48.487Z",
+  "commit": "1dc8a1fa46974010a6fdf097cf282c7f8e03085c",
+  "generated": "Thu, 27 Jun 2024 21:41:17 GMT",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
-        "hash": "2355795964",
-        "path": "outstatic/content/posts/what-is-state-managment.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-25T10:59:04.794Z",
-      "slug": "what-is-state-managment",
-      "status": "draft",
-      "tags": "",
-      "title": "What is State managment?"
-    },
-    {
-      "__outstatic": {
-        "commit": "ec2822c5dd47cde4dfc381b01f38547d52fa5c06",
-        "hash": "704991631",
-        "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Q4ND.jpeg"
-      },
-      "collection": "posts",
-      "coverImage": "/images/aws-U5Nz.png",
-      "description": "Agunos de los principales conceptos a considerar para aprender sobre computación en la nube",
-      "publishedAt": "2024-03-15T13:47:29.164Z",
-      "slug": "primeros-pasos-aws-cloud",
-      "status": "published",
-      "tags": [
-        {
-          "label": "AWS",
-          "value": "aws"
-        },
-        {
-          "label": "VPC",
-          "value": "vpc"
-        },
-        {
-          "label": "EC2",
-          "value": "ec2"
-        },
-        {
-          "label": "Basics",
-          "value": "basics"
-        }
-      ],
-      "title": "Primeros pasos - AWS Cloud"
-    },
-    {
-      "__outstatic": {
-        "commit": "483a4e965a19db08bf8b224c771eac58d8c656a3",
-        "hash": "1907862585",
-        "path": "outstatic/content/posts/my-takes-on-server-components.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-25T10:54:59.360Z",
-      "slug": "my-takes-on-server-components",
-      "status": "published",
-      "tags": "",
-      "title": "My takes on server components"
-    },
     {
       "__outstatic": {
         "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
@@ -129,8 +53,8 @@
     },
     {
       "__outstatic": {
-        "commit": "d40b86df9de767568f591700da88b3ee6f23d81b",
-        "hash": "3385968233",
+        "commit": "2ef166ba6717b6e41ca0bd382458ed8044e7a40f",
+        "hash": "422858092",
         "path": "outstatic/content/pages/home.md"
       },
       "author": {
@@ -147,7 +71,43 @@
     },
     {
       "__outstatic": {
-        "commit": "aa29c296e7034eeaf9b3af47c3acb93f8e1a2058",
+        "commit": "1ce193c84f263f92e1ab1f2f65b1a884c8187185",
+        "hash": "3292266961",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
+    },
+    {
+      "__outstatic": {
+        "commit": "0e14ce249ddc8ce2a452138e54c11f16c62dd0ab",
+        "hash": "2909017033",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Segundo, a Front-end dev from Argentina",
+      "publishedAt": "2024-03-03T18:49:02.348Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "5e31de2faf103a77beee918159c53f57fd0c52e3",
         "hash": "1776118954",
         "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
       },
@@ -168,25 +128,27 @@
     },
     {
       "__outstatic": {
-        "commit": "37cd3bd01f7f7142174ed617e93a24f0e6e13ad3",
-        "hash": "3292266961",
-        "path": "outstatic/content/pages/curated-finds.md"
+        "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
+        "hash": "2355795964",
+        "path": "outstatic/content/posts/what-is-state-managment.md"
       },
       "author": {
         "name": "Segundo Juan",
         "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
       },
-      "collection": "pages",
+      "aws": "",
+      "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
+      "publishedAt": "2024-04-25T10:59:04.794Z",
+      "slug": "what-is-state-managment",
+      "status": "draft",
+      "tags": "",
+      "title": "What is State managment?"
     },
     {
       "__outstatic": {
-        "commit": "fc6fc11eaa48b3b81a9979f9a00a69003b302b3d",
+        "commit": "f664e06b7be4666afd668e8ba5a30db9d869a2fc",
         "hash": "469862746",
         "path": "outstatic/content/posts/typescript-without-any.md"
       },
@@ -201,31 +163,48 @@
       "publishedAt": "2024-05-09T18:17:59.852Z",
       "slug": "typescript-without-any",
       "status": "draft",
-      "tags": [
-      ],
+      "tags": "",
       "title": "Typescript without "
     },
     {
       "__outstatic": {
-        "commit": "635405eed83a09b78e0ed9ee5e7d6384322cebe7",
-        "hash": "2909017033",
-        "path": "outstatic/content/pages/about.md"
+        "commit": "ec2822c5dd47cde4dfc381b01f38547d52fa5c06",
+        "hash": "704991631",
+        "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
       },
       "author": {
         "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+        "picture": "/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Q4ND.jpeg"
       },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Segundo, a Front-end dev from Argentina",
-      "publishedAt": "2024-03-03T18:49:02.348Z",
-      "slug": "about",
+      "collection": "posts",
+      "coverImage": "/images/aws-U5Nz.png",
+      "description": "Agunos de los principales conceptos a considerar para aprender sobre computación en la nube",
+      "publishedAt": "2024-03-15T13:47:29.164Z",
+      "slug": "primeros-pasos-aws-cloud",
       "status": "published",
-      "title": "About Me"
+      "tags": [
+        {
+          "label": "AWS",
+          "value": "aws"
+        },
+        {
+          "label": "VPC",
+          "value": "vpc"
+        },
+        {
+          "label": "EC2",
+          "value": "ec2"
+        },
+        {
+          "label": "Basics",
+          "value": "basics"
+        }
+      ],
+      "title": "Primeros pasos - AWS Cloud"
     },
     {
       "__outstatic": {
-        "commit": "5dc3ef54b5ee712a4ca45d9ea747215ee8111685",
+        "commit": "08a324daf95fc91af12aff7b038edca174c63eac",
         "hash": "374502030",
         "path": "outstatic/content/posts/node-js-event-loop.md"
       },
