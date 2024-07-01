@@ -1,6 +1,6 @@
 {
-  "commit": "4a70540dc42570174acf50d8dbdd6d0a917868c5",
-  "generated": "2024-07-01T21:54:06.309Z",
+  "commit": "c7f7178e3d5470d98954f1a157f12f69b6165150",
+  "generated": "2024-07-01T22:08:19.669Z",
   "metadata": [
     {
       "__outstatic": {
@@ -225,8 +225,8 @@
     },
     {
       "__outstatic": {
-        "commit": "4a70540dc42570174acf50d8dbdd6d0a917868c5",
-        "hash": "212541675",
+        "commit": "c7f7178e3d5470d98954f1a157f12f69b6165150",
+        "hash": "3475026759",
         "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
       },
       "author": {
