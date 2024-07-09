@@ -60,6 +60,10 @@
         {
           "value": "basics",
           "label": "Basics"
+        },
+        {
+          "value": "typescript",
+          "label": "Typescript"
         }
       ]
     },

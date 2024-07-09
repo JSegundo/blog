@@ -1,5 +1,5 @@
 ---
-title: 'Typescript without '
+title: 'Typescript cool things '
 status: 'draft'
 author:
   name: 'Segundo Juan'
@@ -7,7 +7,7 @@ author:
 slug: 'typescript-without-any'
 description: ''
 coverImage: ''
-tags: ''
+tags: [{"label":"Typescript","value":"typescript"}]
 aws: ''
 publishedAt: '2024-05-09T18:17:59.852Z'
 ---

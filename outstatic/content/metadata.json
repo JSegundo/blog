@@ -1,6 +1,6 @@
 {
-  "commit": "bd5e10cdf622acc6e545f5a6706af005ae3fbc67",
-  "generated": "2024-07-09T23:17:17.643Z",
+  "commit": "e4bedd16fa33365d8ff1a53d54f4878061b9e482",
+  "generated": "2024-07-09T23:18:07.083Z",
   "metadata": [
     {
       "__outstatic": {
@@ -148,26 +148,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f664e06b7be4666afd668e8ba5a30db9d869a2fc",
-        "hash": "469862746",
-        "path": "outstatic/content/posts/typescript-without-any.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-09T18:17:59.852Z",
-      "slug": "typescript-without-any",
-      "status": "draft",
-      "tags": "",
-      "title": "Typescript without "
-    },
-    {
-      "__outstatic": {
         "commit": "ec2822c5dd47cde4dfc381b01f38547d52fa5c06",
         "hash": "704991631",
         "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
@@ -243,6 +223,31 @@
       "tags": [
       ],
       "title": "GIT wizard's commands"
+    },
+    {
+      "__outstatic": {
+        "commit": "e4bedd16fa33365d8ff1a53d54f4878061b9e482",
+        "hash": "576350341",
+        "path": "outstatic/content/posts/typescript-without-any.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-09T18:17:59.852Z",
+      "slug": "typescript-without-any",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Typescript",
+          "value": "typescript"
+        }
+      ],
+      "title": "Typescript cool things "
     }
   ]
 }
