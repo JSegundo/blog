@@ -1,28 +1,7 @@
 {
-  "commit": "87e8c84c5c6db3aff57be28133bd51899fd15b3a",
-  "generated": "Tue, 09 Jul 2024 23:19:54 GMT",
+  "commit": "42e43921fa55692d084b4fce76038bbb37149af5",
+  "generated": "2024-07-09T23:20:59.059Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "0ee1773c435a101c46d40caae464971c444feef8",
-        "hash": "3475026759",
-        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-07-01T21:55:26.158Z",
-      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "Learning this Git Commands made me feel like a wizard"
-    },
     {
       "__outstatic": {
         "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
@@ -248,6 +227,27 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "42e43921fa55692d084b4fce76038bbb37149af5",
+        "hash": "4123372927",
+        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "https://pplware.sapo.pt/wp-content/uploads/2024/02/git_capa.png",
+      "description": "",
+      "publishedAt": "2024-07-01T21:55:26.158Z",
+      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "GIT wizard's commands"
     }
   ]
 }
