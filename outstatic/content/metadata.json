@@ -1,6 +1,6 @@
 {
-  "commit": "39730207050134ecde223432eeccf6da79d8e6a3",
-  "generated": "2024-07-09T23:26:49.939Z",
+  "commit": "6a6bd394913ae48119705cd5127326bc5c7c353d",
+  "generated": "Tue, 09 Jul 2024 23:26:56 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -53,8 +53,8 @@
     },
     {
       "__outstatic": {
-        "commit": "0ee1773c435a101c46d40caae464971c444feef8",
-        "hash": "1692186016",
+        "commit": "210f2aa857e4af7846e885f9d88feb68c66dcd7e",
+        "hash": "4123372927",
         "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
       },
       "author": {
@@ -63,11 +63,11 @@
       },
       "aws": "",
       "collection": "posts",
-      "coverImage": "",
+      "coverImage": "https://pplware.sapo.pt/wp-content/uploads/2024/02/git_capa.png",
       "description": "",
       "publishedAt": "2024-07-01T21:55:26.158Z",
       "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
-      "status": "draft",
+      "status": "published",
       "tags": [
       ],
       "title": "GIT wizard's commands"
@@ -125,6 +125,31 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "75b18fe5c8ad1ae60f630eac598ac670f0a8a6d0",
+        "hash": "1165475194",
+        "path": "outstatic/content/posts/typescript-without-any.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "https://media.licdn.com/dms/image/D4D12AQEmxmyTkrPGbw/article-cover_image-shrink_720_1280/0/1690674031231?e=2147483647&v=beta&t=CWGk-6pDeIJSjSIn9vl0-c2AAAr46qpdBMKN7-6mgzw",
+      "description": "",
+      "publishedAt": "2024-05-09T18:17:59.852Z",
+      "slug": "typescript-without-any",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Typescript",
+          "value": "typescript"
+        }
+      ],
+      "title": "Typescript cooler things "
     },
     {
       "__outstatic": {
@@ -223,31 +248,6 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "39730207050134ecde223432eeccf6da79d8e6a3",
-        "hash": "1099976823",
-        "path": "outstatic/content/posts/typescript-without-any.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "https://media.licdn.com/dms/image/D4D12AQEmxmyTkrPGbw/article-cover_image-shrink_720_1280/0/1690674031231?e=2147483647&v=beta&t=CWGk-6pDeIJSjSIn9vl0-c2AAAr46qpdBMKN7-6mgzw",
-      "description": "",
-      "publishedAt": "2024-05-09T18:17:59.852Z",
-      "slug": "typescript-without-any",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Typescript",
-          "value": "typescript"
-        }
-      ],
-      "title": "Typescript cooler things "
     }
   ]
 }
