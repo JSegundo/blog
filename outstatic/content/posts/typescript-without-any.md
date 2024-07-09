@@ -1,5 +1,5 @@
 ---
-title: 'Typescript cooler things '
+title: 'Typescript cool things '
 status: 'published'
 author:
   name: 'Segundo Juan'
