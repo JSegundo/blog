@@ -12,7 +12,7 @@ aws: ''
 publishedAt: '2024-05-09T18:17:59.852Z'
 ---
 
-### Generic Types
+## Generic Types
 
 When a function is generic, it has a "type hole", just like Array does. The hole must be filled by a type, like how number fills Array&lt;number&gt;.
 
@@ -28,4 +28,13 @@ we can then fill the type hole when we call the function. At each step, it repla
 
 ```js
 first<boolean>([true, false]);
+```
+
+## Literal Types
+
+A variable of tipe 1 can only hold the numer 1. Any other thing throws a type error.
+
+```javascript
+let one:1 = 1 // works
+one = 2 // TYPE ERROR
 ```
