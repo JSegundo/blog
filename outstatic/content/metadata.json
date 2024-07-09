@@ -1,6 +1,6 @@
 {
   "commit": "0a32e85db51105fe146a4ac2594cf2de52e7d8f3",
-  "generated": "2024-07-09T23:18:57.913Z",
+  "generated": "2024-07-09T23:19:38.484Z",
   "metadata": [
     {
       "__outstatic": {
@@ -227,7 +227,7 @@
     {
       "__outstatic": {
         "commit": "0a32e85db51105fe146a4ac2594cf2de52e7d8f3",
-        "hash": "920707718",
+        "hash": "1165475194",
         "path": "outstatic/content/posts/typescript-without-any.md"
       },
       "author": {
@@ -236,11 +236,11 @@
       },
       "aws": "",
       "collection": "posts",
-      "coverImage": "",
+      "coverImage": "https://media.licdn.com/dms/image/D4D12AQEmxmyTkrPGbw/article-cover_image-shrink_720_1280/0/1690674031231?e=2147483647&v=beta&t=CWGk-6pDeIJSjSIn9vl0-c2AAAr46qpdBMKN7-6mgzw",
       "description": "",
       "publishedAt": "2024-05-09T18:17:59.852Z",
       "slug": "typescript-without-any",
-      "status": "draft",
+      "status": "published",
       "tags": [
         {
           "label": "Typescript",
