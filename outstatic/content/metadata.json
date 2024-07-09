@@ -1,6 +1,6 @@
 {
-  "commit": "b6399a3348a7ccdbaa51e49f2fdd8937657ca221",
-  "generated": "2024-07-09T23:33:45.212Z",
+  "commit": "db45d7e47101979ef728777b18455c8d8e823464",
+  "generated": "2024-07-09T23:34:16.586Z",
   "metadata": [
     {
       "__outstatic": {
@@ -50,27 +50,6 @@
         }
       ],
       "title": "Mi primer deploy en AWS"
-    },
-    {
-      "__outstatic": {
-        "commit": "210f2aa857e4af7846e885f9d88feb68c66dcd7e",
-        "hash": "4123372927",
-        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "https://pplware.sapo.pt/wp-content/uploads/2024/02/git_capa.png",
-      "description": "",
-      "publishedAt": "2024-07-01T21:55:26.158Z",
-      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "GIT wizard's commands"
     },
     {
       "__outstatic": {
@@ -248,6 +227,27 @@
         }
       ],
       "title": "Typescript cooler things "
+    },
+    {
+      "__outstatic": {
+        "commit": "db45d7e47101979ef728777b18455c8d8e823464",
+        "hash": "1724193767",
+        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "/images/git-cyMz.png",
+      "description": "",
+      "publishedAt": "2024-07-01T21:55:26.158Z",
+      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "GIT wizard's commands"
     }
   ]
 }
