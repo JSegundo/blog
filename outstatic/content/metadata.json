@@ -1,6 +1,6 @@
 {
-  "commit": "e4bedd16fa33365d8ff1a53d54f4878061b9e482",
-  "generated": "2024-07-09T23:18:28.225Z",
+  "commit": "0a32e85db51105fe146a4ac2594cf2de52e7d8f3",
+  "generated": "2024-07-09T23:18:57.913Z",
   "metadata": [
     {
       "__outstatic": {
@@ -226,8 +226,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e4bedd16fa33365d8ff1a53d54f4878061b9e482",
-        "hash": "2917887896",
+        "commit": "0a32e85db51105fe146a4ac2594cf2de52e7d8f3",
+        "hash": "920707718",
         "path": "outstatic/content/posts/typescript-without-any.md"
       },
       "author": {
@@ -247,7 +247,7 @@
           "value": "typescript"
         }
       ],
-      "title": "Typescript cool things "
+      "title": "Typescript cooler things "
     }
   ]
 }
