@@ -12,4 +12,20 @@ aws: ''
 publishedAt: '2024-05-09T18:17:59.852Z'
 ---
 
-ad
+### Generic Types
+
+ When a function is generic, it has a "type hole", just like Array does. The hole must be filled by a type, like how number fills Array&lt;number&gt;.
+
+In the example below, we name the type hole T. This is a common generic type parameter name, and it works well enough in simple situations.
+
+```js
+function first<T>(elements: Array<T>): T {
+  return elements[0];
+}
+```
+
+we can then fill the type hole when we call the function.  At each step, it replaces the T type parameter with the actual type.
+
+```js
+first<boolean>([true, false]);
+```

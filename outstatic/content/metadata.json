@@ -1,6 +1,6 @@
 {
   "commit": "e4bedd16fa33365d8ff1a53d54f4878061b9e482",
-  "generated": "2024-07-09T23:18:07.083Z",
+  "generated": "2024-07-09T23:18:28.225Z",
   "metadata": [
     {
       "__outstatic": {
@@ -227,7 +227,7 @@
     {
       "__outstatic": {
         "commit": "e4bedd16fa33365d8ff1a53d54f4878061b9e482",
-        "hash": "576350341",
+        "hash": "2917887896",
         "path": "outstatic/content/posts/typescript-without-any.md"
       },
       "author": {
