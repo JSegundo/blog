@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'typescript-without-any'
 description: ''
-coverImage: 'https://media.licdn.com/dms/image/D4D12AQEmxmyTkrPGbw/article-cover_image-shrink_720_1280/0/1690674031231?e=2147483647&v=beta&t=CWGk-6pDeIJSjSIn9vl0-c2AAAr46qpdBMKN7-6mgzw'
+coverImage: '/images/ts-Q5ND.png'
 tags: [{"label":"Typescript","value":"typescript"}]
 aws: ''
 publishedAt: '2024-05-09T18:17:59.852Z'

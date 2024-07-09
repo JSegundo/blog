@@ -1,6 +1,6 @@
 {
-  "commit": "6a6bd394913ae48119705cd5127326bc5c7c353d",
-  "generated": "Tue, 09 Jul 2024 23:26:56 GMT",
+  "commit": "b6399a3348a7ccdbaa51e49f2fdd8937657ca221",
+  "generated": "2024-07-09T23:33:45.212Z",
   "metadata": [
     {
       "__outstatic": {
@@ -128,31 +128,6 @@
     },
     {
       "__outstatic": {
-        "commit": "75b18fe5c8ad1ae60f630eac598ac670f0a8a6d0",
-        "hash": "1165475194",
-        "path": "outstatic/content/posts/typescript-without-any.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "https://media.licdn.com/dms/image/D4D12AQEmxmyTkrPGbw/article-cover_image-shrink_720_1280/0/1690674031231?e=2147483647&v=beta&t=CWGk-6pDeIJSjSIn9vl0-c2AAAr46qpdBMKN7-6mgzw",
-      "description": "",
-      "publishedAt": "2024-05-09T18:17:59.852Z",
-      "slug": "typescript-without-any",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Typescript",
-          "value": "typescript"
-        }
-      ],
-      "title": "Typescript cooler things "
-    },
-    {
-      "__outstatic": {
         "commit": "5e31de2faf103a77beee918159c53f57fd0c52e3",
         "hash": "1776118954",
         "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
@@ -248,6 +223,31 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "b6399a3348a7ccdbaa51e49f2fdd8937657ca221",
+        "hash": "1840002134",
+        "path": "outstatic/content/posts/typescript-without-any.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "/images/ts-Q5ND.png",
+      "description": "",
+      "publishedAt": "2024-05-09T18:17:59.852Z",
+      "slug": "typescript-without-any",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Typescript",
+          "value": "typescript"
+        }
+      ],
+      "title": "Typescript cooler things "
     }
   ]
 }
