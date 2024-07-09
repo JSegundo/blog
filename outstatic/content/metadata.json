@@ -1,6 +1,6 @@
 {
-  "commit": "c7f7178e3d5470d98954f1a157f12f69b6165150",
-  "generated": "2024-07-01T22:08:19.669Z",
+  "commit": "bd5e10cdf622acc6e545f5a6706af005ae3fbc67",
+  "generated": "2024-07-09T23:17:17.643Z",
   "metadata": [
     {
       "__outstatic": {
@@ -225,8 +225,8 @@
     },
     {
       "__outstatic": {
-        "commit": "c7f7178e3d5470d98954f1a157f12f69b6165150",
-        "hash": "3475026759",
+        "commit": "bd5e10cdf622acc6e545f5a6706af005ae3fbc67",
+        "hash": "1692186016",
         "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
       },
       "author": {
@@ -242,7 +242,7 @@
       "status": "draft",
       "tags": [
       ],
-      "title": "Learning this Git Commands made me feel like a wizard"
+      "title": "GIT wizard's commands"
     }
   ]
 }

@@ -1,5 +1,5 @@
 ---
-title: 'Learning this Git Commands made me feel like a wizard'
+title: 'GIT wizard''s commands'
 status: 'draft'
 author:
   name: 'Segundo Juan'
@@ -20,6 +20,6 @@ git stash apply{@}
 
 see the stash contents with git stash show -p
 
-*&lt;a href=*"<https://www.youtube.com/watch?v=ou6FvHyPegQ"&gt;https://www.youtube.com/watch?v=ou6FvHyPegQ&lt;/a&gt;>
+*&lt;a href=*"[https://www.youtube.com/watch?v=ou6FvHyPegQ"&gt;https://www.youtube.com/watch?v=ou6FvHyPegQ&lt;/a&gt;](https://www.youtube.com/watch?v=ou6FvHyPegQ%22&gt;https://www.youtube.com/watch?v=ou6FvHyPegQ&lt;/a&gt;)
 
 ![](/images/screenshot-from-2024-07-01-22-57-30-c2MT.png)
