@@ -20,6 +20,6 @@ git stash apply{@}
 
 see the stash contents with git stash show -p
 
-*&lt;a href=*"[https://www.youtube.com/watch?v=ou6FvHyPegQ"&gt;https://www.youtube.com/watch?v=ou6FvHyPegQ&lt;/a&gt;](https://www.youtube.com/watch?v=ou6FvHyPegQ%22%3Ehttps://www.youtube.com/watch?v=ou6FvHyPegQ%3C/a%3E)
+[*video*](<a href=\"https://www.youtube.com/watch?v=ou6FvHyPegQ\">https://www.youtube.com/watch?v=ou6FvHyPegQ</a>)
 
 ![](/images/screenshot-from-2024-07-01-22-57-30-c2MT.png)

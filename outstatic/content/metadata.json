@@ -1,6 +1,6 @@
 {
-  "commit": "4999f38e21d66f80e87b02068cd538ec2f5d2cca",
-  "generated": "2024-07-09T23:34:34.663Z",
+  "commit": "d5246f854625e80c6ee5625e708f16ec4da358f8",
+  "generated": "2024-08-05T20:59:00.304Z",
   "metadata": [
     {
       "__outstatic": {
@@ -205,27 +205,6 @@
     },
     {
       "__outstatic": {
-        "commit": "db45d7e47101979ef728777b18455c8d8e823464",
-        "hash": "1724193767",
-        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "/images/git-cyMz.png",
-      "description": "",
-      "publishedAt": "2024-07-01T21:55:26.158Z",
-      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "GIT wizard's commands"
-    },
-    {
-      "__outstatic": {
         "commit": "4999f38e21d66f80e87b02068cd538ec2f5d2cca",
         "hash": "4034395222",
         "path": "outstatic/content/posts/typescript-without-any.md"
@@ -248,6 +227,27 @@
         }
       ],
       "title": "Typescript cool things "
+    },
+    {
+      "__outstatic": {
+        "commit": "d5246f854625e80c6ee5625e708f16ec4da358f8",
+        "hash": "3448164349",
+        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "/images/git-cyMz.png",
+      "description": "",
+      "publishedAt": "2024-07-01T21:55:26.158Z",
+      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "GIT wizard's commands"
     }
   ]
 }
