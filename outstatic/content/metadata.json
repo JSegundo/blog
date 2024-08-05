@@ -1,7 +1,28 @@
 {
-  "commit": "b59b85694964fe9ffffeff8db9433ef15ddc7fca",
-  "generated": "2024-08-05T20:59:21.703Z",
+  "commit": "456f477ae865ebf4bf3b1943cfbca80c1fbf2a75",
+  "generated": "Mon, 05 Aug 2024 21:04:10 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "dd4f95420f052282f73532c061a914ca0a94fb89",
+        "hash": "1724193767",
+        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "/images/git-cyMz.png",
+      "description": "",
+      "publishedAt": "2024-07-01T21:55:26.158Z",
+      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "GIT wizard's commands"
+    },
     {
       "__outstatic": {
         "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
@@ -107,6 +128,31 @@
     },
     {
       "__outstatic": {
+        "commit": "011d2775fe58d763491ece1d9737ce415afbae5c",
+        "hash": "4034395222",
+        "path": "outstatic/content/posts/typescript-without-any.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "/images/ts-Q5ND.png",
+      "description": "",
+      "publishedAt": "2024-05-09T18:17:59.852Z",
+      "slug": "typescript-without-any",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Typescript",
+          "value": "typescript"
+        }
+      ],
+      "title": "Typescript cool things "
+    },
+    {
+      "__outstatic": {
         "commit": "5e31de2faf103a77beee918159c53f57fd0c52e3",
         "hash": "1776118954",
         "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
@@ -202,52 +248,6 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "d5246f854625e80c6ee5625e708f16ec4da358f8",
-        "hash": "3448164349",
-        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "/images/git-cyMz.png",
-      "description": "",
-      "publishedAt": "2024-07-01T21:55:26.158Z",
-      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "GIT wizard's commands"
-    },
-    {
-      "__outstatic": {
-        "commit": "b59b85694964fe9ffffeff8db9433ef15ddc7fca",
-        "hash": "2400101696",
-        "path": "outstatic/content/posts/typescript-without-any.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "/images/ts-Q5ND.png",
-      "description": "",
-      "publishedAt": "2024-05-09T18:17:59.852Z",
-      "slug": "typescript-without-any",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Typescript",
-          "value": "typescript"
-        }
-      ],
-      "title": "Typescript cool things "
     }
   ]
 }
