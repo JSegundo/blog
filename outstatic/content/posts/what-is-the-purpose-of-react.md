@@ -1,15 +1,15 @@
 ---
-title: 'Porqué react? #1'
-status: 'draft'
+title: "Porqué react? #1"
+status: "draft"
 author:
-  name: 'Segundo Juan'
-  picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
-slug: 'what-is-the-purpose-of-react'
-description: ''
-coverImage: ''
+  name: "Segundo Juan"
+  picture: "https://avatars.githubusercontent.com/u/87492687?v=4"
+slug: "what-is-the-purpose-of-react"
+description: ""
+coverImage: ""
 tags: []
-aws: ''
-publishedAt: '2024-04-30T23:15:37.052Z'
+aws: ""
+publishedAt: "2024-04-30T23:15:37.052Z"
 ---
 
 what are the holes that react fills up? why do we need it?
@@ -35,13 +35,9 @@ si no sabes lo que es jsx probablemente nunca tocaste react.
 jsx nos permite usar html en nuestro javascript, y javascript en el html
 
 ```javascript
-import React from "react"
-
 const Component = () => {
   return <div>Component</div>
 }
-
-export default Component
 ```
 
 (una función de javascript retorna HTML)
@@ -61,7 +57,6 @@ const Component = ({props}) => {
   )
 }
 
-export default Component
 ```
 
 (ejecutamos una funcion de javascript dentro de una etiqueta html y mostramos un mensaje accediendo a un objeto con js)
