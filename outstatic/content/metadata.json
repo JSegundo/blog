@@ -1,28 +1,7 @@
 {
-  "commit": "456f477ae865ebf4bf3b1943cfbca80c1fbf2a75",
-  "generated": "Mon, 05 Aug 2024 21:04:10 GMT",
+  "commit": "52d4523ebb3ccd83fc2f4f12d61741975445aa2b",
+  "generated": "2024-08-06T21:23:23.629Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "dd4f95420f052282f73532c061a914ca0a94fb89",
-        "hash": "1724193767",
-        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "/images/git-cyMz.png",
-      "description": "",
-      "publishedAt": "2024-07-01T21:55:26.158Z",
-      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "GIT wizard's commands"
-    },
     {
       "__outstatic": {
         "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
@@ -248,6 +227,27 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "52d4523ebb3ccd83fc2f4f12d61741975445aa2b",
+        "hash": "1382789023",
+        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "/images/git-cyMz.png",
+      "description": "",
+      "publishedAt": "2024-07-01T21:55:26.158Z",
+      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "GIT wizard's commands"
     }
   ]
 }

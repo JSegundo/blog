@@ -1,15 +1,15 @@
 ---
-title: "GIT wizard's commands"
-status: "published"
+title: 'GIT wizard''s commands'
+status: 'draft'
 author:
-  name: "Segundo Juan"
-  picture: "https://avatars.githubusercontent.com/u/87492687?v=4"
-slug: "learning-this-git-commands-made-me-feel-like-a-wizard"
-description: ""
-coverImage: "/images/git-cyMz.png"
+  name: 'Segundo Juan'
+  picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
+slug: 'learning-this-git-commands-made-me-feel-like-a-wizard'
+description: ''
+coverImage: '/images/git-cyMz.png'
 tags: []
-aws: ""
-publishedAt: "2024-07-01T21:55:26.158Z"
+aws: ''
+publishedAt: '2024-07-01T21:55:26.158Z'
 ---
 
 Git stash.. go beyond git stash and git stash pop
