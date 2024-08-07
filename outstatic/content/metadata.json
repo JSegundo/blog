@@ -1,6 +1,6 @@
 {
-  "commit": "5ba283a6d4c904a48236a8a3487c1e0adaca23f8",
-  "generated": "Tue, 06 Aug 2024 21:23:45 GMT",
+  "commit": "7a25aa5a87ecc2b5b5e581aaaf475abed04d6fbc",
+  "generated": "2024-08-07T22:51:20.048Z",
   "metadata": [
     {
       "__outstatic": {
@@ -128,31 +128,6 @@
     },
     {
       "__outstatic": {
-        "commit": "011d2775fe58d763491ece1d9737ce415afbae5c",
-        "hash": "2400101696",
-        "path": "outstatic/content/posts/typescript-without-any.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "/images/ts-Q5ND.png",
-      "description": "",
-      "publishedAt": "2024-05-09T18:17:59.852Z",
-      "slug": "typescript-without-any",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Typescript",
-          "value": "typescript"
-        }
-      ],
-      "title": "Typescript cool things "
-    },
-    {
-      "__outstatic": {
         "commit": "f360b1a8477ada8423897334dba9ab98d190e9fe",
         "hash": "2308363506",
         "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
@@ -248,6 +223,31 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "7a25aa5a87ecc2b5b5e581aaaf475abed04d6fbc",
+        "hash": "2400101696",
+        "path": "outstatic/content/posts/typescript-without-any.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "/images/ts-Q5ND.png",
+      "description": "",
+      "publishedAt": "2024-05-09T18:17:59.852Z",
+      "slug": "typescript-without-any",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Typescript",
+          "value": "typescript"
+        }
+      ],
+      "title": "Typescript cool things "
     }
   ]
 }
