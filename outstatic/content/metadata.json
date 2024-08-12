@@ -1,27 +1,24 @@
 {
-  "commit": "3b56f789a2b1688242f143532b2c0da3619aaa04",
-  "generated": "2024-08-12T20:51:27.085Z",
+  "commit": "ef1dc5036882eed1a8f64c9d09004cd06fd01b34",
+  "generated": "Mon, 12 Aug 2024 20:51:38 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "642c6a0448a637572ac72c98961261c74a3ce823",
-        "hash": "1636895717",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+        "commit": "c6e0a14da69c8caf77f098ed03f46a7f540cb7d5",
+        "hash": "4152981433",
+        "path": "outstatic/content/pages/about.md"
       },
       "author": {
         "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
       },
-      "aws": "",
-      "collection": "posts",
+      "collection": "pages",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-12T20:24:25.523Z",
-      "slug": "dependency-injection-in-a-nutshell",
+      "description": "I'm Segundo, a Front-end dev from Argentina",
+      "publishedAt": "2024-03-03T18:49:02.348Z",
+      "slug": "about",
       "status": "published",
-      "tags": [
-      ],
-      "title": "Dependency injection in a nutshell"
+      "title": "About Me"
     },
     {
       "__outstatic": {
@@ -95,6 +92,26 @@
     },
     {
       "__outstatic": {
+        "commit": "642c6a0448a637572ac72c98961261c74a3ce823",
+        "hash": "1636895717",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-12T20:24:25.523Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "published",
+      "tags": "",
+      "title": "Dependency injection in a nutshell"
+    },
+    {
+      "__outstatic": {
         "commit": "2ef166ba6717b6e41ca0bd382458ed8044e7a40f",
         "hash": "422858092",
         "path": "outstatic/content/pages/home.md"
@@ -110,6 +127,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "33a34daab6680246e737af609110214b5fa781ca",
+        "hash": "3055270975",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
     },
     {
       "__outstatic": {
@@ -233,42 +268,6 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "a316fbfa0935e972cdf43aa2ecd615b9e87f4008",
-        "hash": "4152981433",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Segundo, a Front-end dev from Argentina",
-      "publishedAt": "2024-03-03T18:49:02.348Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
-    },
-    {
-      "__outstatic": {
-        "commit": "3b56f789a2b1688242f143532b2c0da3619aaa04",
-        "hash": "3055270975",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
     }
   ]
 }
