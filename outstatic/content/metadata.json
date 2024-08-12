@@ -1,6 +1,6 @@
 {
-  "commit": "a316fbfa0935e972cdf43aa2ecd615b9e87f4008",
-  "generated": "2024-08-12T20:49:44.892Z",
+  "commit": "3b56f789a2b1688242f143532b2c0da3619aaa04",
+  "generated": "2024-08-12T20:51:27.085Z",
   "metadata": [
     {
       "__outstatic": {
@@ -110,24 +110,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "1ce193c84f263f92e1ab1f2f65b1a884c8187185",
-        "hash": "3292266961",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
     },
     {
       "__outstatic": {
@@ -269,6 +251,24 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "3b56f789a2b1688242f143532b2c0da3619aaa04",
+        "hash": "3055270975",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
     }
   ]
 }
