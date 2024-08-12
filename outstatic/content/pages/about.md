@@ -12,17 +12,13 @@ publishedAt: '2024-03-03T18:49:02.348Z'
 
 ## Hey, I'm Segundo! 👋
 
-⚙️ Front-end developer \
-🇦🇷 From Argentina ️, now living in Europe
-
-Having gained experience from two professional roles as dev, with the last one ending due to the closure of the startup I was working for, I've embraced a learning-focused mindset
-
-Right now, I'm immersing myself in open source projects, and following a Blog Driven Development approach to document, and learn as I blog.
+⚙️ Software developer \
+🇦🇷 From Argentina ️,living in Portugal 🇵🇹️
 
 ### Tech I use 🎛️
 
 ```js
-React, Next.js, TailwindCSS, TypeScript, Node.js, Docker, Git, AWS, Jest, Vitest, MongoDB, MySQL, React Native, Figma ...
+Node.js, TypeScript, React, Next.js, TailwindCSS, Docker, Git, AWS, Jest, MySQL
 ```
 
 ### How to reach me 📫
