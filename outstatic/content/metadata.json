@@ -1,7 +1,46 @@
 {
-  "commit": "2cfbf55ed0f71b1555f62a1d173cb53bb74e5ae6",
-  "generated": "2024-08-12T20:25:50.986Z",
+  "commit": "a92a3ab627a4732a1a935b9a3a69157e03277665",
+  "generated": "Mon, 12 Aug 2024 20:26:06 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "0e14ce249ddc8ce2a452138e54c11f16c62dd0ab",
+        "hash": "2909017033",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Segundo, a Front-end dev from Argentina",
+      "publishedAt": "2024-03-03T18:49:02.348Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "642c6a0448a637572ac72c98961261c74a3ce823",
+        "hash": "1636895717",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-12T20:24:25.523Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Dependency injection in a nutshell"
+    },
     {
       "__outstatic": {
         "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
@@ -110,49 +149,6 @@
     },
     {
       "__outstatic": {
-        "commit": "0e14ce249ddc8ce2a452138e54c11f16c62dd0ab",
-        "hash": "2909017033",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Segundo, a Front-end dev from Argentina",
-      "publishedAt": "2024-03-03T18:49:02.348Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
-    },
-    {
-      "__outstatic": {
-        "commit": "011d2775fe58d763491ece1d9737ce415afbae5c",
-        "hash": "2400101696",
-        "path": "outstatic/content/posts/typescript-without-any.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "/images/ts-Q5ND.png",
-      "description": "",
-      "publishedAt": "2024-05-09T18:17:59.852Z",
-      "slug": "typescript-without-any",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Typescript",
-          "value": "typescript"
-        }
-      ],
-      "title": "Typescript cool things "
-    },
-    {
-      "__outstatic": {
         "commit": "f360b1a8477ada8423897334dba9ab98d190e9fe",
         "hash": "2308363506",
         "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
@@ -191,6 +187,31 @@
       "status": "draft",
       "tags": "",
       "title": "What is State managment?"
+    },
+    {
+      "__outstatic": {
+        "commit": "011d2775fe58d763491ece1d9737ce415afbae5c",
+        "hash": "2400101696",
+        "path": "outstatic/content/posts/typescript-without-any.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "/images/ts-Q5ND.png",
+      "description": "",
+      "publishedAt": "2024-05-09T18:17:59.852Z",
+      "slug": "typescript-without-any",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Typescript",
+          "value": "typescript"
+        }
+      ],
+      "title": "Typescript cool things "
     },
     {
       "__outstatic": {
@@ -248,27 +269,6 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "2cfbf55ed0f71b1555f62a1d173cb53bb74e5ae6",
-        "hash": "1636895717",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-12T20:24:25.523Z",
-      "slug": "dependency-injection-in-a-nutshell",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Dependency injection in a nutshell"
     }
   ]
 }
