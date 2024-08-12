@@ -1,6 +1,6 @@
 {
-  "commit": "2f36a07fbad21132500c539b31e62f7a119789f4",
-  "generated": "Wed, 07 Aug 2024 22:51:27 GMT",
+  "commit": "2cfbf55ed0f71b1555f62a1d173cb53bb74e5ae6",
+  "generated": "2024-08-12T20:25:50.986Z",
   "metadata": [
     {
       "__outstatic": {
@@ -248,6 +248,27 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "2cfbf55ed0f71b1555f62a1d173cb53bb74e5ae6",
+        "hash": "1636895717",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-12T20:24:25.523Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Dependency injection in a nutshell"
     }
   ]
 }
