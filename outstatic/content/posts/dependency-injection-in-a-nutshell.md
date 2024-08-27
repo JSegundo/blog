@@ -7,12 +7,13 @@ author:
 slug: 'dependency-injection-in-a-nutshell'
 description: ''
 coverImage: ''
-tags: ''
+tags: [{"label":"OOP","value":"oop"}]
 aws: ''
 publishedAt: '2024-08-12T20:24:25.523Z'
 ---
 
-a piece of code that uses another piece of code and instead of using that code directly, its passed in.
+\
+Dependency injection is just a function parameter that accepts an instance of an object.
 
 opposite of "tight coupling" the class is responsible for instantiating or obtaining its dependent objects.
 
@@ -25,7 +26,7 @@ class DataProcessor {
 }
 ```
 
-the dependency is provided from outside 
+the dependency is provided from outside
 
 ---
 
@@ -36,12 +37,6 @@ class DataProcessor {
 }
 ```
 
- 
-
 ---
 
- 
-
 DI is prefered for flexibility, testability and maintanability
-
- 

@@ -1,6 +1,6 @@
 {
-  "commit": "ef1dc5036882eed1a8f64c9d09004cd06fd01b34",
-  "generated": "Mon, 12 Aug 2024 20:51:38 GMT",
+  "commit": "a80b6e3271d913ffcc5a6b58bca00a6655c82d04",
+  "generated": "2024-08-27T22:38:47.818Z",
   "metadata": [
     {
       "__outstatic": {
@@ -89,26 +89,6 @@
       "tags": [
       ],
       "title": "GIT wizard's commands"
-    },
-    {
-      "__outstatic": {
-        "commit": "642c6a0448a637572ac72c98961261c74a3ce823",
-        "hash": "1636895717",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-12T20:24:25.523Z",
-      "slug": "dependency-injection-in-a-nutshell",
-      "status": "published",
-      "tags": "",
-      "title": "Dependency injection in a nutshell"
     },
     {
       "__outstatic": {
@@ -268,6 +248,31 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "a80b6e3271d913ffcc5a6b58bca00a6655c82d04",
+        "hash": "2364691128",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-12T20:24:25.523Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "published",
+      "tags": [
+        {
+          "label": "OOP",
+          "value": "oop"
+        }
+      ],
+      "title": "Dependency injection in a nutshell"
     }
   ]
 }
