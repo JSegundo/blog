@@ -1,6 +1,6 @@
 {
-  "commit": "cccdbfb3d59bd444725bf668c72acece4b01b821",
-  "generated": "2024-08-31T22:03:43.574Z",
+  "commit": "0cab97644d0ef7f0f5fb99f5ac47f8b9c6ac6153",
+  "generated": "2024-09-01T20:43:43.941Z",
   "metadata": [
     {
       "__outstatic": {
@@ -127,24 +127,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "33a34daab6680246e737af609110214b5fa781ca",
-        "hash": "3055270975",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
     },
     {
       "__outstatic": {
@@ -289,6 +271,24 @@
       "tags": [
       ],
       "title": "Debugging mindset"
+    },
+    {
+      "__outstatic": {
+        "commit": "0cab97644d0ef7f0f5fb99f5ac47f8b9c6ac6153",
+        "hash": "2879260106",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
     }
   ]
 }
