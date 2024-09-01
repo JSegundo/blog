@@ -43,7 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="relative pb-56 md:pb-36 min-h-screen">
+      <body className="relative pb-24 md:pb-36 min-h-screen">
         <GoogleTagManager gtmId="G-Q0RN52GJ8G" />
 
         <ThemeProvider

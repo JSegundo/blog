@@ -1,24 +1,24 @@
-import { ImageResponse } from "@vercel/og";
+import { ImageResponse } from "@vercel/og"
 
-export const runtime = "edge";
+export const runtime = "edge"
 
 const font = fetch(
   new URL("../../../../fonts/Inter-SemiBold.ttf", import.meta.url)
-).then((res) => res.arrayBuffer());
+).then((res) => res.arrayBuffer())
 
 export async function GET(request: Request) {
-  const fontData = await font;
+  const fontData = await font
 
   try {
-    const { searchParams } = new URL(request.url);
+    const { searchParams } = new URL(request.url)
 
     // ?title=<title>
-    const hasTitle = searchParams.has("title");
-    const title = hasTitle ? searchParams.get("title") : "My Outstatic Site";
+    const hasTitle = searchParams.has("title")
+    const title = hasTitle ? searchParams.get("title") : "My Outstatic Site"
 
     // ?siteUrl=<siteUrl>
-    const hasSiteUrl = searchParams.has("siteUrl");
-    const siteUrl = hasSiteUrl ? searchParams.get("siteUrl") : "outstatic.com";
+    const hasSiteUrl = searchParams.has("siteUrl")
+    const siteUrl = hasSiteUrl ? searchParams.get("siteUrl") : "outstatic.com"
 
     // Built using satori (https://github.com/vercel/satori)
     return new ImageResponse(
@@ -147,11 +147,11 @@ export async function GET(request: Request) {
           },
         ],
       }
-    );
+    )
   } catch (e: any) {
-    console.log(`${e.message}`);
+    console.log(`${e.message}`)
     return new Response(`Failed to generate the image`, {
       status: 500,
-    });
+    })
   }
 }
