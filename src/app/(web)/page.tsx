@@ -1,4 +1,5 @@
 import ContentGrid from "@/components/content-grid"
+import ContentRow from "@/components/content-rows"
 import markdownToHtml from "@/lib/markdownToHtml"
 import { load } from "outstatic/server"
 
@@ -7,19 +8,18 @@ export default async function Index() {
 
   return (
     <>
-      <section className="mb-12 md:min-h-[calc(100vh-256px)] items-center flex">
+      <section className="mb-1 md:min-h-[calc(100vh-256px)] items-center flex">
         <div
           className="prose lg:prose-xl home-intro prose-outstatic"
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </section>
       {allPosts.length > 0 && (
-        <ContentGrid
+        <ContentRow
           title="Notes and half-baked explorations"
           items={allPosts}
           collection="posts"
           priority
-          viewAll
         />
       )}
       {/* {Object.keys(otherCollections).map((collection) => {
@@ -60,7 +60,7 @@ async function getData() {
       "tags",
     ])
     .sort({ publishedAt: -1 })
-    .limit(3)
+    // .limit(3)
     .toArray()
 
   // get remaining collections
@@ -81,7 +81,7 @@ async function getData() {
       ]
     )
     .sort({ publishedAt: -1 })
-    .limit(3)
+    // .limit(3)
     .toArray()
 
   // group remaining collections by collection

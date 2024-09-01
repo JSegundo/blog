@@ -4,7 +4,7 @@ import { BuiltWithOutstatic } from "./built-with-outstatic"
 
 const Footer = () => {
   return (
-    <div className="absolute bottom-0 w-full bg-slate-50 dark:bg-background dark:text-gray-400 text-gray-900 py-2 pb-20 md:pb-10 md:py-10 border-t">
+    <div className="absolute bottom-0 w-full bg-background text-gray-400 light:text-gray-900 py-2 pb-20 md:pb-10 md:py-10 border-t">
       <footer className="max-w-6xl container mx-auto flex flex-col md:flex-row items-start justify-between p6-4 px-6">
         <div className="flex justify-between w-full items-center">
           <div className="flex flex-col w-1/2">

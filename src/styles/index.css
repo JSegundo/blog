@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.courier-prime-regular {
+  font-family: "Courier Prime", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+html {
+  font-family: "Courier Prime", system-ui;
+}
 @layer base {
   :root {
     --background: 222.2 84% 4.9%;
@@ -101,11 +129,12 @@
   }
   body {
     @apply bg-background text-foreground;
+    @apply courier-prime-regular;
   }
 }
 
 .home-intro p {
-  @apply text-xl md:text-2xl font-thin md:leading-tight;
+  @apply text-base md:text-xl font-thin md:leading-tight;
 
   a {
     @apply before:-z-10 relative before:bg-secondary font-normal no-underline transition-all inline-block before:content-normal before:absolute before:w-0 before:transition-all before:duration-300 before:h-full before:-left-1 before:top-1;
@@ -124,12 +153,12 @@
   @apply px-4 pb-4 pt-6 border rounded-sm bg-gray-800 dark:bg-gray-800 text-white dark:text-gray-800;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .md\:prose-xl.prose-outstatic
     :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     @apply pt-8;
   }
-}
+} */
 
 .prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   @apply px-0 py-1 border rounded-sm bg-gray-800 dark:bg-gray-800 text-white;
