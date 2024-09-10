@@ -1,25 +1,7 @@
 {
-  "commit": "5d5f2fc90e39d82df0f3370ebd007c8171130aae",
-  "generated": "2024-09-10T20:01:37.952Z",
+  "commit": "b044790bf3a5dea71fdeec83a2c42f5a027383f1",
+  "generated": "2024-09-10T20:03:23.188Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "c6e0a14da69c8caf77f098ed03f46a7f540cb7d5",
-        "hash": "4152981433",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Segundo, a Front-end dev from Argentina",
-      "publishedAt": "2024-03-03T18:49:02.348Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
-    },
     {
       "__outstatic": {
         "commit": "5a97738494583ecc8abaa5cc826f570fd7d9cd19",
@@ -289,6 +271,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "b044790bf3a5dea71fdeec83a2c42f5a027383f1",
+        "hash": "2748246513",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Segundo, a Javascript dev from Argentina",
+      "publishedAt": "2024-03-03T18:49:02.348Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
     }
   ]
 }
