@@ -1,6 +1,6 @@
 {
-  "commit": "0cab97644d0ef7f0f5fb99f5ac47f8b9c6ac6153",
-  "generated": "2024-09-01T20:43:43.941Z",
+  "commit": "5d5f2fc90e39d82df0f3370ebd007c8171130aae",
+  "generated": "2024-09-10T20:01:37.952Z",
   "metadata": [
     {
       "__outstatic": {
@@ -109,24 +109,6 @@
       "tags": [
       ],
       "title": "GIT wizard's commands"
-    },
-    {
-      "__outstatic": {
-        "commit": "2ef166ba6717b6e41ca0bd382458ed8044e7a40f",
-        "hash": "422858092",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2024-03-03T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
     },
     {
       "__outstatic": {
@@ -289,6 +271,24 @@
       "slug": "curated-finds",
       "status": "published",
       "title": "Curated finds"
+    },
+    {
+      "__outstatic": {
+        "commit": "5d5f2fc90e39d82df0f3370ebd007c8171130aae",
+        "hash": "1193885166",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2024-03-03T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
