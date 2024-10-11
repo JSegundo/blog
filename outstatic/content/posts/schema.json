@@ -68,6 +68,18 @@
         {
           "value": "oop",
           "label": "OOP"
+        },
+        {
+          "value": "di",
+          "label": "DI"
+        },
+        {
+          "value": "dependencyInversionPrinciple",
+          "label": "Dependency Inversion Principle"
+        },
+        {
+          "value": "concepts",
+          "label": "Concepts"
         }
       ]
     },

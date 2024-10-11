@@ -1,27 +1,7 @@
 {
-  "commit": "b044790bf3a5dea71fdeec83a2c42f5a027383f1",
-  "generated": "2024-09-10T20:03:23.188Z",
+  "commit": "f70ed4db2c4e5456c182ed669363952f20f5702d",
+  "generated": "2024-10-11T21:28:24.338Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "5a97738494583ecc8abaa5cc826f570fd7d9cd19",
-        "hash": "1636895717",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-12T20:24:25.523Z",
-      "slug": "dependency-injection-in-a-nutshell",
-      "status": "published",
-      "tags": "",
-      "title": "Dependency injection in a nutshell"
-    },
     {
       "__outstatic": {
         "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
@@ -289,6 +269,43 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "f70ed4db2c4e5456c182ed669363952f20f5702d",
+        "hash": "2548225405",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-11T20:24:25.000Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "published",
+      "tags": [
+        {
+          "label": "OOP",
+          "value": "oop"
+        },
+        {
+          "label": "DI",
+          "value": "di"
+        },
+        {
+          "label": "Dependency Inversion Principle",
+          "value": "dependencyInversionPrinciple"
+        },
+        {
+          "label": "Concepts",
+          "value": "concepts"
+        }
+      ],
+      "title": "Dependency injection in a nutshell"
     }
   ]
 }
