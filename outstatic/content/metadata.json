@@ -1,7 +1,68 @@
 {
-  "commit": "f70ed4db2c4e5456c182ed669363952f20f5702d",
-  "generated": "2024-10-11T21:28:24.338Z",
+  "commit": "8795f77ca50cdd9c9579ae570da77acf453e1360",
+  "generated": "Fri, 11 Oct 2024 21:29:26 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "55786c682f86959d265674c598426c00cdb4b29a",
+        "hash": "2879260106",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
+    },
+    {
+      "__outstatic": {
+        "commit": "67802096d35a54654e1154565cf6ca3231a04140",
+        "hash": "2748246513",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Segundo, a Javascript dev from Argentina",
+      "publishedAt": "2024-03-03T18:49:02.348Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "e555aea12f899eab00924d9cb9c42cf38a69229a",
+        "hash": "2364691128",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-12T20:24:25.523Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "published",
+      "tags": [
+        {
+          "label": "OOP",
+          "value": "oop"
+        }
+      ],
+      "title": "Dependency injection in a nutshell"
+    },
     {
       "__outstatic": {
         "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
@@ -71,6 +132,44 @@
       "tags": [
       ],
       "title": "GIT wizard's commands"
+    },
+    {
+      "__outstatic": {
+        "commit": "e7575019d2a10c731dfa7d2dc6aed8341568aab7",
+        "hash": "808926931",
+        "path": "outstatic/content/posts/debugging-mindset.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-31T22:09:23.744Z",
+      "slug": "debugging-mindset",
+      "status": "draft",
+      "tags": "",
+      "title": "Debugging mindset"
+    },
+    {
+      "__outstatic": {
+        "commit": "565a4d4ef1e5ddc001027b84910db2146697b10e",
+        "hash": "1193885166",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2024-03-03T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     },
     {
       "__outstatic": {
@@ -194,118 +293,6 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "cccdbfb3d59bd444725bf668c72acece4b01b821",
-        "hash": "808926931",
-        "path": "outstatic/content/posts/debugging-mindset.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-31T22:09:23.744Z",
-      "slug": "debugging-mindset",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "Debugging mindset"
-    },
-    {
-      "__outstatic": {
-        "commit": "0cab97644d0ef7f0f5fb99f5ac47f8b9c6ac6153",
-        "hash": "2879260106",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
-    },
-    {
-      "__outstatic": {
-        "commit": "5d5f2fc90e39d82df0f3370ebd007c8171130aae",
-        "hash": "1193885166",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2024-03-03T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "b044790bf3a5dea71fdeec83a2c42f5a027383f1",
-        "hash": "2748246513",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Segundo, a Javascript dev from Argentina",
-      "publishedAt": "2024-03-03T18:49:02.348Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
-    },
-    {
-      "__outstatic": {
-        "commit": "f70ed4db2c4e5456c182ed669363952f20f5702d",
-        "hash": "2548225405",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-11T20:24:25.000Z",
-      "slug": "dependency-injection-in-a-nutshell",
-      "status": "published",
-      "tags": [
-        {
-          "label": "OOP",
-          "value": "oop"
-        },
-        {
-          "label": "DI",
-          "value": "di"
-        },
-        {
-          "label": "Dependency Inversion Principle",
-          "value": "dependencyInversionPrinciple"
-        },
-        {
-          "label": "Concepts",
-          "value": "concepts"
-        }
-      ],
-      "title": "Dependency injection in a nutshell"
     }
   ]
 }
