@@ -80,6 +80,18 @@
         {
           "value": "concepts",
           "label": "Concepts"
+        },
+        {
+          "value": "debugging",
+          "label": "Debugging"
+        },
+        {
+          "value": "books",
+          "label": "Books"
+        },
+        {
+          "value": "mindset",
+          "label": "Mindset"
         }
       ]
     },

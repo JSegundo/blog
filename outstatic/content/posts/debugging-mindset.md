@@ -7,9 +7,9 @@ author:
 slug: 'debugging-mindset'
 description: ''
 coverImage: ''
-tags: ''
+tags: [{"label":"Debugging","value":"debugging"},{"label":"Books","value":"books"},{"label":"Mindset","value":"mindset"}]
 aws: ''
 publishedAt: '2024-08-31T22:09:23.744Z'
 ---
 
-asd
+This post is made from substracts of the book "The pragmatic programmer"
