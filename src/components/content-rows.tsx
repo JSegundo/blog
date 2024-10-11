@@ -4,6 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import type { OstDocument } from "outstatic"
 import PostPreview from "./PostPreview"
+import { Badge } from "./ui/badge"
 
 export type Item = {
   tags?: { value: string; label: string }[]
@@ -51,13 +52,10 @@ const ContentRow = ({
                 {item.description}
               </p>
               {Array.isArray(item?.tags)
-                ? item.tags.map(({ label }) => (
-                    <span
-                      key={label}
-                      className="inline-block bg-gray-700  px-2 py-0 text-sm font-semibold text-gray-200 mr-2 mb-4"
-                    >
+                ? item.tags.map(({ label }, index) => (
+                    <Badge key={index} variant="customOutline">
                       {label}
-                    </span>
+                    </Badge>
                   ))
                 : null}
             </div>
