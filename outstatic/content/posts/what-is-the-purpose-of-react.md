@@ -1,16 +1,18 @@
 ---
-title: "Porqué react? #1"
-status: "draft"
+title: 'Porqué react? #1'
+status: 'draft'
 author:
-  name: "Segundo Juan"
-  picture: "https://avatars.githubusercontent.com/u/87492687?v=4"
-slug: "what-is-the-purpose-of-react"
-description: ""
-coverImage: ""
+  name: 'Segundo Juan'
+  picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
+slug: 'what-is-the-purpose-of-react'
+description: ''
+coverImage: ''
 tags: []
-aws: ""
-publishedAt: "2024-04-30T23:15:37.052Z"
+aws: ''
+publishedAt: '2024-04-30T23:15:37.052Z'
 ---
+
+### saltos de linea "&nbsp;"
 
 what are the holes that react fills up? why do we need it?
 
@@ -56,7 +58,6 @@ const Component = ({props}) => {
     </>
   )
 }
-
 ```
 
 (ejecutamos una funcion de javascript dentro de una etiqueta html y mostramos un mensaje accediendo a un objeto con js)

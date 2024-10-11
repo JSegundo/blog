@@ -1,6 +1,6 @@
 {
-  "commit": "f7ef1220709c9164c967befc3711ae9ecb5852c3",
-  "generated": "Fri, 11 Oct 2024 21:36:57 GMT",
+  "commit": "2d67169118a668cc67d1136c91a0c393d9f264c0",
+  "generated": "2024-10-11T21:37:55.466Z",
   "metadata": [
     {
       "__outstatic": {
@@ -234,27 +234,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f360b1a8477ada8423897334dba9ab98d190e9fe",
-        "hash": "2308363506",
-        "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-30T23:15:37.052Z",
-      "slug": "what-is-the-purpose-of-react",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "Porqué react? #1"
-    },
-    {
-      "__outstatic": {
         "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
         "hash": "2355795964",
         "path": "outstatic/content/posts/what-is-state-managment.md"
@@ -318,6 +297,27 @@
       "tags": [
       ],
       "title": "Node.js Event Loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "2d67169118a668cc67d1136c91a0c393d9f264c0",
+        "hash": "3716727377",
+        "path": "outstatic/content/posts/what-is-the-purpose-of-react.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-30T23:15:37.052Z",
+      "slug": "what-is-the-purpose-of-react",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Porqué react? #1"
     }
   ]
 }
