@@ -6,6 +6,8 @@
 
 .courier-prime-regular {
   font-family: "Courier Prime", system-ui;
+  /* font-family: "Courier Prime", sans-serif; */
+
   font-weight: 400;
   font-style: normal;
 }
@@ -28,12 +30,46 @@
   font-style: italic;
 }
 html {
-  font-family: "Courier Prime", system-ui;
+  font-family: "Courier Prime", sans-serif;
+  /* font-family: "Courier Prime", system-ui; */
 }
 @layer base {
   :root {
-    --background: 222.2 84% 4.9%;
+    /* --background: #020817; */
+
+    /* --background: linear-gradient(
+      135deg,
+      #000000 0%,
+      #0c1d0e 25%,
+      #104502 50%,
+      #1a2f16 75%,
+      #2e4630 100%
+    ); */
+
+    /* grey */
+    /* --background: linear-gradient(
+      137deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(134, 120, 120, 1) 161%
+    ); */
+    /* blue to lightblue */
+    /* --background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(2, 8, 23, 1) 35%,
+      rgba(0, 93, 122, 0.99) 83%
+    ); */
+    --background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      /* very dark blue-black */ rgba(2, 8, 23, 1) 35%,
+      /* deep, muted blue-green */ rgba(0, 60, 80, 0.95) 83%
+        /* darker teal, almost blackened */
+    );
+
     --foreground: 210 40% 98%;
+
+    /*  */
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
@@ -128,7 +164,8 @@ html {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    background: var(--background);
+    @apply text-foreground;
     @apply courier-prime-regular;
   }
 }
@@ -144,13 +181,21 @@ html {
     @apply before:w-[calc(100%+0.5rem)];
   }
 }
+.section-title {
+  /* color: #15e4e4; */
+  opacity: 0.5;
+}
+.home-title {
+  color: #e0e0e0 !important;
+  text-shadow: 15px 10px 4px rgba(0, 0, 0, 0.6) !important;
+}
 
 .prose-outstatic {
   --tw-prose-code: #000;
 }
 
 .prose :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-  @apply px-4 pb-4 pt-6 border rounded-sm bg-gray-800 dark:bg-gray-800 text-white dark:text-gray-800;
+  @apply px-4 pb-4 pt-6 border rounded-sm bg-gray-800 dark:bg-gray-800 text-gray-500 dark:text-gray-800;
 }
 
 /* @media (min-width: 768px) {

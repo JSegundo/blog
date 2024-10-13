@@ -8,9 +8,10 @@ export default async function Index() {
 
   return (
     <>
-      <section className="mb-1 md:min-h-[calc(100vh-256px)] items-center flex">
+      <section className="mb-1 justify-center flex">
+        {/* <section className="mb-1 md:min-h-[calc(100vh-256px)] items-center flex"> */}
         <div
-          className="prose lg:prose-xl home-intro prose-outstatic"
+          className="home-title prose lg:prose-xl home-intro prose-outstatic"
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </section>
