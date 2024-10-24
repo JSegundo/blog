@@ -1,6 +1,6 @@
 {
-  "commit": "2d67169118a668cc67d1136c91a0c393d9f264c0",
-  "generated": "2024-10-11T21:37:55.466Z",
+  "commit": "736bd7a1440bd82d7e164a63e49d636be8dba5bc",
+  "generated": "2024-10-24T20:50:42.275Z",
   "metadata": [
     {
       "__outstatic": {
@@ -107,43 +107,6 @@
       "tags": [
       ],
       "title": "GIT wizard's commands"
-    },
-    {
-      "__outstatic": {
-        "commit": "ff8afca087a627402e93ecc46c2b842ed6264407",
-        "hash": "2548225405",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-11T20:24:25.000Z",
-      "slug": "dependency-injection-in-a-nutshell",
-      "status": "published",
-      "tags": [
-        {
-          "label": "OOP",
-          "value": "oop"
-        },
-        {
-          "label": "DI",
-          "value": "di"
-        },
-        {
-          "label": "Dependency Inversion Principle",
-          "value": "dependencyInversionPrinciple"
-        },
-        {
-          "label": "Concepts",
-          "value": "concepts"
-        }
-      ],
-      "title": "Dependency injection in a nutshell"
     },
     {
       "__outstatic": {
@@ -318,6 +281,43 @@
       "tags": [
       ],
       "title": "Porqué react? #1"
+    },
+    {
+      "__outstatic": {
+        "commit": "736bd7a1440bd82d7e164a63e49d636be8dba5bc",
+        "hash": "2272036231",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-11T20:24:25.000Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "published",
+      "tags": [
+        {
+          "label": "OOP",
+          "value": "oop"
+        },
+        {
+          "label": "DI",
+          "value": "di"
+        },
+        {
+          "label": "Dependency Inversion Principle",
+          "value": "dependencyInversionPrinciple"
+        },
+        {
+          "label": "Concepts",
+          "value": "concepts"
+        }
+      ],
+      "title": "Dependency injection in a nutshell"
     }
   ]
 }

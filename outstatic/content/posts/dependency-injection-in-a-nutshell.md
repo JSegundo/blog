@@ -15,13 +15,13 @@ publishedAt: '2024-10-11T20:24:25.000Z'
 \
 `Dependency injection is just a function parameter that accepts an instance of an object.`
 
-It aims to separate the concerns of **constructing** objects (and using them) for that it uses an injector (or **provider** = responsible of providing dependencies to objs when they needed)\
-&nbsp;
+It aims to separate the concerns of **constructing** objects (and using them). For that, it uses an injector (or **provider**) responsible of providing dependencies to objects when they needed.\
+ 
 
 > Definition by Angular:\
 > When you develop a smaller part of your system, like a module or a class, you may need to use features from other classes. For example, you may need an HTTP service to make backend calls. Dependency Injection, or DI, is a design pattern and mechanism for creating and delivering some parts of an application to other parts of an application that require them.
 
-&nbsp;
+ 
 
 #### What is a dependency?
 
@@ -31,7 +31,7 @@ A dependency is just another object that your class needs to function. If you ha
 
 The dependency is pushed into the class from the outside. All that means, is that you shouldn't instiatiate dependencies using the **new** operator from inside the class. Instead, take it as a constructor parameter or via a setter.
 
-&nbsp;
+ 
 
 ### But why should we inject dependencies on the first place?
 
@@ -41,9 +41,9 @@ This is important becase of the **Dependency Inversion Principle**:
 - This ensures we decouple components, making our code more modular.
 - Dependencies can be replaced as long as they satisfy **the required interface.**
 
-`We decuple our code from the low level implementations. The opposite of "tight coupling" the class is responsible for instantiating or obtaining its dependent objects.`
+`We decuple our code from the low level implementations. The opposite of "tight coupling", where a class is directly responsible for instantiating or managing its dependencies.`
 
-&nbsp;
+ 
 
 ### **Injecting Dependencies: How Does it Work?**
 
