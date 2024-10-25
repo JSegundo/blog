@@ -1,6 +1,6 @@
 {
-  "commit": "736bd7a1440bd82d7e164a63e49d636be8dba5bc",
-  "generated": "2024-10-24T20:50:42.275Z",
+  "commit": "9f0124128d5e0668bd020f2842d4f4936645ffa4",
+  "generated": "2024-10-25T18:15:17.001Z",
   "metadata": [
     {
       "__outstatic": {
@@ -107,39 +107,6 @@
       "tags": [
       ],
       "title": "GIT wizard's commands"
-    },
-    {
-      "__outstatic": {
-        "commit": "4bf9a2a5ae9d022acf2fc8361fc3bc5c38954851",
-        "hash": "2077185314",
-        "path": "outstatic/content/posts/debugging-mindset.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-31T22:09:23.744Z",
-      "slug": "debugging-mindset",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Debugging",
-          "value": "debugging"
-        },
-        {
-          "label": "Books",
-          "value": "books"
-        },
-        {
-          "label": "Mindset",
-          "value": "mindset"
-        }
-      ],
-      "title": "Debugging mindset"
     },
     {
       "__outstatic": {
@@ -318,6 +285,27 @@
         }
       ],
       "title": "Dependency injection in a nutshell"
+    },
+    {
+      "__outstatic": {
+        "commit": "9f0124128d5e0668bd020f2842d4f4936645ffa4",
+        "hash": "3390286787",
+        "path": "outstatic/content/posts/debugging-mindset.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-31T22:09:23.744Z",
+      "slug": "debugging-mindset",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Debugging mindset"
     }
   ]
 }

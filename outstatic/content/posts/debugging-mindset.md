@@ -7,7 +7,7 @@ author:
 slug: 'debugging-mindset'
 description: ''
 coverImage: ''
-tags: [{"label":"Debugging","value":"debugging"},{"label":"Books","value":"books"},{"label":"Mindset","value":"mindset"}]
+tags: []
 aws: ''
 publishedAt: '2024-08-31T22:09:23.744Z'
 ---
