@@ -3,7 +3,7 @@ author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 coverImage: ''
-title: 'Node.js Event Loop'
+title: 'Why is  node asynchronus? yes, We heard about the event loop'
 status: 'draft'
 slug: 'node-js-event-loop'
 description: ''
@@ -14,9 +14,9 @@ publishedAt: '2024-05-09T21:05:45.985Z'
 
 what is the event loop? AKA MAIN THREAD
 
-is what allows nodejs to perform non-blocking I/O operation and explains how nodejs can be asynchronous 
+is what allows nodejs to perform non-blocking I/O operation and explains how nodejs can be asynchronous
 
-nodejs arquitecture is single threaded, the beauty of event loops is that it 'puts aside' consuming tasks , to keep executing other instructions 
+nodejs arquitecture is single threaded, the beauty of event loops is that it 'puts aside' consuming tasks , to keep executing other instructions
 
 **the major benefit of Node.js architecture is not the fact of being single-threaded, but its ability to not block the thread from executing other instructions. This is one of the main reasons Node.js is an excellent choice for developing APIs as these are heavily based on I/O operations.**
 
