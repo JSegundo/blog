@@ -3,14 +3,16 @@ author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 coverImage: ''
-title: 'Why is  node asynchronus? yes, We heard about the event loop'
+title: 'How can Node be asynchronus? Yes, we heard about the event loop'
 status: 'draft'
-slug: 'node-js-event-loop'
-description: ''
-tags: []
+slug: 'nodejs-eventloop-demultiplexer'
+description: 'Going beyond the event loop to understand why nodejs is asynchronus while single thread'
+tags: [{"label":"Event Demultiplexer","value":"eventDemultiplexer"},{"label":"Event Loop","value":"eventLoop"}]
 aws: ''
 publishedAt: '2024-05-09T21:05:45.985Z'
 ---
+
+goal: understand the relation between event loop and the working of the OS that allow node to be asynchronus while single thread.
 
 what is the event loop? AKA MAIN THREAD
 

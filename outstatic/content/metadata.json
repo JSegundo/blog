@@ -1,6 +1,6 @@
 {
   "commit": "97bb024d33f1baea121e5ce03799b1e0137e8593",
-  "generated": "2024-11-21T23:50:06.148Z",
+  "generated": "2024-11-21T23:55:18.405Z",
   "metadata": [
     {
       "__outstatic": {
@@ -268,8 +268,8 @@
     {
       "__outstatic": {
         "commit": "97bb024d33f1baea121e5ce03799b1e0137e8593",
-        "hash": "1586173769",
-        "path": "outstatic/content/posts/node-js-event-loop.md"
+        "hash": "523765355",
+        "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
       },
       "author": {
         "name": "Segundo Juan",
@@ -278,13 +278,21 @@
       "aws": "",
       "collection": "posts",
       "coverImage": "",
-      "description": "",
+      "description": "Going beyond the event loop to understand why nodejs is asynchronus while single thread",
       "publishedAt": "2024-05-09T21:05:45.985Z",
-      "slug": "node-js-event-loop",
+      "slug": "nodejs-eventloop-demultiplexer",
       "status": "draft",
       "tags": [
+        {
+          "label": "Event Demultiplexer",
+          "value": "eventDemultiplexer"
+        },
+        {
+          "label": "Event Loop",
+          "value": "eventLoop"
+        }
       ],
-      "title": "Why is  node asynchronus? yes, We heard about the event loop"
+      "title": "How can Node be asynchronus? Yes, we heard about the event loop"
     }
   ]
 }

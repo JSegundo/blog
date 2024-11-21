@@ -92,6 +92,14 @@
         {
           "value": "mindset",
           "label": "Mindset"
+        },
+        {
+          "value": "eventDemultiplexer",
+          "label": "Event Demultiplexer"
+        },
+        {
+          "value": "eventLoop",
+          "label": "Event Loop"
         }
       ]
     },
