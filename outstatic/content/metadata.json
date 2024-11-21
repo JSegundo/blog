@@ -1,6 +1,6 @@
 {
-  "commit": "9f0124128d5e0668bd020f2842d4f4936645ffa4",
-  "generated": "2024-10-25T18:15:49.492Z",
+  "commit": "e75a0b767750f55af65bad7b0e6efdde303190d4",
+  "generated": "2024-11-21T23:48:18.306Z",
   "metadata": [
     {
       "__outstatic": {
@@ -86,27 +86,6 @@
         }
       ],
       "title": "Mi primer deploy en AWS"
-    },
-    {
-      "__outstatic": {
-        "commit": "e60c5d223be5afa275156f0be62a1bec1db834e4",
-        "hash": "1382789023",
-        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "/images/git-cyMz.png",
-      "description": "",
-      "publishedAt": "2024-07-01T21:55:26.158Z",
-      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "GIT wizard's commands"
     },
     {
       "__outstatic": {
