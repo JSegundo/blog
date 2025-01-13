@@ -1,6 +1,6 @@
 {
-  "commit": "ad5b7bfad10d2b273c79889f731b9624dfc28fa0",
-  "generated": "2025-01-13T22:06:26.684Z",
+  "commit": "9ad317d8718f1a45acde7abb380e4d73ad4751a9",
+  "generated": "2025-01-13T22:16:13.706Z",
   "metadata": [
     {
       "__outstatic": {
@@ -246,27 +246,6 @@
     },
     {
       "__outstatic": {
-        "commit": "9f0124128d5e0668bd020f2842d4f4936645ffa4",
-        "hash": "777464982",
-        "path": "outstatic/content/posts/debugging-mindset.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-31T22:09:23.744Z",
-      "slug": "debugging-mindset",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "Debugging mindset"
-    },
-    {
-      "__outstatic": {
         "commit": "97bb024d33f1baea121e5ce03799b1e0137e8593",
         "hash": "523765355",
         "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
@@ -314,6 +293,27 @@
       "tags": [
       ],
       "title": "Notes on Nodejs Design patterns"
+    },
+    {
+      "__outstatic": {
+        "commit": "9ad317d8718f1a45acde7abb380e4d73ad4751a9",
+        "hash": "2200064781",
+        "path": "outstatic/content/posts/debugging-mindset.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-31T22:09:23.744Z",
+      "slug": "debugging-mindset",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Debugging mindset"
     }
   ]
 }
