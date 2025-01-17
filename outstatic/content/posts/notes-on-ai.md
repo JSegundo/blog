@@ -7,7 +7,7 @@ author:
 slug: 'notes-on-ai'
 description: ''
 coverImage: ''
-tags: ''
+tags: [{"label":"Bedrock","value":"bedrock"},{"label":"AI","value":"ai"}]
 aws: ''
 publishedAt: '2025-01-17T18:37:33.335Z'
 ---

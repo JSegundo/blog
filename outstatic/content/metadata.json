@@ -1,6 +1,6 @@
 {
-  "commit": "9264c1eeea5f81d6f743f94e1c82ca3074256ae0",
-  "generated": "2025-01-17T18:40:13.570Z",
+  "commit": "4c022c82951d365369c9541ac33899294a4c4d23",
+  "generated": "2025-01-17T18:40:45.440Z",
   "metadata": [
     {
       "__outstatic": {
@@ -321,8 +321,8 @@
     },
     {
       "__outstatic": {
-        "commit": "9264c1eeea5f81d6f743f94e1c82ca3074256ae0",
-        "hash": "3652707758",
+        "commit": "4c022c82951d365369c9541ac33899294a4c4d23",
+        "hash": "3324295057",
         "path": "outstatic/content/posts/notes-on-ai.md"
       },
       "author": {
@@ -337,6 +337,14 @@
       "slug": "notes-on-ai",
       "status": "published",
       "tags": [
+        {
+          "label": "Bedrock",
+          "value": "bedrock"
+        },
+        {
+          "label": "AI",
+          "value": "ai"
+        }
       ],
       "title": "Notes on AI"
     }
