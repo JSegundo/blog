@@ -17,7 +17,9 @@ Random notes from basic learnings;
 - Foundation models are the basis of every generative AI model and can be fine-tuned for specific tasks or fields
 
   - eg: NPL: CHATBOTS
-  - Computer Vision: Image generation (e.g., DALL·E).
+  - Computer Vision: Image generation (e.g., DALL·E)
+
+&nbsp; 
 
 - There are diff types of foundation models: (There are a lot more)
 

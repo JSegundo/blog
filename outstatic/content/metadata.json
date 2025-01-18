@@ -1,6 +1,6 @@
 {
-  "commit": "4c022c82951d365369c9541ac33899294a4c4d23",
-  "generated": "2025-01-17T18:40:45.440Z",
+  "commit": "2e520f6c6886161019084f52b5dc26c347d416ce",
+  "generated": "2025-01-18T22:27:35.567Z",
   "metadata": [
     {
       "__outstatic": {
@@ -321,8 +321,8 @@
     },
     {
       "__outstatic": {
-        "commit": "4c022c82951d365369c9541ac33899294a4c4d23",
-        "hash": "3324295057",
+        "commit": "2e520f6c6886161019084f52b5dc26c347d416ce",
+        "hash": "1435156820",
         "path": "outstatic/content/posts/notes-on-ai.md"
       },
       "author": {
