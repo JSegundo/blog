@@ -29,4 +29,23 @@ Random notes from basic learnings;
   - DIffusion Models:
     - They generate data that is similar to the data they’ve been trained on.
 
-- 
+&nbsp;
+
+### **Embeddings and Vector Databases**
+
+- Embeddings of your knowledge base (docs,faqs) are created using an embedding model like OpenAI’s text-embedding-ada-020.
+- Embeddings get stored in vector databases like Pinecone.
+- When user asks a question, query gets converted into an embedding, then perform a search in the vectorDB for similar embeddings, and retrieve relevant content.
+- Use an LLM to generate a response based on the retrieved content
+
+```markdown
+##### Example usage 💡
+Medical Q&A System:
+
+1- User asks: "What are symptoms of diabetes?"
+2- Question gets converted to embedding → finds relevant medical documents
+3- Fine-tuned medical model gets these documents and generates response using proper medical terminology and formatting
+```
+
+- `Embeddings as a smart librarian who knows where to find relevant books`
+- `Fine-tuning as teaching the librarian how to explain those books in a specific way`
