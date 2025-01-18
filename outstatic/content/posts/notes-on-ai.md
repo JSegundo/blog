@@ -14,6 +14,8 @@ publishedAt: '2025-01-17T18:37:33.335Z'
 
 Random notes from basic learnings;
 
+&nbsp;
+
 - Foundation models are the basis of every generative AI model and can be fine-tuned for specific tasks or fields
 
   - eg: NPL: CHATBOTS
