@@ -27,7 +27,7 @@ const ContentRow = ({
   viewAll = false,
 }: Props) => {
   return (
-    <section id={collection} className="pt-24 mb-24">
+    <section id={collection} className="max-w-2xl mx-auto px-4 py-8">
       <div className="flex gap-4 md:gap-6 items-end">
         <h2 className="text-xl md:text-2xl font-bold  tracking-tighter leading-tight section-title">
           {title}
@@ -40,10 +40,11 @@ const ContentRow = ({
           </Button>
         ) : null}
       </div>
-      <div className="grid  sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mt-8 md:mt-8 lg:mt-10">
+      <div className="grid  max-w-fit sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mt-8 md:mt-8 lg:mt-10">
         {items.map((item, id) => (
           <Link key={item.slug} href={`/${collection}/${item.slug}`}>
-            <div className="cursor-pointer  md:w-full scale-100 hover:scale-[1.01] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden h-full">
+            <div className=" p-4 cursor-pointer  md:w-full scale-100 hover:scale-[1.01] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden h-full shadow-xl 
+">
               <h3 className="text-base mb-1 font-bold leading-snug  hover:underline">
                 {item.title}
               </h3>
@@ -53,14 +54,14 @@ const ContentRow = ({
               </p>
               {Array.isArray(item?.tags)
                 ? item.tags.map(({ label }, index) => (
-                    <Badge key={index} variant="customOutline">
+                    <Badge key={index} variant="custom">
                       {label}
                     </Badge>
                   ))
                 : null}
             </div>
             {/* </div> */}
-            {id < items.length - 1 && <hr></hr>}
+            {/* {id < items.length - 1 && <hr></hr>} */}
           </Link>
         ))}
       </div>

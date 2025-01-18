@@ -35,8 +35,9 @@ html {
 }
 @layer base {
   :root {
-    --background: #020817;
-    --background: #000103;
+    --background: #050e27;
+    /* --background: #000103; */
+    --background: #1d1e20;
 
     /* --background: linear-gradient(
       135deg,
@@ -47,7 +48,7 @@ html {
       #2e4630 100%
     ); */
 
-    --foreground: 210 40% 98%;
+    --foreground: 0 0% 77%;
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
@@ -146,6 +147,10 @@ html {
     @apply text-foreground;
     @apply courier-prime-regular;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[#dadadb];
+  }
 }
 
 .home-intro p {
@@ -160,8 +165,7 @@ html {
   }
 }
 .section-title {
-  /* color: #15e4e4; */
-  opacity: 0.5;
+  opacity: 1;
 }
 .home-title {
   color: #e0e0e0 !important;
