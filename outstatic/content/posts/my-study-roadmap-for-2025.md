@@ -1,25 +1,39 @@
 ---
-title: 'My study roadmap for 2025'
-status: 'draft'
+title: '2025 Learning path'
+status: 'published'
 author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'my-study-roadmap-for-2025'
 description: ''
 coverImage: ''
-tags: ''
+tags: []
 aws: ''
 publishedAt: '2025-01-19T14:36:15.758Z'
 ---
 
-- January: NOdejs design patterns. Useful for my work.
+## Q1 (Jan-March)
 
-
-- Feb: "Understanding Distributed Systems" by Roberto Vitillo
+- "Node.js Design Patterns"
+- "Understanding Distributed Systems" by Roberto Vitillo
 - "Fundamentals of Software Architecture" by Neal Ford & Mark Richards
-- "Domain-Driven Design Distilled" by Vaughn Vernon
+
+## Q2 (April-June)
+
+- April: Domain-Driven Design Distilled + AWS Cloud Practitioner
 - "Designing Data-Intensive Applications" by Martin Kleppmann
 
-- Certified Cloud practicioner
+## Q3 (July-September)
 
 - "Foundations of Large Language Models" Tong Xiao and Jingbo Zhu
+
+&npsb;
+
+## Daily Commitment
+
+- Building one product incrementally
+- Focus: Backend fundamentals → AI Engineering
+
+## Main Project
+
+NextJS app → Separate Node.js API → Mobile Version → AWS Deploy → AI Features

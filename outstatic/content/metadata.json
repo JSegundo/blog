@@ -1,6 +1,6 @@
 {
-  "commit": "1d999110b2d2aff635ae84cf73be63d54fe9799b",
-  "generated": "2025-01-19T14:40:06.712Z",
+  "commit": "2b23e71b3f872cc9292d88e78133de2feee52db9",
+  "generated": "2025-01-19T15:18:46.765Z",
   "metadata": [
     {
       "__outstatic": {
@@ -350,8 +350,8 @@
     },
     {
       "__outstatic": {
-        "commit": "1d999110b2d2aff635ae84cf73be63d54fe9799b",
-        "hash": "1056929378",
+        "commit": "2b23e71b3f872cc9292d88e78133de2feee52db9",
+        "hash": "2035650963",
         "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
       },
       "author": {
@@ -364,10 +364,10 @@
       "description": "",
       "publishedAt": "2025-01-19T14:36:15.758Z",
       "slug": "my-study-roadmap-for-2025",
-      "status": "draft",
+      "status": "published",
       "tags": [
       ],
-      "title": "My study roadmap for 2025"
+      "title": "2025 Learning path"
     }
   ]
 }
