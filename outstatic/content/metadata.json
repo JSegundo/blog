@@ -1,6 +1,6 @@
 {
-  "commit": "2e520f6c6886161019084f52b5dc26c347d416ce",
-  "generated": "2025-01-18T22:32:12.328Z",
+  "commit": "1d999110b2d2aff635ae84cf73be63d54fe9799b",
+  "generated": "2025-01-19T14:40:06.712Z",
   "metadata": [
     {
       "__outstatic": {
@@ -347,6 +347,27 @@
         }
       ],
       "title": "Notes on AI"
+    },
+    {
+      "__outstatic": {
+        "commit": "1d999110b2d2aff635ae84cf73be63d54fe9799b",
+        "hash": "1056929378",
+        "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-19T14:36:15.758Z",
+      "slug": "my-study-roadmap-for-2025",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "My study roadmap for 2025"
     }
   ]
 }
