@@ -1,6 +1,6 @@
 {
-  "commit": "2b23e71b3f872cc9292d88e78133de2feee52db9",
-  "generated": "2025-01-19T15:18:46.765Z",
+  "commit": "42e3eccfbed146af4816ef051fbc274e7226b3bc",
+  "generated": "2025-01-22T22:29:45.159Z",
   "metadata": [
     {
       "__outstatic": {
@@ -275,27 +275,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ad5b7bfad10d2b273c79889f731b9624dfc28fa0",
-        "hash": "2511524826",
-        "path": "outstatic/content/posts/notes-on-nodejs-design-patterns.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-13T22:05:58.374Z",
-      "slug": "notes-on-nodejs-design-patterns",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Notes on Nodejs Design patterns"
-    },
-    {
-      "__outstatic": {
         "commit": "0d0c7274751d8d5b29b399a3216f0d5379c6ace3",
         "hash": "856532523",
         "path": "outstatic/content/posts/debugging-mindset.md"
@@ -368,6 +347,35 @@
       "tags": [
       ],
       "title": "2025 Learning path"
+    },
+    {
+      "__outstatic": {
+        "commit": "42e3eccfbed146af4816ef051fbc274e7226b3bc",
+        "hash": "1603819343",
+        "path": "outstatic/content/posts/notes-on-nodejs-design-patterns.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-13T22:05:58.374Z",
+      "slug": "notes-on-nodejs-design-patterns",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Node",
+          "value": "node"
+        },
+        {
+          "label": "Concepts",
+          "value": "concepts"
+        }
+      ],
+      "title": "Notes on Nodejs Design patterns"
     }
   ]
 }
