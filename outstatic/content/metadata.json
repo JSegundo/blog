@@ -1,6 +1,6 @@
 {
   "commit": "42e3eccfbed146af4816ef051fbc274e7226b3bc",
-  "generated": "2025-01-22T22:29:45.159Z",
+  "generated": "2025-01-22T22:36:49.982Z",
   "metadata": [
     {
       "__outstatic": {
@@ -351,7 +351,7 @@
     {
       "__outstatic": {
         "commit": "42e3eccfbed146af4816ef051fbc274e7226b3bc",
-        "hash": "1603819343",
+        "hash": "1546670255",
         "path": "outstatic/content/posts/notes-on-nodejs-design-patterns.md"
       },
       "author": {

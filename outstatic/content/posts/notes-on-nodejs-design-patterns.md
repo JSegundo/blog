@@ -24,3 +24,5 @@ The concept of **module** is fundamental in Node for structuring the code of a p
 &npsb;
 
 Node.js modules is the fact that they are created to be used, rather than extended.
+
+## Nodejs core components
