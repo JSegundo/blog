@@ -14,9 +14,13 @@ publishedAt: '2025-01-19T14:36:15.758Z'
 
 ## Q1 (Jan-March)
 
-- "Node.js Design Patterns"
-- "Understanding Distributed Systems" by Roberto Vitillo
-- "Fundamentals of Software Architecture" by Neal Ford & Mark Richards
+- Currently following Node JS: advanced concepts course in Udemy and reading "Node.js Design Patterns" book.
+
+
+- I already took a look at a sample of "Understanding Distributed Systems" by Roberto Vitillo and I can't wait to start reading it.
+
+
+- Then: "Fundamentals of Software Architecture" by Neal Ford & Mark Richards
 
 ## Q2 (April-June)
 
@@ -27,7 +31,7 @@ publishedAt: '2025-01-19T14:36:15.758Z'
 
 - "Foundations of Large Language Models" Tong Xiao and Jingbo Zhu
 
-&npsb;
+&nbsp;
 
 ## Daily Commitment
 
