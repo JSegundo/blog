@@ -1,6 +1,6 @@
 {
-  "commit": "0b0a79939229f0891933d5d9e9c8692b6a026373",
-  "generated": "2025-01-31T22:39:54.814Z",
+  "commit": "6d1cd6cbdeb3f1fc18daa878b65bc2a1afa6db65",
+  "generated": "2025-01-31T22:42:02.191Z",
   "metadata": [
     {
       "__outstatic": {
@@ -376,6 +376,27 @@
         }
       ],
       "title": "Nodejs "
+    },
+    {
+      "__outstatic": {
+        "commit": "6d1cd6cbdeb3f1fc18daa878b65bc2a1afa6db65",
+        "hash": "2485833360",
+        "path": "outstatic/content/posts/node-js-design-patterns.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-31T22:40:03.351Z",
+      "slug": "node-js-design-patterns",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "Node js design patterns"
     }
   ]
 }
