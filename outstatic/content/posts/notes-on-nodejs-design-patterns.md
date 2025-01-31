@@ -1,5 +1,5 @@
 ---
-title: 'Notes on Nodejs Design patterns'
+title: 'Nodejs '
 status: 'draft'
 author:
   name: 'Segundo Juan'
@@ -14,7 +14,7 @@ publishedAt: '2025-01-13T22:05:58.374Z'
 
 cooking
 
-I now see Node as a  **fancy interface**. Since I learned that one of its few principles is having the smallers possible set of functionalities, leaving the rest to the ecosystem of modules living outside the code.
+I now see Node as a **fancy interface**. Since I learned that one of its few principles is having the smallers possible set of functionalities, leaving the rest to the ecosystem of modules living outside the code.
 
 The concept of **module** is fundamental in Node for structuring the code of a program. Designing small modules and packages is one of the most evangelized principles. It comes from two principles of the Unix philosophy:
 
