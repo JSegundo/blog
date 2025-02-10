@@ -1,13 +1,13 @@
 ---
 title: 'Scalability fundamentals in Node.js'
-status: 'draft'
+status: 'published'
 author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'scalability-fundamentals-in-node-js'
-description: ''
+description: 'Fundamentals of scalability for Node.js applications'
 coverImage: ''
-tags: ''
+tags: [{"label":"Node.js","value":"nodeJs"}]
 aws: ''
 publishedAt: '2025-02-10T22:58:08.879Z'
 ---
@@ -44,6 +44,8 @@ There are many ways to achieve this, represented in the **scale cube** (Martin L
 
   X and Y are the most common in the Node.js ecosystem.
 
+&npsb;
+
 ## Cloning and load balancing
 
 Nodejs applications are usually scaled sooner compared to traditional web servers that use multiple-threads. THis pushed the developer to take into account scalability from the early stages of an application, making sure the app does not rely on any resource that cannot be shared across mukltiple processes or machines.
@@ -60,6 +62,6 @@ You can spawn as many workers as number of CPUs available in the system. (Automa
 
 > Notes:
 
-The cluester module uses a round-robin load balancing algorithm (inside the master process). It distributes the load evenly across the available servers on a rotational basis. It also has some other behaviors to avoid overloading a given worker process.
+The cluster module uses a round-robin load balancing algorithm (inside the master process). It distributes the load evenly across the available servers on a rotational basis. It also has some other behaviors to avoid overloading a given worker process.
 
 When we call server.listen() in a worker process is delegated to the master process. This receives all incoming messages and distribute them to the pool of workers.

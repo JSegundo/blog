@@ -112,6 +112,10 @@
         {
           "value": "node",
           "label": "Node"
+        },
+        {
+          "value": "nodeJs",
+          "label": "Node.js"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
-  "commit": "575c01587e103ebc048bffa9da3e81545c750f57",
-  "generated": "2025-02-10T23:01:44.987Z",
+  "commit": "3ac67c99ca375e5705988c5d7ee0ccdfda288aa6",
+  "generated": "2025-02-10T23:04:13.189Z",
   "metadata": [
     {
       "__outstatic": {
@@ -400,8 +400,8 @@
     },
     {
       "__outstatic": {
-        "commit": "575c01587e103ebc048bffa9da3e81545c750f57",
-        "hash": "1241540959",
+        "commit": "3ac67c99ca375e5705988c5d7ee0ccdfda288aa6",
+        "hash": "953140373",
         "path": "outstatic/content/posts/scalability-fundamentals-in-node-js.md"
       },
       "author": {
@@ -411,11 +411,15 @@
       "aws": "",
       "collection": "posts",
       "coverImage": "",
-      "description": "",
+      "description": "Fundamentals of scalability for Node.js applications",
       "publishedAt": "2025-02-10T22:58:08.879Z",
       "slug": "scalability-fundamentals-in-node-js",
-      "status": "draft",
+      "status": "published",
       "tags": [
+        {
+          "label": "Node.js",
+          "value": "nodeJs"
+        }
       ],
       "title": "Scalability fundamentals in Node.js"
     }
