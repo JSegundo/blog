@@ -44,7 +44,7 @@ There are many ways to achieve this, represented in the **scale cube** (Martin L
 
   X and Y are the most common in the Node.js ecosystem.
 
-&npsb;
+&nbsp;
 
 ## Cloning and load balancing
 
@@ -60,7 +60,7 @@ The **master process is responsible** for spawning processes (workers, instances
 
 You can spawn as many workers as number of CPUs available in the system. (Automatically done with PM2)
 
-&npsb;
+&nbsp;
 
 > Notes:
 
@@ -74,7 +74,7 @@ we also have a communication channel available between the master and the worker
 
 > Object.values(cluster.workers).forEach(worker =&gt; worker.send('Hello from the master'))
 
-&npsb;
+&nbsp;
 
 ### Resiliency and availability in cluster mode
 
@@ -123,7 +123,7 @@ different requests belonging to the same stateful session may potentially be han
 
 - We can share state across all the instances with a **shared datastore** (db, redis)
 
-![](/images/screenshot-from-2025-02-11-00-09-46-YyOT.png)
+![](/images/screenshot-from-2025-02-11-00-09-46-EyMz.png)
 
 - Another options is **sticky load balancing:** is having the load balancer always routing all of the requests associated with a session to the same instance of the application.
 
@@ -131,7 +131,7 @@ Involves inspecting the session ID associated with the requests
 
 This breaks the advantage of an instance that can eventually replace another one that stopped working.
 
-![](/images/screenshot-from-2025-02-11-00-09-58-g0Nz.png)
+![](/images/screenshot-from-2025-02-11-00-09-58-g2MT.png)
 
 - Another alternative is to use the IP address of the client performing the request.
 
@@ -145,14 +145,14 @@ The cluster module is not the only option for scaling Node.js applications.
 
 The alternative is to start multiple standalone instances of the same application running on different ports or machines, and then use a reverse proxy (or gateway) to provide access to those instances, distributing the traffic across them.
 
-Before:![](/images/screenshot-from-2025-02-11-00-09-58-A0Nj.png)![](/images/screenshot-from-2025-02-11-00-09-58-I1OT.png)
+Before:![](/images/screenshot-from-2025-02-11-00-09-58-c2MT.png)![](/images/screenshot-from-2025-02-11-00-09-58-U2NT.png)
 
-![](/images/screenshot-from-2025-02-11-20-53-00-g4Mj.png)
+![](/images/screenshot-from-2025-02-11-20-53-00-Q3OD.png)
 
 Now with reverse proxy approach:
 
-![](/images/screenshot-from-2025-02-11-20-52-39-E2Nj.png)
+![](/images/screenshot-from-2025-02-11-20-52-39-YyOT.png)
 
 Or even better: Multi-process, multi-machine configuration with reverse-proxy as load balancer:
 
-![](/images/screenshot-from-2025-02-11-20-54-12-k2Nj.png)
+![](/images/screenshot-from-2025-02-11-20-54-12-U1ND.png)
