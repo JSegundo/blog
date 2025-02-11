@@ -1,6 +1,6 @@
 {
-  "commit": "3ac67c99ca375e5705988c5d7ee0ccdfda288aa6",
-  "generated": "2025-02-10T23:04:13.189Z",
+  "commit": "542ad79f1cc96b922cfb757b11b836dc30cc4ab3",
+  "generated": "2025-02-11T21:01:42.009Z",
   "metadata": [
     {
       "__outstatic": {
@@ -400,8 +400,8 @@
     },
     {
       "__outstatic": {
-        "commit": "3ac67c99ca375e5705988c5d7ee0ccdfda288aa6",
-        "hash": "953140373",
+        "commit": "542ad79f1cc96b922cfb757b11b836dc30cc4ab3",
+        "hash": "2873417632",
         "path": "outstatic/content/posts/scalability-fundamentals-in-node-js.md"
       },
       "author": {
