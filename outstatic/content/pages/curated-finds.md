@@ -5,12 +5,14 @@ author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'curated-finds'
-description: ''
+description: 'Handpicked collection of articles, resources, and insights curated to inspire and inform'
 coverImage: ''
 publishedAt: '2024-04-29T20:57:57.726Z'
 ---
 
-#### handpicked collection of articles, resources, and insights curated to inspire and inform
+#### Handpicked collection of articles, resources, and insights curated to inspire and inform
+
+&nbsp;
 
 - <https://martinfowler.com>
 

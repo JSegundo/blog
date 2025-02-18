@@ -1,6 +1,6 @@
 {
   "commit": "bd411db4dc311b7731076165c4c8cfcea3430a53",
-  "generated": "2025-02-18T00:08:34.813Z",
+  "generated": "2025-02-18T00:09:37.951Z",
   "metadata": [
     {
       "__outstatic": {
@@ -408,7 +408,7 @@
     {
       "__outstatic": {
         "commit": "bd411db4dc311b7731076165c4c8cfcea3430a53",
-        "hash": "2565879521",
+        "hash": "3500280317",
         "path": "outstatic/content/pages/curated-finds.md"
       },
       "author": {
@@ -417,7 +417,7 @@
       },
       "collection": "pages",
       "coverImage": "",
-      "description": "",
+      "description": "Handpicked collection of articles, resources, and insights curated to inspire and inform",
       "publishedAt": "2024-04-29T20:57:57.726Z",
       "slug": "curated-finds",
       "status": "published",
