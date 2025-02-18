@@ -64,13 +64,13 @@ You can spawn as many workers as number of CPUs available in the system. (Automa
 
 > Notes:
 
-The cluester module uses a round-robin load balancing algorithm (inside the master process). It distributes the load evenly across the available servers on a rotational basis. It also has some other behaviours to avoid overloading a given worker process.
+The cluster module uses a round-robin load balancing algorithm (inside the master process). It distributes the load evenly across the available servers on a rotational basis. It also has some other behaviors to avoid overloading a given worker process.
 
 When we call server.listen() in a worker process is delegated to the master process. This receives all incoming messages and distribute them to the pool of workers.
 
 > It's important to remember that each worker is a different Node.js process with its own event loop, memory space, and loaded modules.
 
-we also have a communication channel available between the master and the workers. The worker processes can be accessed from the variable **cluster.workers**, so broadcasting a message to all of them would be as easy as running the following line of code:
+We also have a communication channel available between the master and the workers. The worker processes can be accessed from the variable **cluster.workers**, so broadcasting a message to all of them would be as easy as running the following line of code:
 
 > Object.values(cluster.workers).forEach(worker =&gt; worker.send('Hello from the master'))
 
@@ -118,9 +118,9 @@ pm2 show your-app
 
 ### Stateful communications
 
-different requests belonging to the same stateful session may potentially be handled by a different instance of the application. This is not a problem limited only to the cluster module, but, in general, it applies to any kind of stateless, load balancing algorithm
+Different requests belonging to the same statefull session may potentially be handled by a different instance of the application. This is not a problem limited only to the cluster module, but, in general, it applies to any kind of stateless, load balancing algorithm.
 
-- We can share state across all the instances with a **shared datastore** (db, redis)
+- We can share state across all the instances with a **shared datastore** (db, Redis)
 
 ![](/images/screenshot-from-2025-02-11-00-09-46-EyMz.png)
 
