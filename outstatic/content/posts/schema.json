@@ -116,6 +116,18 @@
         {
           "value": "nodeJs",
           "label": "Node.js"
+        },
+        {
+          "value": "messaging",
+          "label": "Messaging"
+        },
+        {
+          "value": "microservices",
+          "label": "Microservices"
+        },
+        {
+          "value": "scaling",
+          "label": "Scaling"
         }
       ]
     },

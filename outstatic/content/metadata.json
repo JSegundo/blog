@@ -1,6 +1,6 @@
 {
-  "commit": "bd411db4dc311b7731076165c4c8cfcea3430a53",
-  "generated": "2025-02-18T00:09:37.951Z",
+  "commit": "7620a7becc8efd91a7704c97a9761e86dc0900da",
+  "generated": "2025-02-18T18:32:36.853Z",
   "metadata": [
     {
       "__outstatic": {
@@ -382,8 +382,26 @@
     },
     {
       "__outstatic": {
-        "commit": "542ad79f1cc96b922cfb757b11b836dc30cc4ab3",
-        "hash": "1142803590",
+        "commit": "bd411db4dc311b7731076165c4c8cfcea3430a53",
+        "hash": "3500280317",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Handpicked collection of articles, resources, and insights curated to inspire and inform",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
+    },
+    {
+      "__outstatic": {
+        "commit": "7620a7becc8efd91a7704c97a9761e86dc0900da",
+        "hash": "2027606002",
         "path": "outstatic/content/posts/scalability-fundamentals-in-node-js.md"
       },
       "author": {
@@ -401,27 +419,21 @@
         {
           "label": "Node.js",
           "value": "nodeJs"
+        },
+        {
+          "label": "Messaging",
+          "value": "messaging"
+        },
+        {
+          "label": "Microservices",
+          "value": "microservices"
+        },
+        {
+          "label": "Scaling",
+          "value": "scaling"
         }
       ],
       "title": "Scalability fundamentals in Node.js"
-    },
-    {
-      "__outstatic": {
-        "commit": "bd411db4dc311b7731076165c4c8cfcea3430a53",
-        "hash": "3500280317",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Handpicked collection of articles, resources, and insights curated to inspire and inform",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
     }
   ]
 }

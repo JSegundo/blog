@@ -7,7 +7,7 @@ author:
 slug: 'scalability-fundamentals-in-node-js'
 description: 'Fundamentals of scalability for Node.js applications'
 coverImage: ''
-tags: [{"label":"Node.js","value":"nodeJs"}]
+tags: [{"label":"Node.js","value":"nodeJs"},{"label":"Messaging","value":"messaging"},{"label":"Microservices","value":"microservices"},{"label":"Scaling","value":"scaling"}]
 aws: ''
 publishedAt: '2025-02-10T22:58:08.879Z'
 ---
@@ -44,7 +44,7 @@ There are many ways to achieve this, represented in the **scale cube** (Martin L
 
   X and Y are the most common in the Node.js ecosystem.
 
-&nbsp;
+ 
 
 ## Cloning and load balancing
 
@@ -60,7 +60,7 @@ The **master process is responsible** for spawning processes (workers, instances
 
 You can spawn as many workers as number of CPUs available in the system. (Automatically done with PM2)
 
-&nbsp;
+ 
 
 > Notes:
 
@@ -74,7 +74,7 @@ we also have a communication channel available between the master and the worker
 
 > Object.values(cluster.workers).forEach(worker =&gt; worker.send('Hello from the master'))
 
-&nbsp;
+ 
 
 ### Resiliency and availability in cluster mode
 
@@ -114,7 +114,6 @@ pm2 logs
 
 # Get reload status
 pm2 show your-app
-
 ```
 
 ### Stateful communications
