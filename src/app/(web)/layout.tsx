@@ -47,7 +47,7 @@ export default function RootLayout({
 
   return (
     <html lang="en" suppressHydrationWarning>
-       <head>
+        <head>
         <Script
           id="gtm-script"
           strategy="afterInteractive"
@@ -57,13 +57,13 @@ export default function RootLayout({
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','${gtmId}');
+              })(window,document,'script','dataLayer','${'G-Q0RN52GJ8G'}');
+              console.log('GTM loaded with ID: ${'G-Q0RN52GJ8G'}');
             `,
           }}
         />
       </head>
       <body className="relative pb-24 md:pb-36 min-h-screen">
-        {/* <GoogleTagManager gtmId={gtmId} /> */}
         <GoogleTagManager gtmId={'G-Q0RN52GJ8G'} />
 
         <ThemeProvider
