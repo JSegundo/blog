@@ -1,25 +1,7 @@
 {
-  "commit": "542ad79f1cc96b922cfb757b11b836dc30cc4ab3",
-  "generated": "2025-02-11T21:02:56.933Z",
+  "commit": "bd411db4dc311b7731076165c4c8cfcea3430a53",
+  "generated": "2025-02-18T00:08:34.813Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "55786c682f86959d265674c598426c00cdb4b29a",
-        "hash": "2879260106",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
-    },
     {
       "__outstatic": {
         "commit": "67802096d35a54654e1154565cf6ca3231a04140",
@@ -422,6 +404,24 @@
         }
       ],
       "title": "Scalability fundamentals in Node.js"
+    },
+    {
+      "__outstatic": {
+        "commit": "bd411db4dc311b7731076165c4c8cfcea3430a53",
+        "hash": "2565879521",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
     }
   ]
 }
