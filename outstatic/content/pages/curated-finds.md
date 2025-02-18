@@ -14,7 +14,7 @@ publishedAt: '2024-04-29T20:57:57.726Z'
 
 &nbsp;
 
-- <https://martinfowler.com>
+- [https://martinfowler.com](https://martinfowler.com)
 
 - [David Rumsey Map Collection](https://www.davidrumsey.com/globes/bellerby-co-world-2023-schminke-gagarin-65-centimeter-globe)
 
