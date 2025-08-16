@@ -19,7 +19,6 @@ type Props = {
 }
 
 const ContentRow = ({
-  // const ContentRow = ({
   title = "More",
   items,
   collection,
@@ -29,7 +28,7 @@ const ContentRow = ({
   return (
     <section id={collection} className="max-w-2xl mx-auto px-4 py-8">
       <div className="flex gap-4 md:gap-6 items-end">
-        <h2 className="text-xl md:text-2xl font-bold  tracking-tighter leading-tight section-title">
+        <h2 className="text-xl md:text-2xl font-semibold tracking-tight leading-tight text-white">
           {title}
         </h2>
         {viewAll ? (
@@ -40,28 +39,27 @@ const ContentRow = ({
           </Button>
         ) : null}
       </div>
-      <div className="grid  max-w-fit sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mt-8 md:mt-8 lg:mt-10">
+      <div className="grid max-w-fit sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mt-8 md:mt-8 lg:mt-10">
         {items.map((item, id) => (
           <Link key={item.slug} href={`/${collection}/${item.slug}`}>
-            <div className=" p-4 cursor-pointer  md:w-full scale-100 hover:scale-[1.01] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden h-full shadow-xl 
-">
-              <h3 className="text-base mb-1 font-bold leading-snug  hover:underline">
+            <div className="p-6 cursor-pointer md:w-full transition-all duration-300 ease-out border border-[var(--border)] rounded-xl overflow-hidden h-full bg-[var(--bg-primary)] hover:bg-[var(--bg-secondary)] hover:border-[var(--accent)] hover:shadow-lg">
+              <h3 className="text-base mb-3 font-semibold leading-snug text-white transition-colors duration-300">
                 {item.title}
               </h3>
 
-              <p className="text-sm leading-relaxed text-slate-400 mb-4">
+              <p className="text-sm leading-relaxed text-[var(--text-secondary)] mb-4 transition-colors duration-300">
                 {item.description}
               </p>
-              {Array.isArray(item?.tags)
-                ? item.tags.map(({ label }, index) => (
-                    <Badge key={index} variant="custom">
-                      {label}
-                    </Badge>
-                  ))
-                : null}
+              <div className="flex flex-wrap gap-2">
+                {Array.isArray(item?.tags)
+                  ? item.tags.map(({ label }, index) => (
+                      <Badge key={index} variant="tag" size="sm">
+                        {label}
+                      </Badge>
+                    ))
+                  : null}
+              </div>
             </div>
-            {/* </div> */}
-            {/* {id < items.length - 1 && <hr></hr>} */}
           </Link>
         ))}
       </div>

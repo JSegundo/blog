@@ -12,18 +12,18 @@ export const metadata: Metadata = {
   // metadataBase: new URL("http://localhost:3000"),
   metadataBase: new URL("https://segu.work"),
   title: {
-    default: "Segundo Juan - Blog.",
+    default: "Segundo Juan - Portfolio",
     template: "%s | Segundo Juan",
   },
-  description: "Front-end developer. I write about web, cloud and more.",
+  description: "Developer portfolio and blog. Clean, content-focused design.",
   openGraph: {
-    title: "Segundo Juan - Blog.",
-    description: "Front-end developer. I write about web, cloud and more.",
+    title: "Segundo Juan - Portfolio",
+    description: "Developer portfolio and blog. Clean, content-focused design.",
     url: absoluteUrl("/"),
-    siteName: "localhost",
+    siteName: "Segundo Juan",
     images: [
       {
-        url: ogUrl("Segundo Juan - Blog"),
+        url: ogUrl("Segundo Juan - Portfolio"),
         width: 1200,
         height: 630,
       },
@@ -31,10 +31,6 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  // icons: {
-  //   icon: [{ url: "/favicon/favicon-32x32.png" }],
-  //   apple: [{ url: "/favicon/apple-touch-icon.png" }],
-  // },
 }
 
 export default function RootLayout({
@@ -42,8 +38,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const gtmId = process.env.NEXT_PUBLIC_GTM // Replace with your actual GTM container ID
-
+  const gtmId = process.env.NEXT_PUBLIC_GTM
 
   return (
     <html lang="en" suppressHydrationWarning>
@@ -63,20 +58,19 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="relative pb-24 md:pb-36 min-h-screen">
+      <body className="relative pb-24 md:pb-36 min-h-screen bg-[#0a0a0a] text-white">
         <GoogleTagManager gtmId={'GTM-KDW85KP2'} />
 
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
           <Header />
-          <div className="relative max-w-6xl mx-auto px-5 h-full pt-8 md:py-24">
+          <div className="relative max-w-4xl mx-auto px-8 h-full pt-8 md:py-24">
             {children}
           </div>
-          {/* <BuiltWithOutstatic fixed /> */}
           <Footer />
         </ThemeProvider>
       </body>

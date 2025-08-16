@@ -17,43 +17,25 @@ const Header = async () => {
   const { pages, collections } = data
 
   return (
-    <header className="py-4 fixed bottom-0 border-t md:bottom-auto md:top-0 w-full z-20 border-b bg-background">
-      <nav className="max-w-6xl mx-auto w-full layout flex items-center justify-between">
+    <header className="py-6 fixed bottom-0 border-t border-[#262626] md:bottom-auto md:top-0 w-full z-20 bg-[#0a0a0a] transition-all duration-200">
+      <nav className="max-w-4xl mx-auto w-full flex items-center justify-between px-8">
         <Link
           href="/"
-          className="flex gap-2 hover:text-slate-100 px-5 underline-offset-2 font-semibold transition-all hover:scale-105"
+          className="text-xl font-medium text-white hover:text-gray-300 transition-all duration-200 hover:scale-105"
         >
-          {/* <img src="favicon.ico" width={40} /> */}
-          Segundo Juan
+         🔵 Segundo Juan
         </Link>
-        <ul className="hidden md:flex items-center justify-between space-x-3 text-xs md:space-x-4 md:text-base">
+        <ul className="hidden md:flex items-center space-x-8">
           {pages.map(({ title, slug }) => (
             <li key={slug}>
               <Link
                 href={`/${slug}`}
-                className={
-                  buttonVariants({ variant: "ghost", size: "sm" }) +
-                  " capitalize"
-                }
+                className="text-gray-300 hover:text-white transition-all duration-200 font-medium hover:scale-105"
               >
                 {title}
               </Link>
             </li>
           ))}
-          {/* {collections.map((collection) => (
-            <li key={collection}>
-              <Link
-                href={`/${collection}`}
-                className={
-                  buttonVariants({ variant: "ghost", size: "sm" }) +
-                  " capitalize"
-                }
-              >
-                {collection}
-              </Link>
-            </li>
-          ))} */}
-          {/* <ThemeToggle /> */}
         </ul>
         <MobileMenu pages={pages} collections={collections} />
       </nav>

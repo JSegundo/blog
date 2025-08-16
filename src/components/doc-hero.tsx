@@ -20,18 +20,20 @@ export default function DocHero(doc: Doc) {
         />
       </div> */}
       {Array.isArray(doc?.tags)
-        ? doc.tags.map(({ label }) => (
-            <Badge variant="customOutline">{label}</Badge>
+        ? doc.tags.map(({ label }, index) => (
+            <Badge key={index} variant="category" className="mr-3 mb-4">
+              {label}
+            </Badge>
           ))
         : null}
       <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
         {doc.title}
       </h1>
-      <div className="hidden md:block md:mb-12 text-slate-600 dark:text-slate-400">
+      <div className="hidden md:block md:mb-12 text-[var(--text-secondary)]">
         Written on <DateFormatter dateString={doc.publishedAt} /> by{" "}
         {doc?.author?.name || ""}.
       </div>
-      <hr className="border-gray-200 mt-10 mb-10" />
+      <hr className="border-[var(--border)] mt-10 mb-10" />
     </>
   )
 }
