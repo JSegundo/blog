@@ -1,6 +1,6 @@
 ---
 title: 'Plaiatech - Healthcare platform'
-status: 'draft'
+status: 'published'
 author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
