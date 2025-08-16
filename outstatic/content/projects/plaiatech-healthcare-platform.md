@@ -10,6 +10,6 @@ coverImage: ''
 publishedAt: '2025-08-16T15:19:58.416Z'
 ---
 
-> Traditional pre-anesthesia consultations require in-person visits days before surgery, creating logistical challenges for patients and inefficiencies for medical staff. Built a comprehensive digital platform that enables remote patient assessment while maintaining medical-grade security and regulatory compliance
+Traditional pre-anesthesia consultations require in-person visits days before surgery, creating logistical challenges for patients and inefficiencies for medical staff.
 
-### 
+Plaiatech is a comprehensive digital healthcare platform designed to streamline pre-anesthesia consultations through remote patient assessment. The platform addresses the critical need for efficient, secure, and compliant healthcare solutions in the digital age.

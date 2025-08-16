@@ -3,6 +3,7 @@ import ContentRow from "@/components/content-rows"
 import markdownToHtml from "@/lib/markdownToHtml"
 import { load } from "outstatic/server"
 import Link from "next/link"
+import ProjectsGrid from "@/components/projects-grid"
 
 export default async function Index() {
   const { content, allPosts, otherCollections } = await getData()
@@ -39,6 +40,9 @@ export default async function Index() {
           </p>
         </div>
       </section>
+
+      {/* Projects Section */}
+      <ProjectsGrid />
 
       {allPosts.length > 0 && (
         <ContentRow
