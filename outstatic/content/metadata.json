@@ -1,7 +1,61 @@
 {
-  "commit": "79152967f244515df24bb8f75b46cd5fa2a05d66",
-  "generated": "2025-08-16T13:23:16.281Z",
+  "commit": "9521b2f7141351e3b6247582bea33866512c608b",
+  "generated": "Sat, 16 Aug 2025 13:23:37 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "b961be48e30fdb44c88b23538a2528d57b75a0ae",
+        "hash": "3063308994",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2024-03-03T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "652440efe8100e68dcc108a79b3fa8f6c0ecdeff",
+        "hash": "749123505",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Handpicked collection of articles, resources, and insights curated to inspire and inform",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
+    },
+    {
+      "__outstatic": {
+        "commit": "9c36df246f3d018c2350f7f5ec9d3143379a59fa",
+        "hash": "4202525248",
+        "path": "outstatic/content/pages/career-chat.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "AI chat with knowledge about my career and tools to contact me",
+      "publishedAt": "2025-01-27T00:00:00.000Z",
+      "slug": "career-chat",
+      "status": "published",
+      "title": "Career Chat"
+    },
     {
       "__outstatic": {
         "commit": "67802096d35a54654e1154565cf6ca3231a04140",
@@ -19,6 +73,96 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "c9573c8f6839ebabfbeb2b568a3674fbb0f65ff2",
+        "hash": "2485833360",
+        "path": "outstatic/content/posts/node-js-design-patterns.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-31T22:40:03.351Z",
+      "slug": "node-js-design-patterns",
+      "status": "draft",
+      "tags": "",
+      "title": "Node js design patterns"
+    },
+    {
+      "__outstatic": {
+        "commit": "866a38de9b15ac2941ad7003e546af4da487fa87",
+        "hash": "3946633664",
+        "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-19T14:36:15.758Z",
+      "slug": "my-study-roadmap-for-2025",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "2025 Learning path"
+    },
+    {
+      "__outstatic": {
+        "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
+        "hash": "2847699777",
+        "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "awss",
+      "collection": "posts",
+      "coverImage": "/images/screenshot-from-2024-03-26-12-46-49-gyMj.png",
+      "description": "Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS y desplegué un sitio estatico (HTML)",
+      "publishedAt": "2024-03-17T02:24:07.596Z",
+      "slug": "mi-primer-deploy-en-aws",
+      "status": "published",
+      "tags": [
+        {
+          "label": "CloudFront",
+          "value": "cloudFront"
+        },
+        {
+          "label": "S3",
+          "value": "s3"
+        },
+        {
+          "label": "Route53",
+          "value": "route53"
+        },
+        {
+          "label": "ACM",
+          "value": "acm"
+        },
+        {
+          "label": "DNS",
+          "value": "dns"
+        },
+        {
+          "label": "CDN",
+          "value": "cdn"
+        },
+        {
+          "label": "AWS",
+          "value": "aws"
+        }
+      ],
+      "title": "Mi primer deploy en AWS"
     },
     {
       "__outstatic": {
@@ -81,158 +225,6 @@
         }
       ],
       "title": "Debugging mindset"
-    },
-    {
-      "__outstatic": {
-        "commit": "b961be48e30fdb44c88b23538a2528d57b75a0ae",
-        "hash": "3063308994",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2024-03-03T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "652440efe8100e68dcc108a79b3fa8f6c0ecdeff",
-        "hash": "749123505",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Handpicked collection of articles, resources, and insights curated to inspire and inform",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
-    },
-    {
-      "__outstatic": {
-        "commit": "9c36df246f3d018c2350f7f5ec9d3143379a59fa",
-        "hash": "4202525248",
-        "path": "outstatic/content/pages/career-chat.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "AI chat with knowledge about my career and tools to contact me",
-      "publishedAt": "2025-01-27T00:00:00.000Z",
-      "slug": "career-chat",
-      "status": "published",
-      "title": "Career Chat"
-    },
-    {
-      "__outstatic": {
-        "commit": "ed913f72fe35d0a625e17e392e4e16a0b4c9020c",
-        "hash": "523765355",
-        "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "Going beyond the event loop to understand why nodejs is asynchronus while single thread",
-      "publishedAt": "2024-05-09T21:05:45.985Z",
-      "slug": "nodejs-eventloop-demultiplexer",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Event Demultiplexer",
-          "value": "eventDemultiplexer"
-        },
-        {
-          "label": "Event Loop",
-          "value": "eventLoop"
-        }
-      ],
-      "title": "How can Node be asynchronus? Yes, we heard about the event loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "c9573c8f6839ebabfbeb2b568a3674fbb0f65ff2",
-        "hash": "2485833360",
-        "path": "outstatic/content/posts/node-js-design-patterns.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-31T22:40:03.351Z",
-      "slug": "node-js-design-patterns",
-      "status": "draft",
-      "tags": "",
-      "title": "Node js design patterns"
-    },
-    {
-      "__outstatic": {
-        "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
-        "hash": "2847699777",
-        "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "awss",
-      "collection": "posts",
-      "coverImage": "/images/screenshot-from-2024-03-26-12-46-49-gyMj.png",
-      "description": "Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS y desplegué un sitio estatico (HTML)",
-      "publishedAt": "2024-03-17T02:24:07.596Z",
-      "slug": "mi-primer-deploy-en-aws",
-      "status": "published",
-      "tags": [
-        {
-          "label": "CloudFront",
-          "value": "cloudFront"
-        },
-        {
-          "label": "S3",
-          "value": "s3"
-        },
-        {
-          "label": "Route53",
-          "value": "route53"
-        },
-        {
-          "label": "ACM",
-          "value": "acm"
-        },
-        {
-          "label": "DNS",
-          "value": "dns"
-        },
-        {
-          "label": "CDN",
-          "value": "cdn"
-        },
-        {
-          "label": "AWS",
-          "value": "aws"
-        }
-      ],
-      "title": "Mi primer deploy en AWS"
     },
     {
       "__outstatic": {
@@ -358,9 +350,9 @@
     },
     {
       "__outstatic": {
-        "commit": "79152967f244515df24bb8f75b46cd5fa2a05d66",
-        "hash": "3946633664",
-        "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
+        "commit": "ed913f72fe35d0a625e17e392e4e16a0b4c9020c",
+        "hash": "523765355",
+        "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
       },
       "author": {
         "name": "Segundo Juan",
@@ -369,13 +361,21 @@
       "aws": "",
       "collection": "posts",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-19T14:36:15.758Z",
-      "slug": "my-study-roadmap-for-2025",
+      "description": "Going beyond the event loop to understand why nodejs is asynchronus while single thread",
+      "publishedAt": "2024-05-09T21:05:45.985Z",
+      "slug": "nodejs-eventloop-demultiplexer",
       "status": "draft",
       "tags": [
+        {
+          "label": "Event Demultiplexer",
+          "value": "eventDemultiplexer"
+        },
+        {
+          "label": "Event Loop",
+          "value": "eventLoop"
+        }
       ],
-      "title": "2025 Learning path"
+      "title": "How can Node be asynchronus? Yes, we heard about the event loop"
     }
   ]
 }
