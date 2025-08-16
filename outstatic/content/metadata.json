@@ -1,6 +1,6 @@
 {
-  "commit": "25b5ad606cc2262fa5c6814899220adca3ad0037",
-  "generated": "Sat, 16 Aug 2025 13:19:32 GMT",
+  "commit": "d5c5df1d271b6f16d6ff31ebf6b64f510922f164",
+  "generated": "2025-08-16T13:21:59.851Z",
   "metadata": [
     {
       "__outstatic": {
@@ -135,35 +135,6 @@
       "slug": "career-chat",
       "status": "published",
       "title": "Career Chat"
-    },
-    {
-      "__outstatic": {
-        "commit": "e6e417a20158d48aea69512ae6eef3121fddad21",
-        "hash": "1671364451",
-        "path": "outstatic/content/posts/notes-on-ai.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-17T18:37:33.335Z",
-      "slug": "notes-on-ai",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Bedrock",
-          "value": "bedrock"
-        },
-        {
-          "label": "AI",
-          "value": "ai"
-        }
-      ],
-      "title": "Notes on AI"
     },
     {
       "__outstatic": {
