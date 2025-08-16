@@ -1,6 +1,6 @@
 {
-  "commit": "8c4231f7e9ce154fa540b8e493fe0fbcda529064",
-  "generated": "2025-08-16T13:23:00.607Z",
+  "commit": "79152967f244515df24bb8f75b46cd5fa2a05d66",
+  "generated": "2025-08-16T13:23:16.281Z",
   "metadata": [
     {
       "__outstatic": {
@@ -187,27 +187,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e3413d1a6b2aeee8215f3efdcf856dee11d582b3",
-        "hash": "4066652223",
-        "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-19T14:36:15.758Z",
-      "slug": "my-study-roadmap-for-2025",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "2025 Learning path"
-    },
-    {
-      "__outstatic": {
         "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
         "hash": "2847699777",
         "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
@@ -376,6 +355,27 @@
         }
       ],
       "title": "Nodejs "
+    },
+    {
+      "__outstatic": {
+        "commit": "79152967f244515df24bb8f75b46cd5fa2a05d66",
+        "hash": "3946633664",
+        "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-19T14:36:15.758Z",
+      "slug": "my-study-roadmap-for-2025",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "2025 Learning path"
     }
   ]
 }

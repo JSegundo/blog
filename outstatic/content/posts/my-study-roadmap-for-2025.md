@@ -1,6 +1,6 @@
 ---
 title: '2025 Learning path'
-status: 'published'
+status: 'draft'
 author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
@@ -16,9 +16,7 @@ publishedAt: '2025-01-19T14:36:15.758Z'
 
 - Currently following Node JS: advanced concepts course in Udemy and reading "Node.js Design Patterns" book.
 
-
 - I already took a look at a sample of "Understanding Distributed Systems" by Roberto Vitillo and I can't wait to start reading it.
-
 
 - Then: "Fundamentals of Software Architecture" by Neal Ford & Mark Richards
 
@@ -31,7 +29,7 @@ publishedAt: '2025-01-19T14:36:15.758Z'
 
 - "Foundations of Large Language Models" Tong Xiao and Jingbo Zhu
 
-&nbsp;
+ 
 
 ## Daily Commitment
 
