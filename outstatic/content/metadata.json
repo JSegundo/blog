@@ -1,7 +1,32 @@
 {
-  "commit": "0e604b4f1ba83f9d29be1424dff97137ea53e03f",
-  "generated": "2025-08-16T15:19:42.348Z",
+  "commit": "a8b0673f9c670c399239b43d568de96d5933fb4f",
+  "generated": "Sat, 16 Aug 2025 15:21:47 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "58fd2f7cc240532e84eed786a3d02345e3624c22",
+        "hash": "856532523",
+        "path": "outstatic/content/posts/debugging-mindset.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-31T22:09:23.744Z",
+      "slug": "debugging-mindset",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Debugging",
+          "value": "debugging"
+        }
+      ],
+      "title": "Debugging mindset"
+    },
     {
       "__outstatic": {
         "commit": "b961be48e30fdb44c88b23538a2528d57b75a0ae",
@@ -73,6 +98,35 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "ed913f72fe35d0a625e17e392e4e16a0b4c9020c",
+        "hash": "523765355",
+        "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "Going beyond the event loop to understand why nodejs is asynchronus while single thread",
+      "publishedAt": "2024-05-09T21:05:45.985Z",
+      "slug": "nodejs-eventloop-demultiplexer",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Event Demultiplexer",
+          "value": "eventDemultiplexer"
+        },
+        {
+          "label": "Event Loop",
+          "value": "eventLoop"
+        }
+      ],
+      "title": "How can Node be asynchronus? Yes, we heard about the event loop"
     },
     {
       "__outstatic": {
@@ -203,28 +257,21 @@
     },
     {
       "__outstatic": {
-        "commit": "58fd2f7cc240532e84eed786a3d02345e3624c22",
-        "hash": "856532523",
-        "path": "outstatic/content/posts/debugging-mindset.md"
+        "commit": "17f2c43528a66c2d1e541f2b04b4dfbf791bfbd3",
+        "hash": "999240691",
+        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
       },
       "author": {
         "name": "Segundo Juan",
         "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
       },
-      "aws": "",
-      "collection": "posts",
+      "collection": "projects",
       "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-31T22:09:23.744Z",
-      "slug": "debugging-mindset",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Debugging",
-          "value": "debugging"
-        }
-      ],
-      "title": "Debugging mindset"
+      "description": " multi-tenant healthcare platform",
+      "publishedAt": "2025-08-16T15:19:58.416Z",
+      "slug": "plaiatech-healthcare-platform",
+      "status": "draft",
+      "title": "Plaiatech - Healthcare platform"
     },
     {
       "__outstatic": {
@@ -347,53 +394,6 @@
         }
       ],
       "title": "Nodejs "
-    },
-    {
-      "__outstatic": {
-        "commit": "ed913f72fe35d0a625e17e392e4e16a0b4c9020c",
-        "hash": "523765355",
-        "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "Going beyond the event loop to understand why nodejs is asynchronus while single thread",
-      "publishedAt": "2024-05-09T21:05:45.985Z",
-      "slug": "nodejs-eventloop-demultiplexer",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Event Demultiplexer",
-          "value": "eventDemultiplexer"
-        },
-        {
-          "label": "Event Loop",
-          "value": "eventLoop"
-        }
-      ],
-      "title": "How can Node be asynchronus? Yes, we heard about the event loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "0e604b4f1ba83f9d29be1424dff97137ea53e03f",
-        "hash": "999240691",
-        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "",
-      "description": " multi-tenant healthcare platform",
-      "publishedAt": "2025-08-16T15:19:58.416Z",
-      "slug": "plaiatech-healthcare-platform",
-      "status": "draft",
-      "title": "Plaiatech - Healthcare platform"
     }
   ]
 }
