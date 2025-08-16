@@ -190,7 +190,6 @@ export default async function ProjectsGrid() {
 
       {/* Style 1: Classic Cards */}
       <div className="mb-16">
-        <h3 className="text-xl font-medium mb-6 text-white text-center">Style 1: Classic Cards</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {projects.map((project, index) => (
             <Link key={project.slug} href={project.externalLink || `/projects/${project.slug}`}>
@@ -201,7 +200,7 @@ export default async function ProjectsGrid() {
       </div>
 
       {/* Style 2: Hero Cards */}
-      <div className="mb-16">
+      {/* <div className="mb-16">
         <h3 className="text-xl font-medium mb-6 text-white text-center">Style 2: Hero Cards</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {projects.map((project, index) => (
@@ -210,7 +209,7 @@ export default async function ProjectsGrid() {
             </Link>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
