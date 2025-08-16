@@ -1,6 +1,6 @@
 {
   "commit": "25b5ad606cc2262fa5c6814899220adca3ad0037",
-  "generated": "Sat, 16 Aug 2025 13:19:29 GMT",
+  "generated": "Sat, 16 Aug 2025 13:19:32 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -19,42 +19,6 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
-    },
-    {
-      "__outstatic": {
-        "commit": "652440efe8100e68dcc108a79b3fa8f6c0ecdeff",
-        "hash": "749123505",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Handpicked collection of articles, resources, and insights curated to inspire and inform",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
-    },
-    {
-      "__outstatic": {
-        "commit": "9c36df246f3d018c2350f7f5ec9d3143379a59fa",
-        "hash": "4202525248",
-        "path": "outstatic/content/pages/career-chat.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "AI chat with knowledge about my career and tools to contact me",
-      "publishedAt": "2025-01-27T00:00:00.000Z",
-      "slug": "career-chat",
-      "status": "published",
-      "title": "Career Chat"
     },
     {
       "__outstatic": {
@@ -135,6 +99,42 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "652440efe8100e68dcc108a79b3fa8f6c0ecdeff",
+        "hash": "749123505",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Handpicked collection of articles, resources, and insights curated to inspire and inform",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
+    },
+    {
+      "__outstatic": {
+        "commit": "9c36df246f3d018c2350f7f5ec9d3143379a59fa",
+        "hash": "4202525248",
+        "path": "outstatic/content/pages/career-chat.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "AI chat with knowledge about my career and tools to contact me",
+      "publishedAt": "2025-01-27T00:00:00.000Z",
+      "slug": "career-chat",
+      "status": "published",
+      "title": "Career Chat"
     },
     {
       "__outstatic": {
