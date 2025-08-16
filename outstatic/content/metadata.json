@@ -1,6 +1,6 @@
 {
-  "commit": "b2171e0028f5c79d2f72d2eaae7b5318a10834a4",
-  "generated": "Sat, 16 Aug 2025 15:26:37 GMT",
+  "commit": "3d49308f2e42190676c3b84bd5ddd1015c350a69",
+  "generated": "Sat, 16 Aug 2025 15:43:14 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -257,8 +257,8 @@
     },
     {
       "__outstatic": {
-        "commit": "2017dd92fd09f7fd59d000edbd57cfc05810408b",
-        "hash": "999240691",
+        "commit": "1a5254c73ad9d2907da7c3719eb08722ad524345",
+        "hash": "2923852784",
         "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
       },
       "author": {
@@ -270,7 +270,7 @@
       "description": " multi-tenant healthcare platform",
       "publishedAt": "2025-08-16T15:19:58.416Z",
       "slug": "plaiatech-healthcare-platform",
-      "status": "draft",
+      "status": "published",
       "title": "Plaiatech - Healthcare platform"
     },
     {
