@@ -1,6 +1,6 @@
 {
-  "commit": "7620a7becc8efd91a7704c97a9761e86dc0900da",
-  "generated": "2025-02-18T18:36:06.874Z",
+  "commit": "25b5ad606cc2262fa5c6814899220adca3ad0037",
+  "generated": "Sat, 16 Aug 2025 13:19:29 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -19,6 +19,221 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "652440efe8100e68dcc108a79b3fa8f6c0ecdeff",
+        "hash": "749123505",
+        "path": "outstatic/content/pages/curated-finds.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "Handpicked collection of articles, resources, and insights curated to inspire and inform",
+      "publishedAt": "2024-04-29T20:57:57.726Z",
+      "slug": "curated-finds",
+      "status": "published",
+      "title": "Curated finds"
+    },
+    {
+      "__outstatic": {
+        "commit": "9c36df246f3d018c2350f7f5ec9d3143379a59fa",
+        "hash": "4202525248",
+        "path": "outstatic/content/pages/career-chat.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "AI chat with knowledge about my career and tools to contact me",
+      "publishedAt": "2025-01-27T00:00:00.000Z",
+      "slug": "career-chat",
+      "status": "published",
+      "title": "Career Chat"
+    },
+    {
+      "__outstatic": {
+        "commit": "87f7f9b6b5f5001554d46ef5ba46299f2cecf72d",
+        "hash": "2272036231",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-11T20:24:25.000Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "published",
+      "tags": [
+        {
+          "label": "OOP",
+          "value": "oop"
+        },
+        {
+          "label": "DI",
+          "value": "di"
+        },
+        {
+          "label": "Dependency Inversion Principle",
+          "value": "dependencyInversionPrinciple"
+        },
+        {
+          "label": "Concepts",
+          "value": "concepts"
+        }
+      ],
+      "title": "Dependency injection in a nutshell"
+    },
+    {
+      "__outstatic": {
+        "commit": "58fd2f7cc240532e84eed786a3d02345e3624c22",
+        "hash": "856532523",
+        "path": "outstatic/content/posts/debugging-mindset.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-31T22:09:23.744Z",
+      "slug": "debugging-mindset",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Debugging",
+          "value": "debugging"
+        }
+      ],
+      "title": "Debugging mindset"
+    },
+    {
+      "__outstatic": {
+        "commit": "b961be48e30fdb44c88b23538a2528d57b75a0ae",
+        "hash": "3063308994",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2024-03-03T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "e6e417a20158d48aea69512ae6eef3121fddad21",
+        "hash": "1671364451",
+        "path": "outstatic/content/posts/notes-on-ai.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-17T18:37:33.335Z",
+      "slug": "notes-on-ai",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Bedrock",
+          "value": "bedrock"
+        },
+        {
+          "label": "AI",
+          "value": "ai"
+        }
+      ],
+      "title": "Notes on AI"
+    },
+    {
+      "__outstatic": {
+        "commit": "ed913f72fe35d0a625e17e392e4e16a0b4c9020c",
+        "hash": "523765355",
+        "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "Going beyond the event loop to understand why nodejs is asynchronus while single thread",
+      "publishedAt": "2024-05-09T21:05:45.985Z",
+      "slug": "nodejs-eventloop-demultiplexer",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Event Demultiplexer",
+          "value": "eventDemultiplexer"
+        },
+        {
+          "label": "Event Loop",
+          "value": "eventLoop"
+        }
+      ],
+      "title": "How can Node be asynchronus? Yes, we heard about the event loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "c9573c8f6839ebabfbeb2b568a3674fbb0f65ff2",
+        "hash": "2485833360",
+        "path": "outstatic/content/posts/node-js-design-patterns.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-31T22:40:03.351Z",
+      "slug": "node-js-design-patterns",
+      "status": "draft",
+      "tags": "",
+      "title": "Node js design patterns"
+    },
+    {
+      "__outstatic": {
+        "commit": "e3413d1a6b2aeee8215f3efdcf856dee11d582b3",
+        "hash": "4066652223",
+        "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-19T14:36:15.758Z",
+      "slug": "my-study-roadmap-for-2025",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "2025 Learning path"
     },
     {
       "__outstatic": {
@@ -71,81 +286,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e60c5d223be5afa275156f0be62a1bec1db834e4",
-        "hash": "1382789023",
-        "path": "outstatic/content/posts/learning-this-git-commands-made-me-feel-like-a-wizard.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "/images/git-cyMz.png",
-      "description": "",
-      "publishedAt": "2024-07-01T21:55:26.158Z",
-      "slug": "learning-this-git-commands-made-me-feel-like-a-wizard",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "GIT wizard's commands"
-    },
-    {
-      "__outstatic": {
-        "commit": "565a4d4ef1e5ddc001027b84910db2146697b10e",
-        "hash": "1193885166",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2024-03-03T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "ec2822c5dd47cde4dfc381b01f38547d52fa5c06",
-        "hash": "704991631",
-        "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Q4ND.jpeg"
-      },
-      "collection": "posts",
-      "coverImage": "/images/aws-U5Nz.png",
-      "description": "Agunos de los principales conceptos a considerar para aprender sobre computación en la nube",
-      "publishedAt": "2024-03-15T13:47:29.164Z",
-      "slug": "primeros-pasos-aws-cloud",
-      "status": "published",
-      "tags": [
-        {
-          "label": "AWS",
-          "value": "aws"
-        },
-        {
-          "label": "VPC",
-          "value": "vpc"
-        },
-        {
-          "label": "EC2",
-          "value": "ec2"
-        },
-        {
-          "label": "Basics",
-          "value": "basics"
-        }
-      ],
-      "title": "Primeros pasos - AWS Cloud"
-    },
-    {
-      "__outstatic": {
         "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
         "hash": "2355795964",
         "path": "outstatic/content/posts/what-is-state-managment.md"
@@ -191,216 +331,7 @@
     },
     {
       "__outstatic": {
-        "commit": "736bd7a1440bd82d7e164a63e49d636be8dba5bc",
-        "hash": "2272036231",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-11T20:24:25.000Z",
-      "slug": "dependency-injection-in-a-nutshell",
-      "status": "published",
-      "tags": [
-        {
-          "label": "OOP",
-          "value": "oop"
-        },
-        {
-          "label": "DI",
-          "value": "di"
-        },
-        {
-          "label": "Dependency Inversion Principle",
-          "value": "dependencyInversionPrinciple"
-        },
-        {
-          "label": "Concepts",
-          "value": "concepts"
-        }
-      ],
-      "title": "Dependency injection in a nutshell"
-    },
-    {
-      "__outstatic": {
-        "commit": "97bb024d33f1baea121e5ce03799b1e0137e8593",
-        "hash": "523765355",
-        "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "Going beyond the event loop to understand why nodejs is asynchronus while single thread",
-      "publishedAt": "2024-05-09T21:05:45.985Z",
-      "slug": "nodejs-eventloop-demultiplexer",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Event Demultiplexer",
-          "value": "eventDemultiplexer"
-        },
-        {
-          "label": "Event Loop",
-          "value": "eventLoop"
-        }
-      ],
-      "title": "How can Node be asynchronus? Yes, we heard about the event loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "0d0c7274751d8d5b29b399a3216f0d5379c6ace3",
-        "hash": "856532523",
-        "path": "outstatic/content/posts/debugging-mindset.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-31T22:09:23.744Z",
-      "slug": "debugging-mindset",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Debugging",
-          "value": "debugging"
-        }
-      ],
-      "title": "Debugging mindset"
-    },
-    {
-      "__outstatic": {
-        "commit": "2e520f6c6886161019084f52b5dc26c347d416ce",
-        "hash": "1671364451",
-        "path": "outstatic/content/posts/notes-on-ai.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-17T18:37:33.335Z",
-      "slug": "notes-on-ai",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Bedrock",
-          "value": "bedrock"
-        },
-        {
-          "label": "AI",
-          "value": "ai"
-        }
-      ],
-      "title": "Notes on AI"
-    },
-    {
-      "__outstatic": {
-        "commit": "bd25457aa1ec829cf179bee3800a8497099bf6d9",
-        "hash": "4066652223",
-        "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-19T14:36:15.758Z",
-      "slug": "my-study-roadmap-for-2025",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "2025 Learning path"
-    },
-    {
-      "__outstatic": {
-        "commit": "0b0a79939229f0891933d5d9e9c8692b6a026373",
-        "hash": "3076789956",
-        "path": "outstatic/content/posts/notes-on-nodejs-design-patterns.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-13T22:05:58.374Z",
-      "slug": "notes-on-nodejs-design-patterns",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Node",
-          "value": "node"
-        },
-        {
-          "label": "Concepts",
-          "value": "concepts"
-        }
-      ],
-      "title": "Nodejs "
-    },
-    {
-      "__outstatic": {
-        "commit": "6d1cd6cbdeb3f1fc18daa878b65bc2a1afa6db65",
-        "hash": "2485833360",
-        "path": "outstatic/content/posts/node-js-design-patterns.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-31T22:40:03.351Z",
-      "slug": "node-js-design-patterns",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "Node js design patterns"
-    },
-    {
-      "__outstatic": {
-        "commit": "bd411db4dc311b7731076165c4c8cfcea3430a53",
-        "hash": "3500280317",
-        "path": "outstatic/content/pages/curated-finds.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "Handpicked collection of articles, resources, and insights curated to inspire and inform",
-      "publishedAt": "2024-04-29T20:57:57.726Z",
-      "slug": "curated-finds",
-      "status": "published",
-      "title": "Curated finds"
-    },
-    {
-      "__outstatic": {
-        "commit": "7620a7becc8efd91a7704c97a9761e86dc0900da",
+        "commit": "e5907a03362a122af72e1b4bbe4d61d4a280eec3",
         "hash": "3880704762",
         "path": "outstatic/content/posts/scalability-fundamentals-in-node-js.md"
       },
@@ -434,6 +365,71 @@
         }
       ],
       "title": "Scalability fundamentals in Node.js"
+    },
+    {
+      "__outstatic": {
+        "commit": "ec2822c5dd47cde4dfc381b01f38547d52fa5c06",
+        "hash": "704991631",
+        "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Q4ND.jpeg"
+      },
+      "collection": "posts",
+      "coverImage": "/images/aws-U5Nz.png",
+      "description": "Agunos de los principales conceptos a considerar para aprender sobre computación en la nube",
+      "publishedAt": "2024-03-15T13:47:29.164Z",
+      "slug": "primeros-pasos-aws-cloud",
+      "status": "published",
+      "tags": [
+        {
+          "label": "AWS",
+          "value": "aws"
+        },
+        {
+          "label": "VPC",
+          "value": "vpc"
+        },
+        {
+          "label": "EC2",
+          "value": "ec2"
+        },
+        {
+          "label": "Basics",
+          "value": "basics"
+        }
+      ],
+      "title": "Primeros pasos - AWS Cloud"
+    },
+    {
+      "__outstatic": {
+        "commit": "94c8fa6cae443a30ba84a7722618a4c8d00fdee0",
+        "hash": "3076789956",
+        "path": "outstatic/content/posts/notes-on-nodejs-design-patterns.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-13T22:05:58.374Z",
+      "slug": "notes-on-nodejs-design-patterns",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Node",
+          "value": "node"
+        },
+        {
+          "label": "Concepts",
+          "value": "concepts"
+        }
+      ],
+      "title": "Nodejs "
     }
   ]
 }
