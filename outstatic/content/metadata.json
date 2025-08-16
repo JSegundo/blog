@@ -1,6 +1,6 @@
 {
-  "commit": "9521b2f7141351e3b6247582bea33866512c608b",
-  "generated": "Sat, 16 Aug 2025 13:23:37 GMT",
+  "commit": "0e604b4f1ba83f9d29be1424dff97137ea53e03f",
+  "generated": "2025-08-16T15:19:42.348Z",
   "metadata": [
     {
       "__outstatic": {
@@ -376,6 +376,24 @@
         }
       ],
       "title": "How can Node be asynchronus? Yes, we heard about the event loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "0e604b4f1ba83f9d29be1424dff97137ea53e03f",
+        "hash": "999240691",
+        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "",
+      "description": " multi-tenant healthcare platform",
+      "publishedAt": "2025-08-16T15:19:58.416Z",
+      "slug": "plaiatech-healthcare-platform",
+      "status": "draft",
+      "title": "Plaiatech - Healthcare platform"
     }
   ]
 }
