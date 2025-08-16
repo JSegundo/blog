@@ -22,12 +22,12 @@ export default async function Index() {
         <div className="text-center">
           <Link
             href="/career-chat"
-            className="btn-primary inline-flex items-center gap-3 px-8 py-4 text-lg hover:scale-105 transition-all duration-300 ease-out group"
+            className="inline-flex items-center gap-3 px-8 py-4 text-lg font-medium border border-[var(--border)] text-[var(--text-secondary)] hover:text-white hover:border-[var(--accent)] hover:bg-[var(--bg-secondary)] rounded-lg transition-all duration-200"
           >
             <span className="text-xl">💬</span>
             <span>Chat with AI Career Assistant</span>
             <svg 
-              className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" 
+              className="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1" 
               fill="none" 
               stroke="currentColor" 
               viewBox="0 0 24 24"
@@ -35,6 +35,7 @@ export default async function Index() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </Link>
+          
           <p className="mt-6 text-gray-400 text-base max-w-lg mx-auto">
             Ask about my experience, skills, or get help contacting me directly
           </p>
