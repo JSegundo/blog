@@ -1,6 +1,6 @@
 {
   "commit": "88e1500b4d44d73c8e8d9b9b109e57e6825cc598",
-  "generated": "2025-08-25T15:19:58.407Z",
+  "generated": "2025-08-25T15:34:28.194Z",
   "metadata": [
     {
       "__outstatic": {
@@ -380,7 +380,7 @@
     {
       "__outstatic": {
         "commit": "88e1500b4d44d73c8e8d9b9b109e57e6825cc598",
-        "hash": "4213752226",
+        "hash": "613589743",
         "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
       },
       "author": {

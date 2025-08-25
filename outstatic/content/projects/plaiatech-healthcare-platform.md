@@ -12,7 +12,7 @@ publishedAt: '2025-08-16T15:19:58.416Z'
 
 Traditional pre-anesthesia consultations require in-person visits days before surgery, creating logistical challenges for patients and inefficiencies for medical staff.
 
-Plaiatech is a comprehensive digital healthcare platform designed to streamline pre-anesthesia consultations through remote patient assessment. The platform addresses the critical need for efficient, secure, and compliant healthcare solutions in the digital age.
+This **digital healthcare platform** allows patients to complete their pre-surgery health assessment remotely. The platform addresses the critical need for efficient, secure, and compliant healthcare solutions in the digital age.
 
 **My Role in the Project**
 
@@ -20,7 +20,9 @@ I'm responsible for the entire technical implementation, working directly with m
 
 **The Technical Foundation**
 
-Built on AWS serverless architecture, the platform handles everything from patient questionnaire delivery to AI-powered medication analysis. Key components include secure file storage for medical documents, automated messaging systems for patient notifications, and JWT-based authentication with single-use tokens for patient access. The multi-tenant design allows multiple medical facilities to customize their questionnaires while keeping their data completely isolated.
+Built on AWS serverless architecture, the platform handles complex dynamic questionnaires that adapt based on patient responses and demographics. Key components include secure file storage for medical documents, automated messaging systems for patient notifications, and sophisticated validation logic that ensures medical data accuracy and completeness.
+
+The **multi-tenant** design allows multiple medical facilities to customize their questionnaires while keeping their data completely isolated.
 
 **Looking Ahead**
 
