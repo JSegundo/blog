@@ -13,3 +13,15 @@ publishedAt: '2025-08-16T15:19:58.416Z'
 Traditional pre-anesthesia consultations require in-person visits days before surgery, creating logistical challenges for patients and inefficiencies for medical staff.
 
 Plaiatech is a comprehensive digital healthcare platform designed to streamline pre-anesthesia consultations through remote patient assessment. The platform addresses the critical need for efficient, secure, and compliant healthcare solutions in the digital age.
+
+**My Role in the Project**
+
+I'm responsible for the entire technical implementation, working directly with medical professionals to understand their clinical requirements. I built two distinct frontend applications: a patient-facing questionnaire optimized for mobile devices, and a medical staff backoffice for managing appointments and reviewing patient data/documents. The **multi-tenant architecture** allows different clinics to operate independently while sharing the core platform infrastructure.
+
+**The Technical Foundation**
+
+Built on AWS serverless architecture, the platform handles everything from patient questionnaire delivery to AI-powered medication analysis. Key components include secure file storage for medical documents, automated messaging systems for patient notifications, and JWT-based authentication with single-use tokens for patient access. The multi-tenant design allows multiple medical facilities to customize their questionnaires while keeping their data completely isolated.
+
+**Looking Ahead**
+
+Currently in MVP development, the platform is preparing for pilot testing with real patients. The goal is to demonstrate measurable improvements in both patient convenience and medical workflow efficiency.
