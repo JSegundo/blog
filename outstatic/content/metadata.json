@@ -1,6 +1,6 @@
 {
-  "commit": "9a2b74e234225391ce75512bdf6b2c64fee300fc",
-  "generated": "Mon, 25 Aug 2025 15:39:53 GMT",
+  "commit": "720bd508dfdf6a56fb738b9b083b4ae0e66b8e53",
+  "generated": "2025-08-25T15:40:46.265Z",
   "metadata": [
     {
       "__outstatic": {
@@ -394,6 +394,27 @@
         }
       ],
       "title": "Nodejs "
+    },
+    {
+      "__outstatic": {
+        "commit": "720bd508dfdf6a56fb738b9b083b4ae0e66b8e53",
+        "hash": "1053273021",
+        "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-08-25T15:46:19.911Z",
+      "slug": "a-framework-to-securely-vibe-code",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "A framework to securely vibe-code"
     }
   ]
 }
