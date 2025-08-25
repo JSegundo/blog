@@ -1,6 +1,6 @@
 {
-  "commit": "7ab7d0a1c582ebaa0b0f4e486e2bd686d85ff095",
-  "generated": "2025-08-25T16:08:41.507Z",
+  "commit": "2d986e959b2f5f7e20b4a747c33fd496ff470829",
+  "generated": "2025-08-25T16:08:58.267Z",
   "metadata": [
     {
       "__outstatic": {
@@ -257,24 +257,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e1242c55377198e178c53319c4cd8fdbcba11876",
-        "hash": "613589743",
-        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "",
-      "description": " multi-tenant healthcare platform",
-      "publishedAt": "2025-08-16T15:19:58.416Z",
-      "slug": "plaiatech-healthcare-platform",
-      "status": "published",
-      "title": "Plaiatech - Healthcare platform"
-    },
-    {
-      "__outstatic": {
         "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
         "hash": "2355795964",
         "path": "outstatic/content/posts/what-is-state-managment.md"
@@ -415,6 +397,24 @@
       "tags": [
       ],
       "title": "A framework to securely vibe-code"
+    },
+    {
+      "__outstatic": {
+        "commit": "2d986e959b2f5f7e20b4a747c33fd496ff470829",
+        "hash": "2951663350",
+        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/sora_1-I0ND.png",
+      "description": " multi-tenant healthcare platform",
+      "publishedAt": "2025-08-16T15:19:58.416Z",
+      "slug": "plaiatech-healthcare-platform",
+      "status": "published",
+      "title": "Plaiatech - Healthcare platform"
     }
   ]
 }

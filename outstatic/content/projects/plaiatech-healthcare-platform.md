@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'plaiatech-healthcare-platform'
 description: ' multi-tenant healthcare platform'
-coverImage: ''
+coverImage: '/images/sora_1-I0ND.png'
 publishedAt: '2025-08-16T15:19:58.416Z'
 ---
 
