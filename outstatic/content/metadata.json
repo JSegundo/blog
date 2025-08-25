@@ -1,6 +1,6 @@
 {
-  "commit": "24f4f41a2b94f18d66063cc825e4fa17efcca5d0",
-  "generated": "Mon, 25 Aug 2025 15:38:47 GMT",
+  "commit": "24c6cdd03f62607334f7a037e252b906767bc9b1",
+  "generated": "2025-08-25T15:39:43.300Z",
   "metadata": [
     {
       "__outstatic": {
@@ -257,24 +257,6 @@
     },
     {
       "__outstatic": {
-        "commit": "cca519c877d3056df754738e211f874ae10aa9b0",
-        "hash": "613589743",
-        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "",
-      "description": " multi-tenant healthcare platform",
-      "publishedAt": "2025-08-16T15:19:58.416Z",
-      "slug": "plaiatech-healthcare-platform",
-      "status": "published",
-      "title": "Plaiatech - Healthcare platform"
-    },
-    {
-      "__outstatic": {
         "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
         "hash": "2355795964",
         "path": "outstatic/content/posts/what-is-state-managment.md"
@@ -394,6 +376,24 @@
         }
       ],
       "title": "Nodejs "
+    },
+    {
+      "__outstatic": {
+        "commit": "24c6cdd03f62607334f7a037e252b906767bc9b1",
+        "hash": "1851270561",
+        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "",
+      "description": " multi-tenant healthcare platform",
+      "publishedAt": "2025-08-16T15:19:58.416Z",
+      "slug": "plaiatech-healthcare-platform",
+      "status": "published",
+      "title": "Plaiatech - Healthcare platform"
     }
   ]
 }

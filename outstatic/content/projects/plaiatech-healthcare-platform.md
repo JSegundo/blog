@@ -14,16 +14,16 @@ Traditional pre-anesthesia consultations require in-person visits days before su
 
 This **digital healthcare platform** allows patients to complete their pre-surgery health assessment remotely. The platform addresses the critical need for efficient, secure, and compliant healthcare solutions in the digital age.
 
-**My Role in the Project**
+## **My Role in the Project**
 
 I'm responsible for the entire technical implementation, working directly with medical professionals to understand their clinical requirements. I built two distinct frontend applications: a patient-facing questionnaire optimized for mobile devices, and a medical staff backoffice for managing appointments and reviewing patient data/documents. The **multi-tenant architecture** allows different clinics to operate independently while sharing the core platform infrastructure.
 
-**The Technical Foundation**
+## **The Technical Foundation**
 
 Built on AWS serverless architecture, the platform handles complex dynamic questionnaires that adapt based on patient responses and demographics. Key components include secure file storage for medical documents, automated messaging systems for patient notifications, and sophisticated validation logic that ensures medical data accuracy and completeness.
 
 The **multi-tenant** design allows multiple medical facilities to customize their questionnaires while keeping their data completely isolated.
 
-**Looking Ahead**
+## **Looking Ahead**
 
 Currently in MVP development, the platform is preparing for pilot testing with real patients. The goal is to demonstrate measurable improvements in both patient convenience and medical workflow efficiency.
