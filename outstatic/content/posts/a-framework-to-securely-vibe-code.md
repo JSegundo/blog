@@ -20,4 +20,8 @@ naturally, i saw myself explaining them how I use these amazing tools in my favo
 
 first thing is you should never put your hands on the fire for the LLM. doubt everything. not always the first solution proposed will be the proper one for your problem.
 
+- when approaching complex tasks such as a feature implementation / big refactor, ask to break it into tasks. 
+
+
 - ask to generate MD documents about implementation plans, whats been implemented already, and guidelines / folder structure, etc. you can later feed other chats with this docs as context.
+- get at least 3 possible solutions for your problem. then ask the llm to compare them considering whats important in your project. (if you follow some specific architecture,  design patterns.. or simply to always aim to follow SOLID principles, you can end up with repeated logic trough your codebase)
