@@ -1,6 +1,6 @@
 {
-  "commit": "f73fd577c4c723fd74823c7e83b45060816db865",
-  "generated": "2025-08-27T11:05:10.020Z",
+  "commit": "7e983dea2586c32250761767de37750adc09e44b",
+  "generated": "2025-08-27T11:06:47.316Z",
   "metadata": [
     {
       "__outstatic": {
@@ -279,43 +279,6 @@
     },
     {
       "__outstatic": {
-        "commit": "e5907a03362a122af72e1b4bbe4d61d4a280eec3",
-        "hash": "3880704762",
-        "path": "outstatic/content/posts/scalability-fundamentals-in-node-js.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "Fundamentals of scalability for Node.js applications",
-      "publishedAt": "2025-02-10T22:58:08.879Z",
-      "slug": "scalability-fundamentals-in-node-js",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Node.js",
-          "value": "nodeJs"
-        },
-        {
-          "label": "Messaging",
-          "value": "messaging"
-        },
-        {
-          "label": "Microservices",
-          "value": "microservices"
-        },
-        {
-          "label": "Scaling",
-          "value": "scaling"
-        }
-      ],
-      "title": "Scalability fundamentals in Node.js"
-    },
-    {
-      "__outstatic": {
         "commit": "ec2822c5dd47cde4dfc381b01f38547d52fa5c06",
         "hash": "704991631",
         "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
@@ -415,6 +378,43 @@
         }
       ],
       "title": "Dependency injection in a nutshell"
+    },
+    {
+      "__outstatic": {
+        "commit": "7e983dea2586c32250761767de37750adc09e44b",
+        "hash": "3814751161",
+        "path": "outstatic/content/posts/scalability-fundamentals-in-node-js.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "- Notes from the book 'Node.js design patterns' - Fundamentals of scalability ",
+      "publishedAt": "2025-02-10T22:58:08.879Z",
+      "slug": "scalability-fundamentals-in-node-js",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Node.js",
+          "value": "nodeJs"
+        },
+        {
+          "label": "Messaging",
+          "value": "messaging"
+        },
+        {
+          "label": "Microservices",
+          "value": "microservices"
+        },
+        {
+          "label": "Scaling",
+          "value": "scaling"
+        }
+      ],
+      "title": "Scalability fundamentals in Node.js"
     }
   ]
 }

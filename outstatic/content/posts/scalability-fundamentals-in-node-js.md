@@ -5,12 +5,14 @@ author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'scalability-fundamentals-in-node-js'
-description: 'Fundamentals of scalability for Node.js applications'
+description: '- Notes from the book ''Node.js design patterns'' - Fundamentals of scalability '
 coverImage: ''
 tags: [{"label":"Node.js","value":"nodeJs"},{"label":"Messaging","value":"messaging"},{"label":"Microservices","value":"microservices"},{"label":"Scaling","value":"scaling"}]
 aws: ''
 publishedAt: '2025-02-10T22:58:08.879Z'
 ---
+
+Notes from the book 'Node.js design patterns'
 
 > In its early days, Node.js was just a non-blocking web server written in C++ and JavaScript and was called web.js
 
@@ -44,8 +46,6 @@ There are many ways to achieve this, represented in the **scale cube** (Martin L
 
   X and Y are the most common in the Node.js ecosystem.
 
- 
-
 ## Cloning and load balancing
 
 Nodejs applications are usually scaled sooner compared to traditional web servers that use multiple-threads. THis pushed the developer to take into account scalability from the early stages of an application, making sure the app does not rely on any resource that cannot be shared across mukltiple processes or machines.
@@ -60,8 +60,6 @@ The **master process is responsible** for spawning processes (workers, instances
 
 You can spawn as many workers as number of CPUs available in the system. (Automatically done with PM2)
 
- 
-
 > Notes:
 
 The cluster module uses a round-robin load balancing algorithm (inside the master process). It distributes the load evenly across the available servers on a rotational basis. It also has some other behaviors to avoid overloading a given worker process.
@@ -73,8 +71,6 @@ When we call server.listen() in a worker process is delegated to the master proc
 We also have a communication channel available between the master and the workers. The worker processes can be accessed from the variable **cluster.workers**, so broadcasting a message to all of them would be as easy as running the following line of code:
 
 > Object.values(cluster.workers).forEach(worker =&gt; worker.send('Hello from the master'))
-
- 
 
 ### Resiliency and availability in cluster mode
 
