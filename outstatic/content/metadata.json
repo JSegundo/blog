@@ -1,6 +1,6 @@
 {
-  "commit": "4a272968cbda2c07147eb906f10af68542188634",
-  "generated": "Wed, 27 Aug 2025 11:00:08 GMT",
+  "commit": "f73fd577c4c723fd74823c7e83b45060816db865",
+  "generated": "2025-08-27T11:05:10.020Z",
   "metadata": [
     {
       "__outstatic": {
@@ -241,43 +241,6 @@
     },
     {
       "__outstatic": {
-        "commit": "87f7f9b6b5f5001554d46ef5ba46299f2cecf72d",
-        "hash": "2272036231",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-11T20:24:25.000Z",
-      "slug": "dependency-injection-in-a-nutshell",
-      "status": "published",
-      "tags": [
-        {
-          "label": "OOP",
-          "value": "oop"
-        },
-        {
-          "label": "DI",
-          "value": "di"
-        },
-        {
-          "label": "Dependency Inversion Principle",
-          "value": "dependencyInversionPrinciple"
-        },
-        {
-          "label": "Concepts",
-          "value": "concepts"
-        }
-      ],
-      "title": "Dependency injection in a nutshell"
-    },
-    {
-      "__outstatic": {
         "commit": "d5a544ecad4c8a3e0dd447148307e98a103bb611",
         "hash": "2951663350",
         "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
@@ -415,6 +378,43 @@
         }
       ],
       "title": "Nodejs "
+    },
+    {
+      "__outstatic": {
+        "commit": "f73fd577c4c723fd74823c7e83b45060816db865",
+        "hash": "701455200",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-11T20:24:25.000Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "OOP",
+          "value": "oop"
+        },
+        {
+          "label": "DI",
+          "value": "di"
+        },
+        {
+          "label": "Dependency Inversion Principle",
+          "value": "dependencyInversionPrinciple"
+        },
+        {
+          "label": "Concepts",
+          "value": "concepts"
+        }
+      ],
+      "title": "Dependency injection in a nutshell"
     }
   ]
 }
