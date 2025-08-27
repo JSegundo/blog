@@ -1,7 +1,71 @@
 {
-  "commit": "b77370425b7836b299f41e61aca626769744dd65",
-  "generated": "2025-08-27T10:59:48.157Z",
+  "commit": "4a272968cbda2c07147eb906f10af68542188634",
+  "generated": "Wed, 27 Aug 2025 11:00:08 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "67802096d35a54654e1154565cf6ca3231a04140",
+        "hash": "2748246513",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Segundo, a Javascript dev from Argentina",
+      "publishedAt": "2024-03-03T18:49:02.348Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "285516578c75d4b6798142d51321243151e59a3f",
+        "hash": "856532523",
+        "path": "outstatic/content/posts/debugging-mindset.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-31T22:09:23.744Z",
+      "slug": "debugging-mindset",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Debugging",
+          "value": "debugging"
+        }
+      ],
+      "title": "Debugging mindset"
+    },
+    {
+      "__outstatic": {
+        "commit": "1816802c9990bc0492be8ea5af7d6196bef473b5",
+        "hash": "2268661888",
+        "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-08-25T15:46:19.911Z",
+      "slug": "a-framework-to-securely-vibe-code",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "A framework to securely vibe-code"
+    },
     {
       "__outstatic": {
         "commit": "b961be48e30fdb44c88b23538a2528d57b75a0ae",
@@ -55,24 +119,6 @@
       "slug": "career-chat",
       "status": "published",
       "title": "Career Chat"
-    },
-    {
-      "__outstatic": {
-        "commit": "67802096d35a54654e1154565cf6ca3231a04140",
-        "hash": "2748246513",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Segundo, a Javascript dev from Argentina",
-      "publishedAt": "2024-03-03T18:49:02.348Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
     },
     {
       "__outstatic": {
@@ -232,6 +278,24 @@
     },
     {
       "__outstatic": {
+        "commit": "d5a544ecad4c8a3e0dd447148307e98a103bb611",
+        "hash": "2951663350",
+        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/sora_1-I0ND.png",
+      "description": " multi-tenant healthcare platform",
+      "publishedAt": "2025-08-16T15:19:58.416Z",
+      "slug": "plaiatech-healthcare-platform",
+      "status": "published",
+      "title": "Plaiatech - Healthcare platform"
+    },
+    {
+      "__outstatic": {
         "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
         "hash": "2355795964",
         "path": "outstatic/content/posts/what-is-state-managment.md"
@@ -351,70 +415,6 @@
         }
       ],
       "title": "Nodejs "
-    },
-    {
-      "__outstatic": {
-        "commit": "2d986e959b2f5f7e20b4a747c33fd496ff470829",
-        "hash": "2951663350",
-        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/sora_1-I0ND.png",
-      "description": " multi-tenant healthcare platform",
-      "publishedAt": "2025-08-16T15:19:58.416Z",
-      "slug": "plaiatech-healthcare-platform",
-      "status": "published",
-      "title": "Plaiatech - Healthcare platform"
-    },
-    {
-      "__outstatic": {
-        "commit": "57b0f0eeb54240f359528b485eb3a25e31ea223e",
-        "hash": "2268661888",
-        "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-08-25T15:46:19.911Z",
-      "slug": "a-framework-to-securely-vibe-code",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "A framework to securely vibe-code"
-    },
-    {
-      "__outstatic": {
-        "commit": "b77370425b7836b299f41e61aca626769744dd65",
-        "hash": "2073222094",
-        "path": "outstatic/content/posts/debugging-mindset.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-08-27T22:09:23.000Z",
-      "slug": "debugging-mindset",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Debugging",
-          "value": "debugging"
-        }
-      ],
-      "title": "Debugging mindset"
     }
   ]
 }
