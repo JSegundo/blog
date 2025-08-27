@@ -12,7 +12,7 @@ aws: ''
 publishedAt: '2025-08-27T22:09:23.000Z'
 ---
 
-This post is made from substracts of the book "The pragmatic programmer"
+This post is made from excerpts of the book "The pragmatic programmer"
 
 > It is a painful thing To look at your own trouble and know That you yourself and no one else has made it
 >

@@ -1,6 +1,6 @@
 {
   "commit": "b77370425b7836b299f41e61aca626769744dd65",
-  "generated": "2025-08-27T10:59:08.094Z",
+  "generated": "2025-08-27T10:59:48.157Z",
   "metadata": [
     {
       "__outstatic": {
@@ -394,7 +394,7 @@
     {
       "__outstatic": {
         "commit": "b77370425b7836b299f41e61aca626769744dd65",
-        "hash": "203699259",
+        "hash": "2073222094",
         "path": "outstatic/content/posts/debugging-mindset.md"
       },
       "author": {
