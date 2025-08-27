@@ -1,32 +1,7 @@
 {
-  "commit": "57b0f0eeb54240f359528b485eb3a25e31ea223e",
-  "generated": "2025-08-26T17:22:31.108Z",
+  "commit": "b77370425b7836b299f41e61aca626769744dd65",
+  "generated": "2025-08-27T10:58:55.751Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "58fd2f7cc240532e84eed786a3d02345e3624c22",
-        "hash": "856532523",
-        "path": "outstatic/content/posts/debugging-mindset.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-08-31T22:09:23.744Z",
-      "slug": "debugging-mindset",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Debugging",
-          "value": "debugging"
-        }
-      ],
-      "title": "Debugging mindset"
-    },
     {
       "__outstatic": {
         "commit": "b961be48e30fdb44c88b23538a2528d57b75a0ae",
@@ -415,6 +390,31 @@
       "tags": [
       ],
       "title": "A framework to securely vibe-code"
+    },
+    {
+      "__outstatic": {
+        "commit": "b77370425b7836b299f41e61aca626769744dd65",
+        "hash": "2976862995",
+        "path": "outstatic/content/posts/debugging-mindset.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-08-31T22:09:23.744Z",
+      "slug": "debugging-mindset",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Debugging",
+          "value": "debugging"
+        }
+      ],
+      "title": "Debugging mindset"
     }
   ]
 }
