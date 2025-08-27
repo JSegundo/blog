@@ -9,7 +9,7 @@ description: ''
 coverImage: ''
 tags: [{"value":"debugging","label":"Debugging"}]
 aws: ''
-publishedAt: '2024-08-31T22:09:23.744Z'
+publishedAt: '2025-08-27T22:09:23.000Z'
 ---
 
 This post is made from substracts of the book "The pragmatic programmer"

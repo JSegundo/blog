@@ -1,6 +1,6 @@
 {
   "commit": "b77370425b7836b299f41e61aca626769744dd65",
-  "generated": "2025-08-27T10:58:55.751Z",
+  "generated": "2025-08-27T10:59:08.094Z",
   "metadata": [
     {
       "__outstatic": {
@@ -394,7 +394,7 @@
     {
       "__outstatic": {
         "commit": "b77370425b7836b299f41e61aca626769744dd65",
-        "hash": "2976862995",
+        "hash": "203699259",
         "path": "outstatic/content/posts/debugging-mindset.md"
       },
       "author": {
@@ -405,7 +405,7 @@
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-08-31T22:09:23.744Z",
+      "publishedAt": "2025-08-27T22:09:23.000Z",
       "slug": "debugging-mindset",
       "status": "published",
       "tags": [
