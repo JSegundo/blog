@@ -1,6 +1,6 @@
 {
-  "commit": "f24970b7569663a050d155ff4bcb459f0f885cd1",
-  "generated": "2025-08-27T11:28:04.628Z",
+  "commit": "0ab83268a07163fbcb97c4249cd40cb07936ce49",
+  "generated": "2025-08-28T09:37:10.829Z",
   "metadata": [
     {
       "__outstatic": {
@@ -393,8 +393,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f24970b7569663a050d155ff4bcb459f0f885cd1",
-        "hash": "78414466",
+        "commit": "0ab83268a07163fbcb97c4249cd40cb07936ce49",
+        "hash": "539857442",
         "path": "outstatic/content/posts/debugging-mindset.md"
       },
       "author": {
@@ -404,7 +404,7 @@
       "aws": "",
       "collection": "posts",
       "coverImage": "",
-      "description": "",
+      "description": "Notes on owning your bugs",
       "publishedAt": "2025-08-27T22:09:23.000Z",
       "slug": "debugging-mindset",
       "status": "published",

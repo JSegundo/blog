@@ -5,7 +5,7 @@ author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'debugging-mindset'
-description: ''
+description: 'Notes on owning your bugs'
 coverImage: ''
 tags: [{"value":"debugging","label":"Debugging"}]
 aws: ''
@@ -17,8 +17,6 @@ This post is made from excerpts of the book "The pragmatic programmer"
 > It is a painful thing To look at your own trouble and know That you yourself and no one else has made it
 >
 > - Sophocles, Ajax
-
- 
 
 ## The Emotional Side of Debugging
 
@@ -32,15 +30,11 @@ So I did what many developers do: I started making excuses.
 
 Whatever excuse I could find to avoid the uncomfortable truth that these bugs were, somehow, our responsibility.
 
- 
-
 ## The Psychology Behind the Excuses
 
 As "The Pragmatic Programmer" points out, debugging is a sensitive, emotional subject for many developers. Instead of attacking it as a puzzle to be solved, we encounter denial, finger pointing, lame excuses, or just plain apathy. It's natural - nobody likes discovering they've created a problem.
 
 But here's the thing: spending time laying blame on whoever created the bug is energy wasted. While it might feel cathartic to point fingers, in the technical arena, you want to concentrate on fixing the problem, not assigning blame.
-
- 
 
 ## The Turning Point
 
@@ -52,15 +46,13 @@ But here's what made him different: **that confusion didn't stop him.**
 
 He would methodically work through the problem, following every thread, checking every assumption. He approached debugging the same way every time - as problem solving, pure and simple.
 
- 
-
 ## The Core Insight
 
 The breakthrough for me wasn't learning a specific debugging technique or tool. It was a fundamental mindset shift:
 
 **"If it's failing, it's because of something. Code can't just decide to not work."**
 
-This connects directly to what "The Pragmatic Programmer" emphasizes: 
+This connects directly to what "The Pragmatic Programmer" emphasizes:
 
 > if your first reaction to witnessing a bug is "that's impossible," you are plainly wrong. Don't waste a single neuron on the train of thought that begins "but that can't happen" - because quite clearly it *can*, and *has*.
 
@@ -73,8 +65,6 @@ Those impossible race conditions I encountered? They weren't impossible at all. 
 Once I accepted that debugging is just problem solving, everything became clearer. Instead of looking for someone or something to blame, I started looking for clues. Instead of feeling frustrated by complex failure chains, I got curious about what they were trying to tell me.
 
 The same logs that once overwhelmed me became a treasure map. Each error message was a breadcrumb leading toward the solution.
-
- 
 
 ## What's Next
 
