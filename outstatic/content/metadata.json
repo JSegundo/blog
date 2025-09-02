@@ -1,6 +1,6 @@
 {
-  "commit": "0ab83268a07163fbcb97c4249cd40cb07936ce49",
-  "generated": "2025-08-28T09:37:10.829Z",
+  "commit": "e1544c96d549a04589fbab38880a0301f503d02a",
+  "generated": "2025-09-02T00:22:01.908Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,27 +19,6 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
-    },
-    {
-      "__outstatic": {
-        "commit": "1816802c9990bc0492be8ea5af7d6196bef473b5",
-        "hash": "2268661888",
-        "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-08-25T15:46:19.911Z",
-      "slug": "a-framework-to-securely-vibe-code",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "A framework to securely vibe-code"
     },
     {
       "__outstatic": {
@@ -415,6 +394,27 @@
         }
       ],
       "title": "Debugging mindset"
+    },
+    {
+      "__outstatic": {
+        "commit": "e1544c96d549a04589fbab38880a0301f503d02a",
+        "hash": "3793295273",
+        "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-08-25T15:46:19.911Z",
+      "slug": "a-framework-to-securely-vibe-code",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "A framework to securely vibe-code"
     }
   ]
 }
