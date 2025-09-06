@@ -1,6 +1,6 @@
 {
   "commit": "8c43dc43c6fdd6793edecf4e98e7589146c3ca57",
-  "generated": "2025-09-06T11:24:18.172Z",
+  "generated": "2025-09-06T12:42:18.280Z",
   "metadata": [
     {
       "__outstatic": {
@@ -398,7 +398,7 @@
     {
       "__outstatic": {
         "commit": "8c43dc43c6fdd6793edecf4e98e7589146c3ca57",
-        "hash": "3124347093",
+        "hash": "3541640170",
         "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
       },
       "author": {
