@@ -1,6 +1,6 @@
 {
-  "commit": "8c43dc43c6fdd6793edecf4e98e7589146c3ca57",
-  "generated": "2025-09-06T12:42:18.280Z",
+  "commit": "c5ac7abc5de15a2650f3dbc78c4e4055760b7853",
+  "generated": "2025-09-07T13:19:44.396Z",
   "metadata": [
     {
       "__outstatic": {
@@ -397,8 +397,8 @@
     },
     {
       "__outstatic": {
-        "commit": "8c43dc43c6fdd6793edecf4e98e7589146c3ca57",
-        "hash": "3541640170",
+        "commit": "c5ac7abc5de15a2650f3dbc78c4e4055760b7853",
+        "hash": "2898291353",
         "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
       },
       "author": {
@@ -408,7 +408,7 @@
       "aws": "",
       "collection": "posts",
       "coverImage": "",
-      "description": "",
+      "description": "My framework for using AI tools productively—without compromising code quality.",
       "publishedAt": "2025-08-25T15:46:19.911Z",
       "slug": "a-framework-to-securely-vibe-code",
       "status": "draft",

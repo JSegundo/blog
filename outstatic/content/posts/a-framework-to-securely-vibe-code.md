@@ -6,7 +6,7 @@ coverImage: ''
 title: 'A framework to securely vibe-code'
 status: 'draft'
 slug: 'a-framework-to-securely-vibe-code'
-description: ''
+description: 'My framework for using AI tools productively—without compromising code quality.'
 tags: []
 aws: ''
 publishedAt: '2025-08-25T15:46:19.911Z'
@@ -25,7 +25,6 @@ naturally, i saw myself explaining them how I use these amazing tools in my favo
 first thing is you should never put your hands on the fire for the LLM. doubt everything. not always the first solution proposed will be the proper one for your problem.
 
 - always remind the llm to respond with concise, short answers. they tend to be verbose and add a lot of unwanted things to the responses.
-
 
 - testing is probably more important than ever. ai allows for rapid feature implementations or big refactors. the llm wont know about those line fixes for some corner cases that you or your team added a while ago.
 
