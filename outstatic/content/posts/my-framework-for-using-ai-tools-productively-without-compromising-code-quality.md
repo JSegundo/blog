@@ -5,7 +5,7 @@ author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'
 slug: 'my-framework-for-using-ai-tools-productively-without-compromising-code-quality'
-description: ''
+description: 'My framework for using AI tools productively—without compromising code quality.'
 coverImage: ''
 tags: [{"label":"AI tools","value":"aiTools"},{"label":"Productivity","value":"productivity"}]
 aws: ''
