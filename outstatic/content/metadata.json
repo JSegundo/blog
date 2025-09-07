@@ -1,6 +1,6 @@
 {
-  "commit": "e32163153f0c07508805e4409c9a278bb3baf60f",
-  "generated": "2025-09-07T13:54:36.631Z",
+  "commit": "03293708c8cb40b06524237179e87bdc9de06265",
+  "generated": "2025-09-07T14:17:00.538Z",
   "metadata": [
     {
       "__outstatic": {
@@ -418,8 +418,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e32163153f0c07508805e4409c9a278bb3baf60f",
-        "hash": "3162072392",
+        "commit": "03293708c8cb40b06524237179e87bdc9de06265",
+        "hash": "3141543177",
         "path": "outstatic/content/posts/my-framework-for-using-ai-tools-productively-without-compromising-code-quality.md"
       },
       "author": {
@@ -434,6 +434,14 @@
       "slug": "my-framework-for-using-ai-tools-productively-without-compromising-code-quality",
       "status": "published",
       "tags": [
+        {
+          "label": "AI tools",
+          "value": "aiTools"
+        },
+        {
+          "label": "Productivity",
+          "value": "productivity"
+        }
       ],
       "title": "My framework for using AI tools productively—without compromising code quality"
     }
