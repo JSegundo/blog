@@ -1,7 +1,25 @@
 {
-  "commit": "514aa661d87f5266234b4dd22917a3ead28fff1d",
-  "generated": "2025-09-07T14:36:14.951Z",
+  "commit": "783539cc625cb6d6965875bc3b0fcd34f2b2ad07",
+  "generated": "Sun, 07 Sep 2025 14:36:33 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "9c36df246f3d018c2350f7f5ec9d3143379a59fa",
+        "hash": "4202525248",
+        "path": "outstatic/content/pages/career-chat.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "AI chat with knowledge about my career and tools to contact me",
+      "publishedAt": "2025-01-27T00:00:00.000Z",
+      "slug": "career-chat",
+      "status": "published",
+      "title": "Career Chat"
+    },
     {
       "__outstatic": {
         "commit": "67802096d35a54654e1154565cf6ca3231a04140",
@@ -19,6 +37,89 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "c94d5d7a1297670a8e05a46e7ece58cc8a1da491",
+        "hash": "701455200",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-11T20:24:25.000Z",
+      "slug": "dependency-injection-in-a-nutshell",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "OOP",
+          "value": "oop"
+        },
+        {
+          "label": "DI",
+          "value": "di"
+        },
+        {
+          "label": "Dependency Inversion Principle",
+          "value": "dependencyInversionPrinciple"
+        },
+        {
+          "label": "Concepts",
+          "value": "concepts"
+        }
+      ],
+      "title": "Dependency injection in a nutshell"
+    },
+    {
+      "__outstatic": {
+        "commit": "cef899783bce4b0e015f7d777eadd0e1a4911c53",
+        "hash": "539857442",
+        "path": "outstatic/content/posts/debugging-mindset.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "Notes on owning your bugs",
+      "publishedAt": "2025-08-27T22:09:23.000Z",
+      "slug": "debugging-mindset",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Debugging",
+          "value": "debugging"
+        }
+      ],
+      "title": "Debugging mindset"
+    },
+    {
+      "__outstatic": {
+        "commit": "220cc9fd9eb6e8526eccabfc151d351ed3ef71ea",
+        "hash": "2898291353",
+        "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "My framework for using AI tools productively—without compromising code quality.",
+      "publishedAt": "2025-08-25T15:46:19.911Z",
+      "slug": "a-framework-to-securely-vibe-code",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "A framework to securely vibe-code"
     },
     {
       "__outstatic": {
@@ -58,21 +159,32 @@
     },
     {
       "__outstatic": {
-        "commit": "9c36df246f3d018c2350f7f5ec9d3143379a59fa",
-        "hash": "4202525248",
-        "path": "outstatic/content/pages/career-chat.md"
+        "commit": "4efc4d3a8a07594246525a94c98b131c6a6f4d12",
+        "hash": "2324200626",
+        "path": "outstatic/content/posts/my-framework-for-using-ai-tools-productively-without-compromising-code-quality.md"
       },
       "author": {
         "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
       },
-      "collection": "pages",
+      "aws": "",
+      "collection": "posts",
       "coverImage": "",
-      "description": "AI chat with knowledge about my career and tools to contact me",
-      "publishedAt": "2025-01-27T00:00:00.000Z",
-      "slug": "career-chat",
+      "description": "",
+      "publishedAt": "2025-09-07T14:00:03.254Z",
+      "slug": "my-framework-for-using-ai-tools-productively-without-compromising-code-quality",
       "status": "published",
-      "title": "Career Chat"
+      "tags": [
+        {
+          "label": "AI tools",
+          "value": "aiTools"
+        },
+        {
+          "label": "Productivity",
+          "value": "productivity"
+        }
+      ],
+      "title": "Vibe code without compromising code quality"
     },
     {
       "__outstatic": {
@@ -233,6 +345,43 @@
     },
     {
       "__outstatic": {
+        "commit": "466da246e5f3836a2f04534320ff82a9b28b15e6",
+        "hash": "3814751161",
+        "path": "outstatic/content/posts/scalability-fundamentals-in-node-js.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "- Notes from the book 'Node.js design patterns' - Fundamentals of scalability ",
+      "publishedAt": "2025-02-10T22:58:08.879Z",
+      "slug": "scalability-fundamentals-in-node-js",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Node.js",
+          "value": "nodeJs"
+        },
+        {
+          "label": "Messaging",
+          "value": "messaging"
+        },
+        {
+          "label": "Microservices",
+          "value": "microservices"
+        },
+        {
+          "label": "Scaling",
+          "value": "scaling"
+        }
+      ],
+      "title": "Scalability fundamentals in Node.js"
+    },
+    {
+      "__outstatic": {
         "commit": "ec2822c5dd47cde4dfc381b01f38547d52fa5c06",
         "hash": "704991631",
         "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
@@ -295,155 +444,6 @@
         }
       ],
       "title": "Nodejs "
-    },
-    {
-      "__outstatic": {
-        "commit": "f73fd577c4c723fd74823c7e83b45060816db865",
-        "hash": "701455200",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-11T20:24:25.000Z",
-      "slug": "dependency-injection-in-a-nutshell",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "OOP",
-          "value": "oop"
-        },
-        {
-          "label": "DI",
-          "value": "di"
-        },
-        {
-          "label": "Dependency Inversion Principle",
-          "value": "dependencyInversionPrinciple"
-        },
-        {
-          "label": "Concepts",
-          "value": "concepts"
-        }
-      ],
-      "title": "Dependency injection in a nutshell"
-    },
-    {
-      "__outstatic": {
-        "commit": "7e983dea2586c32250761767de37750adc09e44b",
-        "hash": "3814751161",
-        "path": "outstatic/content/posts/scalability-fundamentals-in-node-js.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "- Notes from the book 'Node.js design patterns' - Fundamentals of scalability ",
-      "publishedAt": "2025-02-10T22:58:08.879Z",
-      "slug": "scalability-fundamentals-in-node-js",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Node.js",
-          "value": "nodeJs"
-        },
-        {
-          "label": "Messaging",
-          "value": "messaging"
-        },
-        {
-          "label": "Microservices",
-          "value": "microservices"
-        },
-        {
-          "label": "Scaling",
-          "value": "scaling"
-        }
-      ],
-      "title": "Scalability fundamentals in Node.js"
-    },
-    {
-      "__outstatic": {
-        "commit": "0ab83268a07163fbcb97c4249cd40cb07936ce49",
-        "hash": "539857442",
-        "path": "outstatic/content/posts/debugging-mindset.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "Notes on owning your bugs",
-      "publishedAt": "2025-08-27T22:09:23.000Z",
-      "slug": "debugging-mindset",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Debugging",
-          "value": "debugging"
-        }
-      ],
-      "title": "Debugging mindset"
-    },
-    {
-      "__outstatic": {
-        "commit": "c5ac7abc5de15a2650f3dbc78c4e4055760b7853",
-        "hash": "2898291353",
-        "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "My framework for using AI tools productively—without compromising code quality.",
-      "publishedAt": "2025-08-25T15:46:19.911Z",
-      "slug": "a-framework-to-securely-vibe-code",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "A framework to securely vibe-code"
-    },
-    {
-      "__outstatic": {
-        "commit": "514aa661d87f5266234b4dd22917a3ead28fff1d",
-        "hash": "2809166803",
-        "path": "outstatic/content/posts/my-framework-for-using-ai-tools-productively-without-compromising-code-quality.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "My framework for using AI tools productively—without compromising code quality.",
-      "publishedAt": "2025-09-07T14:00:03.254Z",
-      "slug": "my-framework-for-using-ai-tools-productively-without-compromising-code-quality",
-      "status": "published",
-      "tags": [
-        {
-          "label": "AI tools",
-          "value": "aiTools"
-        },
-        {
-          "label": "Productivity",
-          "value": "productivity"
-        }
-      ],
-      "title": "Vibe code without compromising code quality"
     }
   ]
 }
