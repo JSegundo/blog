@@ -12,7 +12,7 @@ aws: ''
 publishedAt: '2025-09-07T14:00:03.254Z'
 ---
 
-# My framework for using AI tools productively—without compromising code quality.
+# Vibe code without compromising code quality.
 
 Last week I had talks with two very different types of people: an experienced software engineer, skeptical about AI IDEs like Cursor, and on the other hand, a total vibe-coder making money doing projects with no real understanding of software.
 
