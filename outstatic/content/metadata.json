@@ -1,6 +1,6 @@
 {
-  "commit": "03293708c8cb40b06524237179e87bdc9de06265",
-  "generated": "2025-09-07T14:17:45.362Z",
+  "commit": "514aa661d87f5266234b4dd22917a3ead28fff1d",
+  "generated": "2025-09-07T14:35:56.548Z",
   "metadata": [
     {
       "__outstatic": {
@@ -418,8 +418,8 @@
     },
     {
       "__outstatic": {
-        "commit": "03293708c8cb40b06524237179e87bdc9de06265",
-        "hash": "2324200626",
+        "commit": "514aa661d87f5266234b4dd22917a3ead28fff1d",
+        "hash": "2033151319",
         "path": "outstatic/content/posts/my-framework-for-using-ai-tools-productively-without-compromising-code-quality.md"
       },
       "author": {
