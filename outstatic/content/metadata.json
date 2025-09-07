@@ -1,6 +1,6 @@
 {
   "commit": "03293708c8cb40b06524237179e87bdc9de06265",
-  "generated": "2025-09-07T14:17:23.001Z",
+  "generated": "2025-09-07T14:17:45.362Z",
   "metadata": [
     {
       "__outstatic": {
@@ -419,7 +419,7 @@
     {
       "__outstatic": {
         "commit": "03293708c8cb40b06524237179e87bdc9de06265",
-        "hash": "1468871135",
+        "hash": "2324200626",
         "path": "outstatic/content/posts/my-framework-for-using-ai-tools-productively-without-compromising-code-quality.md"
       },
       "author": {
@@ -443,7 +443,7 @@
           "value": "productivity"
         }
       ],
-      "title": "My framework for using AI tools productively—without compromising code quality"
+      "title": "Vibe code without compromising code quality"
     }
   ]
 }

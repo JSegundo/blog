@@ -1,5 +1,5 @@
 ---
-title: 'My framework for using AI tools productively—without compromising code quality'
+title: 'Vibe code without compromising code quality'
 status: 'published'
 author:
   name: 'Segundo Juan'
@@ -11,8 +11,6 @@ tags: [{"label":"AI tools","value":"aiTools"},{"label":"Productivity","value":"p
 aws: ''
 publishedAt: '2025-09-07T14:00:03.254Z'
 ---
-
-# Vibe code without compromising code quality.
 
 Last week I had talks with two very different types of people: an experienced software engineer, skeptical about AI IDEs like Cursor, and on the other hand, a total vibe-coder making money doing projects with no real understanding of software.
 
