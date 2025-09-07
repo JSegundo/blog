@@ -1,6 +1,6 @@
 {
-  "commit": "c5ac7abc5de15a2650f3dbc78c4e4055760b7853",
-  "generated": "2025-09-07T13:19:44.396Z",
+  "commit": "e32163153f0c07508805e4409c9a278bb3baf60f",
+  "generated": "2025-09-07T13:54:36.631Z",
   "metadata": [
     {
       "__outstatic": {
@@ -415,6 +415,27 @@
       "tags": [
       ],
       "title": "A framework to securely vibe-code"
+    },
+    {
+      "__outstatic": {
+        "commit": "e32163153f0c07508805e4409c9a278bb3baf60f",
+        "hash": "3162072392",
+        "path": "outstatic/content/posts/my-framework-for-using-ai-tools-productively-without-compromising-code-quality.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-09-07T14:00:03.254Z",
+      "slug": "my-framework-for-using-ai-tools-productively-without-compromising-code-quality",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "My framework for using AI tools productively—without compromising code quality"
     }
   ]
 }
