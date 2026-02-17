@@ -51,7 +51,7 @@ async function getData() {
     .find(
       {
         collection: "pages",
-        slug: { $nin: ["home"] },
+        slug: { $nin: ["home", "career-chat"] },
         status: "published",
       },
       ["title", "slug"]
