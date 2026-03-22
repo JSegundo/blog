@@ -1,29 +1,41 @@
-import { BuiltWithOutstatic } from "@/components/built-with-outstatic"
 import Footer from "@/components/footer"
 import Header from "@/components/header"
 import { ThemeProvider } from "@/components/theme-provider"
 import { absoluteUrl, ogUrl } from "@/lib/utils"
 import "@/styles/index.css"
 import { Metadata } from "next"
-import { GoogleTagManager } from "@next/third-parties/google"
+import { Inter, Playfair_Display } from "next/font/google"
 import Script from "next/script"
 
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-body",
+  display: "swap",
+})
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-heading",
+  display: "swap",
+})
+
 export const metadata: Metadata = {
-  // metadataBase: new URL("http://localhost:3000"),
   metadataBase: new URL("https://segu.work"),
   title: {
-    default: "Segundo Juan - Portfolio",
+    default: "Segundo Juan — Software Engineer",
     template: "%s | Segundo Juan",
   },
-  description: "Developer portfolio and blog. Clean, content-focused design.",
+  description:
+    "Product-minded software engineer building thoughtful software with modern AI tools.",
   openGraph: {
-    title: "Segundo Juan - Portfolio",
-    description: "Developer portfolio and blog. Clean, content-focused design.",
+    title: "Segundo Juan — Software Engineer",
+    description:
+      "Product-minded software engineer building thoughtful software with modern AI tools.",
     url: absoluteUrl("/"),
     siteName: "Segundo Juan",
     images: [
       {
-        url: ogUrl("Segundo Juan - Portfolio"),
+        url: ogUrl("Segundo Juan — Software Engineer"),
         width: 1200,
         height: 630,
       },
@@ -38,11 +50,13 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const gtmId = process.env.NEXT_PUBLIC_GTM
-
   return (
-    <html lang="en" suppressHydrationWarning>
-        <head>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${inter.variable} ${playfair.variable}`}
+    >
+      <head>
         <Script
           id="gtm-script"
           strategy="afterInteractive"
@@ -52,15 +66,12 @@ export default function RootLayout({
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','${'GTM-KDW85KP2'}');
-              console.log('GTM loaded with ID: ${'GTM-KDW85KP2'}');
+              })(window,document,'script','dataLayer','GTM-KDW85KP2');
             `,
           }}
         />
       </head>
-      <body className="relative pb-24 md:pb-36 min-h-screen bg-[#0a0a0a] text-white">
-        <GoogleTagManager gtmId={'GTM-KDW85KP2'} />
-
+      <body className="min-h-screen flex flex-col bg-[var(--bg-primary)] text-[var(--text-primary)]">
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -68,9 +79,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <div className="relative max-w-4xl mx-auto px-8 h-full pt-8 md:py-24">
+          <main className="flex-1 pt-20 md:pt-32">
             {children}
-          </div>
+          </main>
           <Footer />
         </ThemeProvider>
       </body>

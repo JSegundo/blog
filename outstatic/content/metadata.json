@@ -4,107 +4,6 @@
   "metadata": [
     {
       "__outstatic": {
-        "commit": "9c36df246f3d018c2350f7f5ec9d3143379a59fa",
-        "hash": "4202525248",
-        "path": "outstatic/content/pages/career-chat.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "AI chat with knowledge about my career and tools to contact me",
-      "publishedAt": "2025-01-27T00:00:00.000Z",
-      "slug": "career-chat",
-      "status": "published",
-      "title": "Career Chat"
-    },
-    {
-      "__outstatic": {
-        "commit": "c94d5d7a1297670a8e05a46e7ece58cc8a1da491",
-        "hash": "701455200",
-        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-11T20:24:25.000Z",
-      "slug": "dependency-injection-in-a-nutshell",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "OOP",
-          "value": "oop"
-        },
-        {
-          "label": "DI",
-          "value": "di"
-        },
-        {
-          "label": "Dependency Inversion Principle",
-          "value": "dependencyInversionPrinciple"
-        },
-        {
-          "label": "Concepts",
-          "value": "concepts"
-        }
-      ],
-      "title": "Dependency injection in a nutshell"
-    },
-    {
-      "__outstatic": {
-        "commit": "cef899783bce4b0e015f7d777eadd0e1a4911c53",
-        "hash": "539857442",
-        "path": "outstatic/content/posts/debugging-mindset.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "Notes on owning your bugs",
-      "publishedAt": "2025-08-27T22:09:23.000Z",
-      "slug": "debugging-mindset",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Debugging",
-          "value": "debugging"
-        }
-      ],
-      "title": "Debugging mindset"
-    },
-    {
-      "__outstatic": {
-        "commit": "220cc9fd9eb6e8526eccabfc151d351ed3ef71ea",
-        "hash": "2898291353",
-        "path": "outstatic/content/posts/a-framework-to-securely-vibe-code.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "My framework for using AI tools productively—without compromising code quality.",
-      "publishedAt": "2025-08-25T15:46:19.911Z",
-      "slug": "a-framework-to-securely-vibe-code",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "A framework to securely vibe-code"
-    },
-    {
-      "__outstatic": {
         "commit": "b961be48e30fdb44c88b23538a2528d57b75a0ae",
         "hash": "3063308994",
         "path": "outstatic/content/pages/home.md"
@@ -141,6 +40,31 @@
     },
     {
       "__outstatic": {
+        "commit": "cef899783bce4b0e015f7d777eadd0e1a4911c53",
+        "hash": "539857442",
+        "path": "outstatic/content/posts/debugging-mindset.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "Notes on owning your bugs",
+      "publishedAt": "2025-08-27T22:09:23.000Z",
+      "slug": "debugging-mindset",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Debugging",
+          "value": "debugging"
+        }
+      ],
+      "title": "Debugging mindset"
+    },
+    {
+      "__outstatic": {
         "commit": "4efc4d3a8a07594246525a94c98b131c6a6f4d12",
         "hash": "2324200626",
         "path": "outstatic/content/posts/my-framework-for-using-ai-tools-productively-without-compromising-code-quality.md"
@@ -167,163 +91,6 @@
         }
       ],
       "title": "Vibe code without compromising code quality"
-    },
-    {
-      "__outstatic": {
-        "commit": "ed913f72fe35d0a625e17e392e4e16a0b4c9020c",
-        "hash": "523765355",
-        "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "Going beyond the event loop to understand why nodejs is asynchronus while single thread",
-      "publishedAt": "2024-05-09T21:05:45.985Z",
-      "slug": "nodejs-eventloop-demultiplexer",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Event Demultiplexer",
-          "value": "eventDemultiplexer"
-        },
-        {
-          "label": "Event Loop",
-          "value": "eventLoop"
-        }
-      ],
-      "title": "How can Node be asynchronus? Yes, we heard about the event loop"
-    },
-    {
-      "__outstatic": {
-        "commit": "c9573c8f6839ebabfbeb2b568a3674fbb0f65ff2",
-        "hash": "2485833360",
-        "path": "outstatic/content/posts/node-js-design-patterns.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-31T22:40:03.351Z",
-      "slug": "node-js-design-patterns",
-      "status": "draft",
-      "tags": "",
-      "title": "Node js design patterns"
-    },
-    {
-      "__outstatic": {
-        "commit": "866a38de9b15ac2941ad7003e546af4da487fa87",
-        "hash": "3946633664",
-        "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2025-01-19T14:36:15.758Z",
-      "slug": "my-study-roadmap-for-2025",
-      "status": "draft",
-      "tags": [
-      ],
-      "title": "2025 Learning path"
-    },
-    {
-      "__outstatic": {
-        "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
-        "hash": "2847699777",
-        "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "awss",
-      "collection": "posts",
-      "coverImage": "/images/screenshot-from-2024-03-26-12-46-49-gyMj.png",
-      "description": "Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS y desplegué un sitio estatico (HTML)",
-      "publishedAt": "2024-03-17T02:24:07.596Z",
-      "slug": "mi-primer-deploy-en-aws",
-      "status": "published",
-      "tags": [
-        {
-          "label": "CloudFront",
-          "value": "cloudFront"
-        },
-        {
-          "label": "S3",
-          "value": "s3"
-        },
-        {
-          "label": "Route53",
-          "value": "route53"
-        },
-        {
-          "label": "ACM",
-          "value": "acm"
-        },
-        {
-          "label": "DNS",
-          "value": "dns"
-        },
-        {
-          "label": "CDN",
-          "value": "cdn"
-        },
-        {
-          "label": "AWS",
-          "value": "aws"
-        }
-      ],
-      "title": "Mi primer deploy en AWS"
-    },
-    {
-      "__outstatic": {
-        "commit": "d5a544ecad4c8a3e0dd447148307e98a103bb611",
-        "hash": "2951663350",
-        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/sora_1-I0ND.png",
-      "description": " multi-tenant healthcare platform",
-      "publishedAt": "2025-08-16T15:19:58.416Z",
-      "slug": "plaiatech-healthcare-platform",
-      "status": "published",
-      "title": "Plaiatech - Healthcare platform"
-    },
-    {
-      "__outstatic": {
-        "commit": "4ca393efbc67506ebd1b5e4704e4a7491a302761",
-        "hash": "2355795964",
-        "path": "outstatic/content/posts/what-is-state-managment.md"
-      },
-      "author": {
-        "name": "Segundo Juan",
-        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
-      },
-      "aws": "",
-      "collection": "posts",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-04-25T10:59:04.794Z",
-      "slug": "what-is-state-managment",
-      "status": "draft",
-      "tags": "",
-      "title": "What is State managment?"
     },
     {
       "__outstatic": {
@@ -364,6 +131,135 @@
     },
     {
       "__outstatic": {
+        "path": "outstatic/content/posts/getting-started-with-aws-cloud.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/aws-U5Nz.png",
+      "description": "Key concepts to consider when learning about cloud computing with AWS",
+      "publishedAt": "2024-03-15T13:47:29.164Z",
+      "slug": "getting-started-with-aws-cloud",
+      "status": "published",
+      "tags": [
+        {
+          "label": "AWS",
+          "value": "aws"
+        },
+        {
+          "label": "VPC",
+          "value": "vpc"
+        },
+        {
+          "label": "EC2",
+          "value": "ec2"
+        },
+        {
+          "label": "Basics",
+          "value": "basics"
+        }
+      ],
+      "title": "Getting Started with AWS Cloud"
+    },
+    {
+      "__outstatic": {
+        "path": "outstatic/content/posts/my-first-aws-deployment.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/screenshot-from-2024-03-26-12-46-49-gyMj.png",
+      "description": "After learning some of the basics, I started playing with core AWS services and deployed a static site (HTML)",
+      "publishedAt": "2024-03-17T02:24:07.596Z",
+      "slug": "my-first-aws-deployment",
+      "status": "published",
+      "tags": [
+        {
+          "label": "CloudFront",
+          "value": "cloudFront"
+        },
+        {
+          "label": "S3",
+          "value": "s3"
+        },
+        {
+          "label": "Route53",
+          "value": "route53"
+        },
+        {
+          "label": "ACM",
+          "value": "acm"
+        },
+        {
+          "label": "DNS",
+          "value": "dns"
+        },
+        {
+          "label": "CDN",
+          "value": "cdn"
+        },
+        {
+          "label": "AWS",
+          "value": "aws"
+        }
+      ],
+      "title": "My First AWS Deployment"
+    },
+    {
+      "__outstatic": {
+        "commit": "10e3b1edd38f205cef76bb59b438252f71a8c58d",
+        "hash": "2847699777",
+        "path": "outstatic/content/posts/mi-primer-deploy-en-aws.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "awss",
+      "collection": "posts",
+      "coverImage": "/images/screenshot-from-2024-03-26-12-46-49-gyMj.png",
+      "description": "Después de aprender un poco de las bases, empecé a jugar un poco con algunos servicios basicos de AWS y desplegué un sitio estatico (HTML)",
+      "publishedAt": "2024-03-17T02:24:07.596Z",
+      "slug": "mi-primer-deploy-en-aws",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "CloudFront",
+          "value": "cloudFront"
+        },
+        {
+          "label": "S3",
+          "value": "s3"
+        },
+        {
+          "label": "Route53",
+          "value": "route53"
+        },
+        {
+          "label": "ACM",
+          "value": "acm"
+        },
+        {
+          "label": "DNS",
+          "value": "dns"
+        },
+        {
+          "label": "CDN",
+          "value": "cdn"
+        },
+        {
+          "label": "AWS",
+          "value": "aws"
+        }
+      ],
+      "title": "Mi primer deploy en AWS"
+    },
+    {
+      "__outstatic": {
         "commit": "ec2822c5dd47cde4dfc381b01f38547d52fa5c06",
         "hash": "704991631",
         "path": "outstatic/content/posts/primeros-pasos-aws-cloud.md"
@@ -377,7 +273,7 @@
       "description": "Agunos de los principales conceptos a considerar para aprender sobre computación en la nube",
       "publishedAt": "2024-03-15T13:47:29.164Z",
       "slug": "primeros-pasos-aws-cloud",
-      "status": "published",
+      "status": "draft",
       "tags": [
         {
           "label": "AWS",
@@ -400,9 +296,9 @@
     },
     {
       "__outstatic": {
-        "commit": "94c8fa6cae443a30ba84a7722618a4c8d00fdee0",
-        "hash": "3076789956",
-        "path": "outstatic/content/posts/notes-on-nodejs-design-patterns.md"
+        "commit": "c94d5d7a1297670a8e05a46e7ece58cc8a1da491",
+        "hash": "701455200",
+        "path": "outstatic/content/posts/dependency-injection-in-a-nutshell.md"
       },
       "author": {
         "name": "Segundo Juan",
@@ -412,20 +308,101 @@
       "collection": "posts",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2025-01-13T22:05:58.374Z",
-      "slug": "notes-on-nodejs-design-patterns",
+      "publishedAt": "2024-10-11T20:24:25.000Z",
+      "slug": "dependency-injection-in-a-nutshell",
       "status": "draft",
       "tags": [
         {
-          "label": "Node",
-          "value": "node"
+          "label": "OOP",
+          "value": "oop"
+        },
+        {
+          "label": "DI",
+          "value": "di"
+        },
+        {
+          "label": "Dependency Inversion Principle",
+          "value": "dependencyInversionPrinciple"
         },
         {
           "label": "Concepts",
           "value": "concepts"
         }
       ],
-      "title": "Nodejs "
+      "title": "Dependency injection in a nutshell"
+    },
+    {
+      "__outstatic": {
+        "commit": "ed913f72fe35d0a625e17e392e4e16a0b4c9020c",
+        "hash": "523765355",
+        "path": "outstatic/content/posts/nodejs-eventloop-demultiplexer.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "Going beyond the event loop to understand why nodejs is asynchronus while single thread",
+      "publishedAt": "2024-05-09T21:05:45.985Z",
+      "slug": "nodejs-eventloop-demultiplexer",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Event Demultiplexer",
+          "value": "eventDemultiplexer"
+        },
+        {
+          "label": "Event Loop",
+          "value": "eventLoop"
+        }
+      ],
+      "title": "How can Node be asynchronus? Yes, we heard about the event loop"
+    },
+    {
+      "__outstatic": {
+        "commit": "866a38de9b15ac2941ad7003e546af4da487fa87",
+        "hash": "3946633664",
+        "path": "outstatic/content/posts/my-study-roadmap-for-2025.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "aws": "",
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-01-19T14:36:15.758Z",
+      "slug": "my-study-roadmap-for-2025",
+      "status": "draft",
+      "tags": [],
+      "title": "2025 Learning path"
+    },
+    {
+      "__outstatic": {
+        "commit": "d5a544ecad4c8a3e0dd447148307e98a103bb611",
+        "hash": "2951663350",
+        "path": "outstatic/content/projects/plaiatech-healthcare-platform.md"
+      },
+      "author": {
+        "name": "Segundo Juan",
+        "picture": "https://avatars.githubusercontent.com/u/87492687?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/plaiatech/cover.svg",
+      "description": " multi-tenant healthcare platform",
+      "publishedAt": "2025-08-16T15:19:58.416Z",
+      "slug": "plaiatech-healthcare-platform",
+      "status": "published",
+      "tags": [
+        {
+          "label": "MVP Delivered",
+          "value": "mvpDelivered"
+        }
+      ],
+      "title": "Plaiatech - Healthcare platform"
     }
   ]
 }

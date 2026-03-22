@@ -28,7 +28,7 @@ const ContentRow = ({
   return (
     <section id={collection} className="max-w-2xl mx-auto px-4 py-8">
       <div className="flex gap-4 md:gap-6 items-end">
-        <h2 className="text-xl md:text-2xl font-semibold tracking-tight leading-tight text-white">
+        <h2 className="text-lg md:text-xl font-medium tracking-tight leading-tight text-[var(--text-secondary)]">
           {title}
         </h2>
         {viewAll ? (
@@ -39,26 +39,19 @@ const ContentRow = ({
           </Button>
         ) : null}
       </div>
-      <div className="grid max-w-fit sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mt-8 md:mt-8 lg:mt-10">
+      <div className="grid gap-y-2 mt-4">
         {items.map((item, id) => (
           <Link key={item.slug} href={`/${collection}/${item.slug}`}>
-            <div className="p-6 cursor-pointer md:w-full transition-all duration-300 ease-out border border-[var(--border)] rounded-xl overflow-hidden h-full bg-[var(--bg-primary)] hover:bg-[var(--bg-secondary)] hover:border-[var(--accent)] hover:shadow-lg">
-              <h3 className="text-base mb-3 font-semibold leading-snug text-white transition-colors duration-300">
+            <div
+              className="reveal-stagger-item px-4 py-3 cursor-pointer md:w-full transition-colors duration-200 rounded-lg hover:bg-[var(--bg-secondary)]"
+              style={{ "--stagger-delay": `${id * 80}ms` } as React.CSSProperties}
+            >
+              <h3 className="text-sm font-medium leading-snug text-[var(--text-primary)]">
                 {item.title}
               </h3>
-
-              <p className="text-sm leading-relaxed text-[var(--text-secondary)] mb-4 transition-colors duration-300">
+              <p className="text-xs leading-relaxed text-[var(--text-muted)] mt-1 line-clamp-1">
                 {item.description}
               </p>
-              <div className="flex flex-wrap gap-2">
-                {Array.isArray(item?.tags)
-                  ? item.tags.map(({ label }, index) => (
-                      <Badge key={index} variant="tag" size="sm">
-                        {label}
-                      </Badge>
-                    ))
-                  : null}
-              </div>
             </div>
           </Link>
         ))}

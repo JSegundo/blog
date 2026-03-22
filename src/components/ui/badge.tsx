@@ -9,7 +9,7 @@ const badgeVariants = cva(
     variants: {
       variant: {
         default:
-          "border-[var(--accent)] bg-[var(--accent)] text-white hover:bg-[#2563eb] hover:border-[#2563eb] shadow-sm",
+          "border-[var(--accent)] bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] hover:border-[var(--accent-hover)] shadow-sm",
         secondary:
           "border-[var(--border)] bg-[var(--bg-secondary)] text-[var(--text-secondary)] hover:bg-[var(--bg-tertiary)] hover:border-[var(--border-light)] shadow-sm",
         outline:

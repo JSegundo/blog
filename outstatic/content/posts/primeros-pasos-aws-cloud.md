@@ -1,7 +1,7 @@
 ---
 slug: 'primeros-pasos-aws-cloud'
 title: 'Primeros pasos - AWS Cloud'
-status: 'published'
+status: 'draft'
 author:
   name: 'Segundo Juan'
   picture: '/images/whatsapp-image-2024-01-30-at-11.webp_2024-02-20t20_38_42.343z_output_2-Q4ND.jpeg'

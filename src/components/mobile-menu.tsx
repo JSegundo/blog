@@ -1,20 +1,26 @@
-"use client";
+"use client"
 import {
   Drawer,
   DrawerClose,
   DrawerContent,
   DrawerFooter,
   DrawerTrigger,
-} from "@/components/ui/drawer";
-import { Menu, XIcon } from "lucide-react";
-import Link from "next/link";
-import { useState } from "react";
-import { MenuProps } from "./header";
-import { ThemeToggle } from "./theme-toggle";
-import { Button, buttonVariants } from "./ui/button";
+} from "@/components/ui/drawer"
+import { Menu, XIcon } from "lucide-react"
+import Link from "next/link"
+import { useState } from "react"
+import { ThemeToggle } from "./theme-toggle"
+import { Button, buttonVariants } from "./ui/button"
 
-export const MobileMenu = ({ pages, collections }: MenuProps) => {
-  const [open, setOpen] = useState(false);
+const navLinks = [
+  { title: "About", href: "/about" },
+  { title: "Services", href: "/services" },
+  { title: "Projects", href: "/projects" },
+  // { title: "Blog", href: "/blog" },
+]
+
+export const MobileMenu = () => {
+  const [open, setOpen] = useState(false)
 
   return (
     <div className="block md:hidden px-2">
@@ -25,40 +31,34 @@ export const MobileMenu = ({ pages, collections }: MenuProps) => {
           </div>
         </DrawerTrigger>
         <DrawerContent>
-          <ul className="flex flex-col gap-2 pt-2  px-4">
-            {pages.map(({ title, slug }) => (
-              <li key={slug}>
+          <ul className="flex flex-col gap-2 pt-2 px-4">
+            {navLinks.map(({ title, href }) => (
+              <li key={href}>
                 <Link
                   onClick={() => setOpen(false)}
                   className={
                     buttonVariants({ variant: "secondary" }) +
                     " capitalize w-full"
                   }
-                  href={`/${slug}`}
+                  href={href}
                 >
                   {title}
                 </Link>
               </li>
             ))}
-            {collections.map((collection) => (
-              <li key={collection}>
-                <Link
-                  onClick={() => setOpen(false)}
-                  className={
-                    buttonVariants({ variant: "secondary" }) +
-                    " capitalize w-full"
-                  }
-                  href={`/${collection}`}
-                >
-                  {collection}
-                </Link>
-              </li>
-            ))}
+            <li>
+              <Link
+                onClick={() => setOpen(false)}
+                href="mailto:segundojuanok@gmail.com"
+                className="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium rounded-lg bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] transition-colors duration-200"
+              >
+                Get in touch
+              </Link>
+            </li>
           </ul>
           <DrawerFooter>
             <div className="w-full justify-end flex gap-4">
               <ThemeToggle variant="outline" size="default" />
-
               <Button asChild variant="outline">
                 <DrawerClose>
                   <XIcon />
@@ -69,5 +69,5 @@ export const MobileMenu = ({ pages, collections }: MenuProps) => {
         </DrawerContent>
       </Drawer>
     </div>
-  );
-};
+  )
+}

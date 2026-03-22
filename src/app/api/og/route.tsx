@@ -12,15 +12,12 @@ export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url)
 
-    // ?title=<title>
     const hasTitle = searchParams.has("title")
-    const title = hasTitle ? searchParams.get("title") : "My Outstatic Site"
+    const title = hasTitle ? searchParams.get("title") : "Segundo Juan"
 
-    // ?siteUrl=<siteUrl>
     const hasSiteUrl = searchParams.has("siteUrl")
-    const siteUrl = hasSiteUrl ? searchParams.get("siteUrl") : "outstatic.com"
+    const siteUrl = hasSiteUrl ? searchParams.get("siteUrl") : "segu.work"
 
-    // Built using satori (https://github.com/vercel/satori)
     return new ImageResponse(
       (
         <div
@@ -32,60 +29,21 @@ export async function GET(request: Request) {
             justifyContent: "center",
             letterSpacing: "-.02em",
             fontWeight: 700,
-            background: "white",
-            color: "black",
+            background: "#0c0a09",
+            color: "#fafaf9",
           }}
         >
+          {/* Accent bar */}
           <div
             style={{
-              display: "flex",
               position: "absolute",
-              maxWidth: "100%",
+              top: 0,
+              left: 0,
+              right: 0,
+              height: 6,
+              background: "#5471b0",
             }}
-          >
-            <svg
-              width="1200"
-              height="631"
-              viewBox="0 0 1200 631"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0_481_12)">
-                <g clip-path="url(#clip1_481_12)">
-                  <rect
-                    width="1200"
-                    height="630"
-                    transform="translate(0 0.695312)"
-                    fill="white"
-                  />
-                  <path
-                    d="M-220.122 423.117C-178.8 396.191 -141.628 363.078 -100.257 336.12C-75.9935 320.31 -53.007 301.879 -25.2602 291.697C3.95805 280.975 37.614 269.965 75.5643 277.371C102.111 282.552 128.835 292.145 158.567 313.927C181.959 331.064 197.337 352.818 215.553 380.773C248.194 430.867 253.134 483.48 252.008 523.73C250.674 571.423 227.394 595.094 189.809 593.897C154.377 592.769 108.156 574.997 82.7217 509.314C48.4463 420.799 145.015 423.828 181.065 423.251C262.276 421.951 356.043 447.503 448.547 478.649C555.887 514.79 653.916 589.557 775.459 607.698C920.038 643.45 1204.77 584.406 1207.08 339.556"
-                    stroke="black"
-                    stroke-width="2.82749"
-                    stroke-linecap="round"
-                  />
-                </g>
-              </g>
-              <defs>
-                <clipPath id="clip0_481_12">
-                  <rect
-                    width="1200"
-                    height="630"
-                    fill="white"
-                    transform="translate(0 0.695312)"
-                  />
-                </clipPath>
-                <clipPath id="clip1_481_12">
-                  <rect
-                    width="1200"
-                    height="630"
-                    fill="white"
-                    transform="translate(0 0.695312)"
-                  />
-                </clipPath>
-              </defs>
-            </svg>
-          </div>
+          />
           <div
             style={{
               left: 42,
@@ -93,21 +51,21 @@ export async function GET(request: Request) {
               position: "absolute",
               display: "flex",
               alignItems: "center",
-              borderRadius: "100%",
             }}
           >
             <span
               style={{
-                width: 24,
-                height: 24,
-                background: "black",
+                width: 12,
+                height: 12,
+                background: "#5471b0",
                 borderRadius: 100,
               }}
             />
             <span
               style={{
-                marginLeft: 8,
-                fontSize: 20,
+                marginLeft: 10,
+                fontSize: 18,
+                color: "#a8a29e",
               }}
             >
               {siteUrl}
@@ -120,19 +78,27 @@ export async function GET(request: Request) {
               justifyContent: "center",
               padding: "20px 50px",
               margin: "0 42px",
-              fontSize: 40,
+              fontSize: 44,
               width: "auto",
-              maxWidth: 630,
+              maxWidth: 700,
               textAlign: "center",
-              backgroundColor: "black",
-              color: "white",
-              lineHeight: 1.4,
+              lineHeight: 1.3,
               fontFamily: '"Inter"',
-              border: "3px solid black",
-              borderRadius: 8,
             }}
           >
             {title}
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              bottom: 42,
+              display: "flex",
+              alignItems: "center",
+              fontSize: 18,
+              color: "#78716c",
+            }}
+          >
+            Segundo Juan — Fullstack Engineer
           </div>
         </div>
       ),
@@ -149,7 +115,6 @@ export async function GET(request: Request) {
       }
     )
   } catch (e: any) {
-    console.log(`${e.message}`)
     return new Response(`Failed to generate the image`, {
       status: 500,
     })

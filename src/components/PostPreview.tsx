@@ -10,14 +10,12 @@ interface Props {
   collection: string
 }
 export async function PostPreview({ item, collection }: Props) {
-  console.log(item)
   const fileContent = await readFile(
     "./outstatic/content/posts/" + item.slug + ".md",
     "utf8"
   )
   const { data, content } = matter(fileContent)
   const wordCount = content.split(" ").filter(Boolean).length
-  console.log(wordCount)
   return (
     <Link key={item.slug} href={`/${collection}/${item.slug}`}>
       <div className="cursor-pointer border rounded-md md:w-full scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden h-full">
