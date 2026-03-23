@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     template: "%s | Segundo Juan",
   },
   description:
-    "Product-minded software engineer building thoughtful software with modern AI tools.",
+    "Product-minded fullstack engineer building software from discovery to production.",
   openGraph: {
     title: "Segundo Juan — Software Engineer",
     description:
-      "Product-minded software engineer building thoughtful software with modern AI tools.",
+      "Product-minded fullstack engineer building software from discovery to production.",
     url: absoluteUrl("/"),
     siteName: "Segundo Juan",
     images: [

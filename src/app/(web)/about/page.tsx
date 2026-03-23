@@ -4,7 +4,7 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Segundo Juan — Software engineer building full-stack products with React, Node.js, and AWS.",
+    "Segundo Juan — Product-minded fullstack engineer building products with React, Node.js, Python, and AWS.",
 }
 
 const experience = [
@@ -41,11 +41,15 @@ const skills = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "AWS Lambda", "Serverless", "REST APIs"],
+    items: ["Node.js", "Python", "FastAPI", "REST APIs"],
+  },
+  {
+    category: "Data & Messaging",
+    items: ["DynamoDB", "pgvector", "RabbitMQ"],
   },
   {
     category: "Cloud & Infra",
-    items: ["AWS (S3, DynamoDB, CloudFront)", "Vercel", "CI/CD"],
+    items: ["AWS (S3, Lambda, CloudFront)", "Serverless", "Vercel", "CI/CD"],
   },
   {
     category: "Tools",
@@ -68,13 +72,13 @@ export default function AboutPage() {
               AWS — full stack.
             </p>
             <p>
-              At my day job I work with insurance brokers building a benefits
-              and employee administration platform. Before that I built
-              Plaiatech — a digital intake system that replaces in-person
-              pre-anesthesia visits — working directly with doctors to get the
-              clinical workflows right. I also build my own stuff. Currently
-              into AI-powered products and product discovery — the messy part
-              before writing code.
+              Building a benefits and employee administration platform for
+              insurance brokers. Before that I built Plaiatech — a
+              digital intake system that replaces in-person pre-anesthesia
+              visits — working directly with doctors to get the clinical
+              workflows right. I also build my own stuff. Currently into
+              AI-powered products and product discovery — the messy part before
+              writing code.
             </p>
             <p>
               I use Claude daily and I think a lot about how AI changes the way

@@ -29,24 +29,18 @@ export default function Hero() {
         Segundo Juan
       </p>
 
-      {/* Previous hero text:
-      <h1>I ship MVPs and take them to production.</h1>
-      <p>Software engineer. I get into the details, talk to the people with the problem, and build from there.</p>
-      <p>React · Node.js · AWS</p>
-      */}
-
       <h1
         className="hero-entrance font-heading text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight mb-6 text-[var(--text-primary)]"
         style={{ "--hero-delay": "50ms" } as React.CSSProperties}
       >
-        Fullstack engineer
+        Product-minded fullstack engineer
       </h1>
 
       <p
         className="hero-entrance text-sm text-[var(--text-secondary)] tracking-wide mb-10"
         style={{ "--hero-delay": "150ms" } as React.CSSProperties}
       >
-        React · Node.js · AWS
+        React · Node.js · Python · AWS
       </p>
 
       <div
