@@ -1,7 +1,7 @@
 ---
 slug: 'getting-started-with-aws-cloud'
 title: 'Getting Started with AWS Cloud'
-status: 'published'
+status: 'draft'
 author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'

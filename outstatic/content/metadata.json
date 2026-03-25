@@ -79,7 +79,7 @@
       "description": "",
       "publishedAt": "2025-09-07T14:00:03.254Z",
       "slug": "my-framework-for-using-ai-tools-productively-without-compromising-code-quality",
-      "status": "published",
+      "status": "draft",
       "tags": [
         {
           "label": "AI tools",
@@ -108,7 +108,7 @@
       "description": "- Notes from the book 'Node.js design patterns' - Fundamentals of scalability ",
       "publishedAt": "2025-02-10T22:58:08.879Z",
       "slug": "scalability-fundamentals-in-node-js",
-      "status": "published",
+      "status": "draft",
       "tags": [
         {
           "label": "Node.js",
@@ -142,7 +142,7 @@
       "description": "Key concepts to consider when learning about cloud computing with AWS",
       "publishedAt": "2024-03-15T13:47:29.164Z",
       "slug": "getting-started-with-aws-cloud",
-      "status": "published",
+      "status": "draft",
       "tags": [
         {
           "label": "AWS",
@@ -176,7 +176,7 @@
       "description": "After learning some of the basics, I started playing with core AWS services and deployed a static site (HTML)",
       "publishedAt": "2024-03-17T02:24:07.596Z",
       "slug": "my-first-aws-deployment",
-      "status": "published",
+      "status": "draft",
       "tags": [
         {
           "label": "CloudFront",

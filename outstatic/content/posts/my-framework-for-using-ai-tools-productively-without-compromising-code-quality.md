@@ -1,6 +1,6 @@
 ---
 title: 'Vibe code without compromising code quality'
-status: 'published'
+status: 'draft'
 author:
   name: 'Segundo Juan'
   picture: 'https://avatars.githubusercontent.com/u/87492687?v=4'

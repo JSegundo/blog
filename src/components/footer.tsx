@@ -40,12 +40,12 @@ const Footer = () => {
             >
               Projects
             </Link>
-            <Link
+            {/* <Link
               href="/blog"
               className="text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200"
             >
               Blog
-            </Link>
+            </Link> */}
           </nav>
 
           {/* Right: Contact + socials */}
