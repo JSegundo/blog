@@ -263,11 +263,22 @@ a {
   animation-delay: var(--stagger-delay, 0ms);
 }
 
+/* Contact form step transitions */
+@keyframes step-enter {
+  from { opacity: 0; transform: translateX(12px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.step-enter {
+  animation: step-enter 300ms ease-out both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .reveal-hidden,
   .reveal-visible,
   .hero-entrance,
-  .reveal-visible .reveal-stagger-item {
+  .reveal-visible .reveal-stagger-item,
+  .step-enter {
     animation: none;
     opacity: 1;
     transform: none;

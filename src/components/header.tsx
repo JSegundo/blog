@@ -31,7 +31,7 @@ const Header = () => {
           ))}
           <li>
             <Link
-              href="mailto:segundojuanok@gmail.com"
+              href="/#contact"
               className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-lg bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] transition-colors duration-200"
             >
               Get in touch

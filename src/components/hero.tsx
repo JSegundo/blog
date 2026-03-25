@@ -54,7 +54,7 @@ export default function Hero() {
           View my work
         </Link>
         <Link
-          href="mailto:segundojuanok@gmail.com"
+          href="#contact"
           className="inline-flex items-center px-6 py-3 text-base font-medium rounded-lg border border-[var(--border)] text-[var(--text-primary)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors duration-200"
         >
           Get in touch

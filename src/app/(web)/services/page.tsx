@@ -119,7 +119,7 @@ export default function ServicesPage() {
             </div>
             <div className="mt-8">
               <Link
-                href="mailto:segundojuanok@gmail.com"
+                href="#contact"
                 className="inline-flex items-center px-6 py-3 text-sm font-semibold rounded-lg bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] transition-colors duration-200 shadow-sm"
               >
                 Get in touch
@@ -148,7 +148,7 @@ export default function ServicesPage() {
             </div>
             <div className="mt-8">
               <Link
-                href="mailto:segundojuanok@gmail.com"
+                href="#contact"
                 className="inline-flex items-center px-6 py-3 text-sm font-semibold rounded-lg bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] transition-colors duration-200 shadow-sm"
               >
                 Get in touch
